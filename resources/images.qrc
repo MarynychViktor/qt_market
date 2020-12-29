@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="shopping-bag-svg">images/shopping-bag.svg</file>
+        <file>images/trading.svg</file>
+        <file>images/csgo-wallpaper.jpg</file>
+        <file>images/logout.svg</file>
+    </qresource>
+</RCC>
