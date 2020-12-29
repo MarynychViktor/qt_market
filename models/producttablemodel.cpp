@@ -23,7 +23,7 @@ int ProductTableModel::columnCount(const QModelIndex &parent) const
 
 QVariant ProductTableModel::data(const QModelIndex &index, int role) const
 {
-    if (role == Qt::DisplayRole) {
+    if (role == Qt::DisplayRole || role == Qt::EditRole) {
         auto product = products.at(index.row());
 
         switch (index.column()) {

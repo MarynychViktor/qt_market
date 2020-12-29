@@ -3,7 +3,7 @@
 
 #include <QAbstractTableModel>
 
-#include <model/product.h>
+#include <models/product.h>
 
 
 

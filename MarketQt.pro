@@ -6,22 +6,22 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 SOURCES += \
     form.cpp \
     main.cpp \
-    model/product.cpp \
-    orderswindow.cpp \
+    models/product.cpp \
+    pages/orderswindow.cpp \
     pages/menu.cpp \
-    producttablemodel.cpp
+    models/producttablemodel.cpp
 
 FORMS += \
     form.ui \
-    orderswindow.ui \
+    pages/orderswindow.ui \
     pages/menu.ui
 
 HEADERS += \
     form.h \
-    model/product.h \
-    orderswindow.h \
+    models/product.h \
+    pages/orderswindow.h \
     pages/menu.h \
-    producttablemodel.h
+    models/producttablemodel.h
 
 RESOURCES += \
     resources/images.qrc

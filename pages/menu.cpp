@@ -7,8 +7,15 @@ Menu::Menu(QApplication* app, QWidget *parent) :
     ui(new Ui::Menu)
 {
     ui->setupUi(this);
+    connect(ui->ordersButton, &QPushButton::clicked, [this]() {
+        ordersWindow = new OrdersWindow();
+        ordersWindow->show();
+        connect(ordersWindow, &QObject::destroyed, []() {
+           qInfo("Destroyeddd");
+        });
+    });
     connect(ui->exitButton, &QPushButton::clicked, app, &QApplication::exit);
-    setFixedSize(QSize(300, 500));
+    setFixedSize(QSize(200, 270));
 }
 
 Menu::~Menu()
@@ -18,4 +25,12 @@ Menu::~Menu()
 
 QSize Menu::sizeHint() const {
     return QSize(500, 500);
+}
+
+void Menu::closeEvent(QCloseEvent *event) {
+    if (ordersWindow != NULL) {
+        ordersWindow->close();
+    }
+
+    event->accept();
 }
