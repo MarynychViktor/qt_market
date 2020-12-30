@@ -7,9 +7,13 @@
 #include <QString>
 
 ProductTableModel::ProductTableModel()
-    : products  { new Product("AK-47 factory new", 150, 200), new Product("M16 Field tested", 200, 300)}
-{
-}
+    : products  {
+          new Product(QString("AK-47 factory new"), QString("test/photo"), QString("1_c"), QString("1_i"), QString("Field-tested"), 150.0, 200.0)
+//              Product(QString name, QString photo, QString classId, QString instanceId, QString quality, double orderLimit, double sellLimit)
+//          new Product("M16 Field tested", 200, 300)
+    }
+    {
+    }
 
 int ProductTableModel::rowCount(const QModelIndex &parent) const
 {
@@ -30,9 +34,9 @@ QVariant ProductTableModel::data(const QModelIndex &index, int role) const
             case 0:
                 return product->name;
             case 1:
-                return product->orderPrice;
+                return product->orderPriceLimit;
             case 2:
-                return product->sellPrice;
+                return product->sellPriceLimit;
         }
     }
 
@@ -71,10 +75,10 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
                 product->name = QString(value.toString());
                 break;
             case 1:
-                product->orderPrice = value.toDouble();
+                product->orderPriceLimit = value.toDouble();
                 break;
             case 2:
-                product->sellPrice = value.toDouble();
+                product->sellPriceLimit = value.toDouble();
                 break;
         }
 
@@ -99,15 +103,15 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
 
                 case 1:
                     if (order == Qt::AscendingOrder) {
-                      return a->orderPrice > b->orderPrice;
+                      return a->orderPriceLimit > b->orderPriceLimit;
                     } else {
-                       return a->orderPrice < b->orderPrice;
+                       return a->orderPriceLimit < b->orderPriceLimit;
                     }
                 case 2:
                 if (order == Qt::AscendingOrder) {
-                  return a->sellPrice > b->sellPrice;
+                  return a->sellPriceLimit > b->sellPriceLimit;
                 } else {
-                   return a->sellPrice < b->sellPrice;
+                   return a->sellPriceLimit < b->sellPriceLimit;
                 }
             default:
                 qInfo("NOT MATCHED");
