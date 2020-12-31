@@ -26,21 +26,21 @@ int main(int argc, char **argv)
   auto httpCLient = new HttpClient(manager);
   auto marketClient = new MarketHttpClient(httpCLient);
   marketClient->getTrades([](QList<TradeResponse*> trades) {
-      qDebug()<< "Trades count" << trades.isEmpty();
     for(auto trade: trades) {
         qDebug() << trade->name << "---" << trade->classId << "---" << trade->instanceId << "---" << trade->uiPrice << "---" << trade->marketPrice;
     }
+  }, [](QNetworkReply* reply) {
+        qDebug() << "Error ********" << reply->errorString();
   });
-//  httpCLient->get(QString("http://www.google.com.ua/"), [](QNetworkReply* reply) {
-//    QString body = reply->readAll();
-//    auto statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute);
-//    if (statusCode != 200) {
-//        throw std::runtime_error("Request failed with non 200 code");
-//    }
+  for(int i =0; i < 10; i++) {
+      marketClient->getItemInfo("2735521262", "188530139", [i](ItemInfo* item) {
+        qDebug() << "Request ********" << i;
+        qDebug() << item->toString() ;
+      }, [](QNetworkReply* reply) {
+          qDebug() << "Error ********" << reply->errorString();
+    });
+  }
 
-//    QJsonDocument document;
-//    qDebug() << "Report: " << body;
-//  });
 
   return app.exec();
 }
