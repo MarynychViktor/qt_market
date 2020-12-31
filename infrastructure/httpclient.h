@@ -4,12 +4,14 @@
 #include <QNetworkAccessManager>
 
 typedef void HttpResponseHandler(QNetworkReply *reply);
+using namespace std;
 
 class HttpClient
 {
 public:
-    HttpClient();
-    void get(QString path, HttpResponseHandler handler);
+    HttpClient(QNetworkAccessManager* m): manager(m) {
+    };
+    void get(QString path, function<void(QNetworkReply*)> handler);
 private:
     QNetworkAccessManager* manager;
 };

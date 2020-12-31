@@ -9,6 +9,7 @@
 #include <pages/menu.h>
 
 #include <infrastructure/httpclient.h>
+#include <infrastructure/markethttpclient.h>
 
 int main(int argc, char **argv)
 {
@@ -21,20 +22,25 @@ int main(int argc, char **argv)
 //  QAbstractItemModel *model = new ProductTableModel();
 //  orders.setModel(model);
 //  orders.show();
-
-  auto httpCLient = new HttpClient();
-  httpCLient->get(QString("http://www.google.com.ua/"), [](QNetworkReply* reply) {
-    QString body = reply->readAll();
-    auto statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute);
-    if (statusCode != 200) {
-        throw std::runtime_error("Request failed with non 200 code");
+  auto manager = new QNetworkAccessManager();
+  auto httpCLient = new HttpClient(manager);
+  auto marketClient = new MarketHttpClient(httpCLient);
+  marketClient->getTrades([](QList<TradeResponse*> trades) {
+      qDebug()<< "Trades count" << trades.isEmpty();
+    for(auto trade: trades) {
+        qDebug() << trade->name << "---" << trade->classId << "---" << trade->instanceId << "---" << trade->uiPrice << "---" << trade->marketPrice;
     }
-
-    QJsonDocument document;
-    document.
-
-    qDebug() << "Report: " << body;
   });
+//  httpCLient->get(QString("http://www.google.com.ua/"), [](QNetworkReply* reply) {
+//    QString body = reply->readAll();
+//    auto statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute);
+//    if (statusCode != 200) {
+//        throw std::runtime_error("Request failed with non 200 code");
+//    }
+
+//    QJsonDocument document;
+//    qDebug() << "Report: " << body;
+//  });
 
   return app.exec();
 }

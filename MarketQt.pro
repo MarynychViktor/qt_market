@@ -6,8 +6,10 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 SOURCES += \
     form.cpp \
     infrastructure/httpclient.cpp \
+    infrastructure/markethttpclient.cpp \
+    infrastructure/marketsettings.cpp \
+    infrastructure/models/traderesponse.cpp \
     main.cpp \
-    markethttpclient.cpp \
     models/product.cpp \
     pages/orderswindow.cpp \
     pages/menu.cpp \
@@ -21,7 +23,9 @@ FORMS += \
 HEADERS += \
     form.h \
     infrastructure/httpclient.h \
-    markethttpclient.h \
+    infrastructure/markethttpclient.h \
+    infrastructure/marketsettings.h \
+    infrastructure/models/traderesponse.h \
     models/product.h \
     pages/orderswindow.h \
     pages/menu.h \
