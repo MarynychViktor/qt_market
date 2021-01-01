@@ -22,13 +22,14 @@ public:
     QString type;
     QString mtype;
     QString hash;
-    double minPrice;
+    int minPrice;
     QList<OfferInfo> sellOffers;
     QList<OfferInfo> buyOffers;
-    double getMyTradePrice();
-    double getMinTradePrice();
-    double getMyBuyOffer();
-    double getMaxBuyOffer();
+    int getMyTradePrice();
+    int getMinTradePrice();
+    int getMyBuyOffer();
+    int getMaxBuyOffer();
+
 
     ItemInfo(
         QString classId,
@@ -41,7 +42,7 @@ public:
         QString quality,
         QString type,
         QString hash,
-        double minPrice,
+        int minPrice,
         QList<OfferInfo> sellOffers,
         QList<OfferInfo> buyOffers
     );

@@ -14,33 +14,32 @@
 int main(int argc, char **argv)
 {
   QApplication app(argc, argv);
-//  Form form;
 
   Menu menu(&app);
   menu.show();
 
-//  QAbstractItemModel *model = new ProductTableModel();
-//  orders.setModel(model);
-//  orders.show();
-  auto manager = new QNetworkAccessManager();
-  auto httpCLient = new HttpClient(manager);
-  auto marketClient = new MarketHttpClient(httpCLient);
-  marketClient->getTrades([](QList<TradeResponse*> trades) {
-    for(auto trade: trades) {
-        qDebug() << trade->name << "---" << trade->classId << "---" << trade->instanceId << "---" << trade->uiPrice << "---" << trade->marketPrice;
-    }
-  }, [](QNetworkReply* reply) {
-        qDebug() << "Error ********" << reply->errorString();
-  });
-  for(int i =0; i < 10; i++) {
-      marketClient->getItemInfo("2735521262", "188530139", [i](ItemInfo* item) {
-        qDebug() << "Request ********" << i;
-        qDebug() << item->toString() ;
-      }, [](QNetworkReply* reply) {
-          qDebug() << "Error ********" << reply->errorString();
-    });
-  }
+  auto marketClient = new MarketHttpClient();
 
+//  QList<TradeResponse*> trades = marketClient->getTrades();
+//  for(auto trade: trades) {
+//      qDebug() << trade->name << "---" << trade->classId << "---" << trade->instanceId << "---" << trade->uiPrice << "---" << trade->marketPrice;
+//  }
+
+//  for(int i =0; i < 5; i++) {
+//      ItemInfo* item = marketClient->getItemInfo("2735521262", "188530139");
+//      qDebug() << "Request ********" << i;
+//      qDebug() << item->toString() ;
+//  }
+  QList<QString> ids;
+  ids.append(QString(("2735521262_") + QString("188530139")));
+
+  qDebug() << "Get mass info";
+  QList<ItemMassInfoResult*> items = marketClient->getMassInfo(ids);
+
+  qDebug() << "Get mass info finished" << items.length();
+  for(auto item : items) {
+    qDebug() << "Result" << item->classId << item->instanceId << item->tradeOffers->bestOffer << item->tradeOffers->myOffers << item->tradeOffers->offers;
+  }
 
   return app.exec();
 }

@@ -7,15 +7,16 @@
 #include <QString>
 
 #include <infrastructure/models/iteminfo.h>
+#include <infrastructure/models/itemmassinforesult.h>
 #include <infrastructure/models/traderesponse.h>
 
-
+#include <math.h>
 
 class MarketHttpClient
 {
 public:
-    MarketHttpClient(HttpClient* client)
-        : httpClient(client),
+    MarketHttpClient()
+        : httpClient(new SyncHttpClient()),
           settings(new MarketSettings)
     {};
 
@@ -23,9 +24,10 @@ public:
         delete settings;
     };
 
-    void getTrades(std::function<void(QList<TradeResponse*>)> onResponse, function<void(QNetworkReply*)> onError = nullptr);
-    void getItemInfo(QString classId, QString instanceId, std::function<void(ItemInfo*)> onResponse, function<void(QNetworkReply*)> onError = nullptr);
-    void massSetPriceById(QHash<QString, int> newPrices, std::function<void()> onSuccess, function<void(QNetworkReply*)> onError = nullptr);
+    QList<TradeResponse*> getTrades();
+    QList<ItemMassInfoResult*> getMassInfo(QList<QString> combinedIds);
+    ItemInfo* getItemInfo(QString classId, QString instanceId);
+    void massSetPriceById(QHash<QString, int> newPrices);
 
     //    public async Task<ItemInfo> GetProductInfo(string classId, string instanceId, string lang = "ru")
 //    {
@@ -33,7 +35,7 @@ public:
 //        return await _networkClient.GetJson<ItemInfo>(requestUrl);
 //    }
 private:
-    HttpClient* httpClient;
+    SyncHttpClient* httpClient;
     MarketSettings* settings;
     static const QString API_ENDPOINT;
 };

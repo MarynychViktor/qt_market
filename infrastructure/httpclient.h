@@ -6,14 +6,22 @@
 typedef void HttpResponseHandler(QNetworkReply *reply);
 using namespace std;
 
-class HttpClient
+class SyncHttpClient
 {
 public:
-    HttpClient(QNetworkAccessManager* m): manager(m) {};
-    void get(QString path, function<void(QNetworkReply*)> handler, function<void(QNetworkReply*)> onError = nullptr);
-    void post(QString path, QByteArray data, function<void(QNetworkReply*)> handler, function<void(QNetworkReply*)> onError = nullptr);
-    QNetworkAccessManager* manager;
+    SyncHttpClient() {
+        manager = new QNetworkAccessManager;
+    };
+    ~SyncHttpClient()
+    {
+        delete manager;
+    };
+
+    QByteArray get(QString path);
+    QByteArray post(QString path, QByteArray data);
+
 private:
+    QNetworkAccessManager* manager;
 };
 
 #endif // HTTPCLIENT_H

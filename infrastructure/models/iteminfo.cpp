@@ -1,6 +1,24 @@
 #include "iteminfo.h"
 
 
+int ItemInfo::getMyTradePrice()
+{
+    int myTradePrice = 0;
+
+    for(auto sellOffer : sellOffers) {
+        if (sellOffer.myCount > 0) {
+            if (myTradePrice == -1) {
+                myTradePrice = sellOffer.price;
+            } else {
+                myTradePrice = sellOffer.price > myTradePrice ? myTradePrice : sellOffer.price;
+            }
+        }
+    }
+
+    return myTradePrice;
+//    get { return Offers.Where(o => o.MyCount > 0).DefaultIfEmpty().Min(o => (long?) o?.Price); }
+}
+
 ItemInfo::ItemInfo(
     QString classId,
     QString instanceId,
@@ -12,7 +30,7 @@ ItemInfo::ItemInfo(
     QString quality,
     QString type,
     QString hash,
-    double minPrice,
+    int minPrice,
     QList<OfferInfo> sellOffers,
     QList<OfferInfo> buyOffers
 ) {

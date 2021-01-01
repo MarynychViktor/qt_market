@@ -15,9 +15,9 @@ public:
     QString name;
     QString marketName;
     QString uiStatus;
-    double uiPrice;
-    double minPrice;
-    double marketPrice;
+    int uiPrice;
+    int minPrice;
+    int marketPrice;
 
     static TradeResponse* fromJson(QJsonValueRef document);
 protected:

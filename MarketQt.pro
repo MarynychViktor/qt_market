@@ -10,6 +10,7 @@ SOURCES += \
     infrastructure/markethttpclient.cpp \
     infrastructure/marketsettings.cpp \
     infrastructure/models/iteminfo.cpp \
+    infrastructure/models/itemmassinforesult.cpp \
     infrastructure/models/offerinfo.cpp \
     infrastructure/models/traderesponse.cpp \
     main.cpp \
@@ -24,12 +25,14 @@ FORMS += \
     pages/menu.ui
 
 HEADERS += \
+    consts.h \
     form.h \
     infrastructure/helpers/stringhelper.h \
     infrastructure/httpclient.h \
     infrastructure/markethttpclient.h \
     infrastructure/marketsettings.h \
     infrastructure/models/iteminfo.h \
+    infrastructure/models/itemmassinforesult.h \
     infrastructure/models/offerinfo.h \
     infrastructure/models/traderesponse.h \
     models/product.h \

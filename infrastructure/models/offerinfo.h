@@ -9,11 +9,11 @@ class OfferInfo
 {
 public:
     OfferInfo(
-        double price,
+        int price,
         int count,
         int myCount
     );
-    double price;
+    int price;
     int count;
     int myCount;
 

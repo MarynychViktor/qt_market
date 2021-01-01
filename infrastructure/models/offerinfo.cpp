@@ -1,7 +1,7 @@
 #include "offerinfo.h"
 
 OfferInfo::OfferInfo(
-    double price,
+    int price,
     int count,
     int myCount
 ) {
