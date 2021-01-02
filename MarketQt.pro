@@ -19,7 +19,8 @@ SOURCES += \
     models/product.cpp \
     pages/orderswindow.cpp \
     pages/menu.cpp \
-    models/producttablemodel.cpp
+    models/producttablemodel.cpp \
+    workers/worker.cpp
 
 FORMS += \
     form.ui \
@@ -42,7 +43,8 @@ HEADERS += \
     models/product.h \
     pages/orderswindow.h \
     pages/menu.h \
-    models/producttablemodel.h
+    models/producttablemodel.h \
+    workers/worker.h
 
 RESOURCES += \
     resources/images.qrc
