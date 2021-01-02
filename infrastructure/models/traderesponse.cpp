@@ -10,6 +10,11 @@ TradeResponse::TradeResponse()
 
 }
 
+bool TradeResponse::isOnSale()
+{
+    return uiStatus == "1";
+}
+
 TradeResponse* TradeResponse::fromJson(QJsonValueRef document)
 {
     auto obj = document.toObject();

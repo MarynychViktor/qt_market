@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = market_qt
-QT += core gui network
+QT += core gui network sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 SOURCES += \
@@ -13,6 +13,8 @@ SOURCES += \
     infrastructure/models/itemmassinforesult.cpp \
     infrastructure/models/offerinfo.cpp \
     infrastructure/models/traderesponse.cpp \
+    infrastructure/repositories/productrepository.cpp \
+    jobs/updatetradepricesjob.cpp \
     main.cpp \
     models/product.cpp \
     pages/orderswindow.cpp \
@@ -35,6 +37,8 @@ HEADERS += \
     infrastructure/models/itemmassinforesult.h \
     infrastructure/models/offerinfo.h \
     infrastructure/models/traderesponse.h \
+    infrastructure/repositories/productrepository.h \
+    jobs/updatetradepricesjob.h \
     models/product.h \
     pages/orderswindow.h \
     pages/menu.h \

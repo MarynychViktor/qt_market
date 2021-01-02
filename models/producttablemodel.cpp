@@ -34,9 +34,9 @@ QVariant ProductTableModel::data(const QModelIndex &index, int role) const
             case 0:
                 return product->name;
             case 1:
-                return product->orderPriceLimit;
+                return product->maxAllowedOrderPrice;
             case 2:
-                return product->sellPriceLimit;
+                return product->minAllowedTradePrice;
         }
     }
 
@@ -75,10 +75,10 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
                 product->name = QString(value.toString());
                 break;
             case 1:
-                product->orderPriceLimit = value.toDouble();
+                product->maxAllowedOrderPrice = value.toDouble();
                 break;
             case 2:
-                product->sellPriceLimit = value.toDouble();
+                product->minAllowedTradePrice = value.toDouble();
                 break;
         }
 
@@ -103,15 +103,15 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
 
                 case 1:
                     if (order == Qt::AscendingOrder) {
-                      return a->orderPriceLimit > b->orderPriceLimit;
+                      return a->maxAllowedOrderPrice > b->maxAllowedOrderPrice;
                     } else {
-                       return a->orderPriceLimit < b->orderPriceLimit;
+                       return a->maxAllowedOrderPrice < b->maxAllowedOrderPrice;
                     }
                 case 2:
                 if (order == Qt::AscendingOrder) {
-                  return a->sellPriceLimit > b->sellPriceLimit;
+                  return a->minAllowedTradePrice > b->minAllowedTradePrice;
                 } else {
-                   return a->sellPriceLimit < b->sellPriceLimit;
+                   return a->minAllowedTradePrice < b->minAllowedTradePrice;
                 }
             default:
                 qInfo("NOT MATCHED");

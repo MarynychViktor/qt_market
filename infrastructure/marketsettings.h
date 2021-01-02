@@ -9,7 +9,7 @@ class MarketSettings
 {
 public:
     MarketSettings();
-    QString apiKey = "23By6PFT2kTXdnf1aYQkK1cuf181769";
+    QString apiKey = "api key";
 };
 
 #endif // MARKETSETTINGS_H

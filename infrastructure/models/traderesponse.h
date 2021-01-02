@@ -20,6 +20,7 @@ public:
     int marketPrice;
 
     static TradeResponse* fromJson(QJsonValueRef document);
+    bool isOnSale();
 protected:
     TradeResponse();
 };

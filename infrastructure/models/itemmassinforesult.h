@@ -25,16 +25,18 @@ public:
         QList<int> myOffers;
         QHash<int, int> offers;
 
-        int getMinOffer();
+        int getMinNotMyOffer();
+        int getMyMinOffer();
     };
 
-    ItemMassInfoResult(QString classId, QString instanceId, ItemMassInfoResult::OrderOffers* orderOffers, ItemMassInfoResult::TradeOffers* tradeOffers);
+    ItemMassInfoResult(QString classId, QString instanceId, QString name, QString photo, QString quality, ItemMassInfoResult::OrderOffers* orderOffers, ItemMassInfoResult::TradeOffers* tradeOffers);
     ~ItemMassInfoResult();
 
     QString classId;
     QString instanceId;
-
-
+    QString name;
+    QString photo;
+    QString quality;
     OrderOffers* orderOffers;
     TradeOffers* tradeOffers;
 };

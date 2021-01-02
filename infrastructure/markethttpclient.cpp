@@ -11,7 +11,7 @@
 
 #include <infrastructure/helpers/stringhelper.h>
 
-const QString MarketHttpClient::API_ENDPOINT  = "https://market.csgo.com/api";
+const QString MarketHttpClient::API_ENDPOINT  = "api url";
 
 QList<TradeResponse*> MarketHttpClient::getTrades()
 {
@@ -79,9 +79,10 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
             tradeOffersHash.insert(tradeOfferArray.at(0).toInt(), tradeOfferArray.at(1).toInt());
         }
 
+        qDebug() << tradeOffersObject["my_offers"] << "MY offers";
         if (tradeOffersObject["my_offers"].isArray()) {
             for (auto myTradeOffer : tradeOffersObject["my_offers"].toArray()) {
-                myTradeOffers.append(myTradeOffer.toBool());
+                myTradeOffers.append(myTradeOffer.toInt());
             }
         }
 
@@ -94,6 +95,9 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
         massInfoResultList.append(new ItemMassInfoResult(
             massInfoItemObject["classid"].toString(),
             massInfoItemObject["instanceid"].toString(),
+            massInfoItemObject["name"].toString(),
+            massInfoItemObject["image"].toString(),
+            massInfoItemObject["quality"].toString(),
             orderOffers,
             tradeOffers
          ));

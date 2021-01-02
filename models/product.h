@@ -5,6 +5,8 @@
 #include <QString>
 #include <string.h>
 
+#include <infrastructure/models/itemmassinforesult.h>
+
 
 class Product
 {
@@ -14,12 +16,13 @@ public:
     QString classId;
     QString instanceId;
     QString quality;
-    double orderPriceLimit;
-    double sellPriceLimit;
+    double maxAllowedOrderPrice;
+    double minAllowedTradePrice;
     bool hasOrder = false;
     bool hasTrade = false;
 
-    static Product fromJson(QJsonObject data);
+    static Product* fromJson(QJsonObject data);
+    static Product* fromItemMassInfo(ItemMassInfoResult* data);
 
     Product(QString name, QString photo, QString classId, QString instanceId, QString quality, double orderLimit, double sellLimit)
         : name(name),
@@ -27,8 +30,8 @@ public:
           classId(classId),
           instanceId(instanceId),
           quality(quality),
-          orderPriceLimit(orderLimit),
-          sellPriceLimit(sellLimit)
+          maxAllowedOrderPrice(orderLimit),
+          minAllowedTradePrice(sellLimit)
     {}
 };
 
