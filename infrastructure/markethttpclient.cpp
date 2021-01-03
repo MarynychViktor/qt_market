@@ -31,7 +31,11 @@ QList<TradeResponse*> MarketHttpClient::getTrades()
 
 QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combinedIds)
 {
-    auto endpointPath = QString("%1/MassInfo/1/1/0/1/?key=%2").arg(API_ENDPOINT, settings->apiKey);
+    if(combinedIds.isEmpty()) {
+        throw new std::runtime_error("Please provide list of product combined ids");
+    }
+
+    auto endpointPath = QString("%1/MassInfo/1/2/0/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     QString listIds;
 
     for(auto combinedId : combinedIds) {
@@ -54,6 +58,8 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
 
     for(auto massInfoItemDocument : massInfoDocument["results"].toArray()) {
         auto massInfoItemObject = massInfoItemDocument.toObject();
+        auto massInfoItemAdditionalObject = massInfoItemObject["info"].toObject();
+        qDebug() << "massInfoItemObject" << massInfoItemObject;
 
         QHash<int, int> orderOffersHash;
         auto orderBuyOffersObject = massInfoItemObject["buy_offers"].toObject();
@@ -95,9 +101,9 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
         massInfoResultList.append(new ItemMassInfoResult(
             massInfoItemObject["classid"].toString(),
             massInfoItemObject["instanceid"].toString(),
-            massInfoItemObject["name"].toString(),
-            massInfoItemObject["image"].toString(),
-            massInfoItemObject["quality"].toString(),
+            massInfoItemAdditionalObject["name"].toString(),
+            massInfoItemAdditionalObject["image"].toString(),
+            massInfoItemAdditionalObject["quality"].toString(),
             orderOffers,
             tradeOffers
          ));
@@ -162,10 +168,11 @@ void MarketHttpClient::massSetPriceById(QHash<QString, int> newPrices)
 
     newPrices.keyBegin();
     std::for_each(newPrices.keyBegin(), newPrices.keyEnd(), [&query, &newPrices](QString key) {
-        query.addQueryItem(QString("list[%1]").arg(key), QString(newPrices.value(key)));
+        qDebug() << "Value " << newPrices << newPrices.value(key) << QString::number(newPrices[key]);
+        query.addQueryItem(QString("list[%1]").arg(key), QString::number(newPrices[key]));
     });
 
-    QByteArray data = query.toString(QUrl::FullyEncoded).toUtf8();
+    QByteArray data = query.toString().toUtf8();
 
     httpClient->post(path, data);
 }

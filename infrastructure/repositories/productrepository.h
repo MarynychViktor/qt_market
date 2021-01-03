@@ -10,7 +10,6 @@ class ProductRepository
 public:
     ProductRepository();
     ~ProductRepository();
-    QSqlDatabase db;
 
     QList<Product*> getProducts();
     Product* findByClassAndInstanceIds(QString classId, QString instanceId);
@@ -18,6 +17,8 @@ public:
 
 private:
     void initialize();
+    void runQuery(std::function<void(QSqlQuery)> handler);
+    QString getConnectionName();
 };
 
 #endif // PRODUCTREPOSITORY_H

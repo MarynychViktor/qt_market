@@ -23,6 +23,7 @@ public:
 
     static Product* fromJson(QJsonObject data);
     static Product* fromItemMassInfo(ItemMassInfoResult* data);
+    QJsonObject toJson();
 
     Product(QString name, QString photo, QString classId, QString instanceId, QString quality, double orderLimit, double sellLimit)
         : name(name),

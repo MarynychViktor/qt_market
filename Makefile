@@ -14,10 +14,10 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_SQL_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -O2 -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -O2 -Wall -Wextra -D_REENTRANT -fPIC $(DEFINES)
-INCPATH       = -I. -I../../../Qt/5.15.2/gcc_64/include -I../../../Qt/5.15.2/gcc_64/include/QtWidgets -I../../../Qt/5.15.2/gcc_64/include/QtGui -I../../../Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/libdrm -I. -I../../../Qt/5.15.2/gcc_64/mkspecs/linux-g++
+INCPATH       = -I. -I../../../Qt/5.15.2/gcc_64/include -I../../../Qt/5.15.2/gcc_64/include/QtWidgets -I../../../Qt/5.15.2/gcc_64/include/QtGui -I../../../Qt/5.15.2/gcc_64/include/QtNetwork -I../../../Qt/5.15.2/gcc_64/include/QtSql -I../../../Qt/5.15.2/gcc_64/include/QtCore -I. -I/usr/include/libdrm -I. -I../../../Qt/5.15.2/gcc_64/mkspecs/linux-g++
 QMAKE         = /home/marinich_v/Qt/5.15.2/gcc_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -40,7 +40,7 @@ DISTNAME      = market_qt1.0.0
 DISTDIR = /home/marinich_v/sandbox/qt/MarketQt/.tmp/market_qt1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -Wl,-rpath,/home/marinich_v/Qt/5.15.2/gcc_64/lib
-LIBS          = $(SUBLIBS) /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Gui.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Core.so -lGL -lpthread   
+LIBS          = $(SUBLIBS) /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Gui.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Network.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Sql.so /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Core.so -lGL -lpthread   
 AR            = ar cqs
 RANLIB        = 
 SED           = sed
@@ -53,26 +53,48 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = form.cpp \
+		infrastructure/helpers/stringhelper.cpp \
 		infrastructure/httpclient.cpp \
+		infrastructure/markethttpclient.cpp \
+		infrastructure/marketsettings.cpp \
+		infrastructure/models/iteminfo.cpp \
+		infrastructure/models/itemmassinforesult.cpp \
+		infrastructure/models/offerinfo.cpp \
+		infrastructure/models/traderesponse.cpp \
+		infrastructure/repositories/productrepository.cpp \
+		jobs/updatetradepricesjob.cpp \
 		main.cpp \
 		models/product.cpp \
 		pages/orderswindow.cpp \
 		pages/menu.cpp \
-		models/producttablemodel.cpp qrc_images.cpp \
+		models/producttablemodel.cpp \
+		workers/worker.cpp qrc_images.cpp \
 		moc_form.cpp \
 		moc_orderswindow.cpp \
-		moc_menu.cpp
+		moc_menu.cpp \
+		moc_worker.cpp
 OBJECTS       = form.o \
+		stringhelper.o \
 		httpclient.o \
+		markethttpclient.o \
+		marketsettings.o \
+		iteminfo.o \
+		itemmassinforesult.o \
+		offerinfo.o \
+		traderesponse.o \
+		productrepository.o \
+		updatetradepricesjob.o \
 		main.o \
 		product.o \
 		orderswindow.o \
 		menu.o \
 		producttablemodel.o \
+		worker.o \
 		qrc_images.o \
 		moc_form.o \
 		moc_orderswindow.o \
-		moc_menu.o
+		moc_menu.o \
+		moc_worker.o
 DIST          = ../../../Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/common/unix.conf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/common/linux.conf \
@@ -249,18 +271,39 @@ DIST          = ../../../Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf \
 		../../../Qt/5.15.2/gcc_64/mkspecs/features/lex.prf \
-		MarketQt.pro form.h \
+		MarketQt.pro consts.h \
+		form.h \
+		infrastructure/helpers/stringhelper.h \
 		infrastructure/httpclient.h \
+		infrastructure/markethttpclient.h \
+		infrastructure/marketsettings.h \
+		infrastructure/models/iteminfo.h \
+		infrastructure/models/itemmassinforesult.h \
+		infrastructure/models/offerinfo.h \
+		infrastructure/models/traderesponse.h \
+		infrastructure/repositories/productrepository.h \
+		jobs/updatetradepricesjob.h \
 		models/product.h \
 		pages/orderswindow.h \
 		pages/menu.h \
-		models/producttablemodel.h form.cpp \
+		models/producttablemodel.h \
+		workers/worker.h form.cpp \
+		infrastructure/helpers/stringhelper.cpp \
 		infrastructure/httpclient.cpp \
+		infrastructure/markethttpclient.cpp \
+		infrastructure/marketsettings.cpp \
+		infrastructure/models/iteminfo.cpp \
+		infrastructure/models/itemmassinforesult.cpp \
+		infrastructure/models/offerinfo.cpp \
+		infrastructure/models/traderesponse.cpp \
+		infrastructure/repositories/productrepository.cpp \
+		jobs/updatetradepricesjob.cpp \
 		main.cpp \
 		models/product.cpp \
 		pages/orderswindow.cpp \
 		pages/menu.cpp \
-		models/producttablemodel.cpp
+		models/producttablemodel.cpp \
+		workers/worker.cpp
 QMAKE_TARGET  = market_qt
 DESTDIR       = 
 TARGET        = market_qt
@@ -645,8 +688,8 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents resources/images.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents form.h infrastructure/httpclient.h models/product.h pages/orderswindow.h pages/menu.h models/producttablemodel.h $(DISTDIR)/
-	$(COPY_FILE) --parents form.cpp infrastructure/httpclient.cpp main.cpp models/product.cpp pages/orderswindow.cpp pages/menu.cpp models/producttablemodel.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents consts.h form.h infrastructure/helpers/stringhelper.h infrastructure/httpclient.h infrastructure/markethttpclient.h infrastructure/marketsettings.h infrastructure/models/iteminfo.h infrastructure/models/itemmassinforesult.h infrastructure/models/offerinfo.h infrastructure/models/traderesponse.h infrastructure/repositories/productrepository.h jobs/updatetradepricesjob.h models/product.h pages/orderswindow.h pages/menu.h models/producttablemodel.h workers/worker.h $(DISTDIR)/
+	$(COPY_FILE) --parents form.cpp infrastructure/helpers/stringhelper.cpp infrastructure/httpclient.cpp infrastructure/markethttpclient.cpp infrastructure/marketsettings.cpp infrastructure/models/iteminfo.cpp infrastructure/models/itemmassinforesult.cpp infrastructure/models/offerinfo.cpp infrastructure/models/traderesponse.cpp infrastructure/repositories/productrepository.cpp jobs/updatetradepricesjob.cpp main.cpp models/product.cpp pages/orderswindow.cpp pages/menu.cpp models/producttablemodel.cpp workers/worker.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents form.ui pages/orderswindow.ui pages/menu.ui $(DISTDIR)/
 
 
@@ -688,9 +731,9 @@ compiler_moc_predefs_clean:
 moc_predefs.h: ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp
 	g++ -pipe -O2 -Wall -Wextra -dM -E -o moc_predefs.h ../../../Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_form.cpp moc_orderswindow.cpp moc_menu.cpp
+compiler_moc_header_make_all: moc_form.cpp moc_orderswindow.cpp moc_menu.cpp moc_worker.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_form.cpp moc_orderswindow.cpp moc_menu.cpp
+	-$(DEL_FILE) moc_form.cpp moc_orderswindow.cpp moc_menu.cpp moc_worker.cpp
 moc_form.cpp: form.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QPushButton \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h \
@@ -801,7 +844,7 @@ moc_form.cpp: form.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QWidget \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include form.h -o moc_form.cpp
+	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include form.h -o moc_form.cpp
 
 moc_orderswindow.cpp: pages/orderswindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel \
@@ -911,7 +954,7 @@ moc_orderswindow.cpp: pages/orderswindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include pages/orderswindow.h -o moc_orderswindow.cpp
+	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include pages/orderswindow.h -o moc_orderswindow.cpp
 
 moc_menu.cpp: pages/menu.h \
 		pages/orderswindow.h \
@@ -1023,7 +1066,65 @@ moc_menu.cpp: pages/menu.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/QCloseEvent \
 		moc_predefs.h \
 		../../../Qt/5.15.2/gcc_64/bin/moc
-	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include pages/menu.h -o moc_menu.cpp
+	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include pages/menu.h -o moc_menu.cpp
+
+moc_worker.cpp: workers/worker.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		moc_predefs.h \
+		../../../Qt/5.15.2/gcc_64/bin/moc
+	/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc $(DEFINES) --include /home/marinich_v/sandbox/qt/MarketQt/moc_predefs.h -I/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++ -I/home/marinich_v/sandbox/qt/MarketQt -I/home/marinich_v/Qt/5.15.2/gcc_64/include -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql -I/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include workers/worker.h -o moc_worker.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -1165,8 +1266,754 @@ form.o: form.cpp form.h \
 		ui_form.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o form.o form.cpp
 
-httpclient.o: infrastructure/httpclient.cpp infrastructure/httpclient.h
+stringhelper.o: infrastructure/helpers/stringhelper.cpp infrastructure/helpers/stringhelper.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o stringhelper.o infrastructure/helpers/stringhelper.cpp
+
+httpclient.o: infrastructure/httpclient.cpp infrastructure/httpclient.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVector \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QEventLoop \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qeventloop.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkReply \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QIODevice \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkRequest \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QTimer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtimer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasictimer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o httpclient.o infrastructure/httpclient.cpp
+
+markethttpclient.o: infrastructure/markethttpclient.cpp infrastructure/markethttpclient.h \
+		infrastructure/httpclient.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVector \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
+		infrastructure/marketsettings.h \
+		infrastructure/models/iteminfo.h \
+		infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		infrastructure/models/traderesponse.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QStringBuilder \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkReply \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QIODevice \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkRequest \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonArray \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonarray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrlQuery \
+		infrastructure/helpers/stringhelper.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o markethttpclient.o infrastructure/markethttpclient.cpp
+
+marketsettings.o: infrastructure/marketsettings.cpp infrastructure/marketsettings.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o marketsettings.o infrastructure/marketsettings.cpp
+
+iteminfo.o: infrastructure/models/iteminfo.cpp infrastructure/models/iteminfo.h \
+		infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o iteminfo.o infrastructure/models/iteminfo.cpp
+
+itemmassinforesult.o: infrastructure/models/itemmassinforesult.cpp infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		consts.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o itemmassinforesult.o infrastructure/models/itemmassinforesult.cpp
+
+offerinfo.o: infrastructure/models/offerinfo.cpp infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o offerinfo.o infrastructure/models/offerinfo.cpp
+
+traderesponse.o: infrastructure/models/traderesponse.cpp infrastructure/models/traderesponse.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValueRef \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o traderesponse.o infrastructure/models/traderesponse.cpp
+
+productrepository.o: infrastructure/repositories/productrepository.cpp infrastructure/repositories/productrepository.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSql \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlError \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqlerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlQuery \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o productrepository.o infrastructure/repositories/productrepository.cpp
+
+updatetradepricesjob.o: jobs/updatetradepricesjob.cpp jobs/updatetradepricesjob.h \
+		infrastructure/markethttpclient.h \
+		infrastructure/httpclient.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVector \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
+		infrastructure/marketsettings.h \
+		infrastructure/models/iteminfo.h \
+		infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		infrastructure/models/traderesponse.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+		infrastructure/repositories/productrepository.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
+		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		consts.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o updatetradepricesjob.o jobs/updatetradepricesjob.cpp
 
 main.o: main.cpp ../../../Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h \
@@ -1281,6 +2128,7 @@ main.o: main.cpp ../../../Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qabstractbutton.h \
 		../../../Qt/5.15.2/gcc_64/include/QtGui/qicon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QTableView \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtableview.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qabstractitemview.h \
@@ -1299,18 +2147,74 @@ main.o: main.cpp ../../../Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtabbar.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qtabwidget.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/qrubberband.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkReply \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QIODevice \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkRequest \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVector \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
 		form.h \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QWidget \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QThread \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qthread.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
 		pages/menu.h \
 		pages/orderswindow.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel \
-		../../../Qt/5.15.2/gcc_64/include/QtGui/QCloseEvent
+		../../../Qt/5.15.2/gcc_64/include/QtGui/QCloseEvent \
+		infrastructure/httpclient.h \
+		infrastructure/markethttpclient.h \
+		infrastructure/marketsettings.h \
+		infrastructure/models/iteminfo.h \
+		infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		infrastructure/models/traderesponse.h \
+		workers/worker.h \
+		infrastructure/repositories/productrepository.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
+		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 product.o: models/product.cpp models/product.h \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
@@ -1332,6 +2236,8 @@ product.o: models/product.cpp models/product.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
@@ -1339,7 +2245,51 @@ product.o: models/product.cpp models/product.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		consts.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o product.o models/product.cpp
 
 orderswindow.o: pages/orderswindow.cpp pages/orderswindow.h \
@@ -1452,7 +2402,17 @@ orderswindow.o: pages/orderswindow.cpp pages/orderswindow.h \
 		models/producttablemodel.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QAbstractTableModel \
 		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
 		../../../Qt/5.15.2/gcc_64/include/QtWidgets/QSizePolicy
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o orderswindow.o pages/orderswindow.cpp
 
@@ -1635,10 +2595,146 @@ producttablemodel.o: models/producttablemodel.cpp models/producttablemodel.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
 		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
 		../../../Qt/5.15.2/gcc_64/include/QtCore/QDebug \
-		../../../Qt/5.15.2/gcc_64/include/QtCore/QModelIndex
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QModelIndex \
+		infrastructure/repositories/productrepository.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o producttablemodel.o models/producttablemodel.cpp
+
+worker.o: workers/worker.cpp workers/worker.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmutex.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qpoint.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
+		jobs/updatetradepricesjob.h \
+		infrastructure/markethttpclient.h \
+		infrastructure/httpclient.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QString \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QVector \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+		../../../Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
+		infrastructure/marketsettings.h \
+		infrastructure/models/iteminfo.h \
+		infrastructure/models/offerinfo.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+		infrastructure/models/itemmassinforesult.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QHash \
+		infrastructure/models/traderesponse.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+		infrastructure/repositories/productrepository.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+		../../../Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
+		models/product.h \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+		../../../Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o worker.o workers/worker.cpp
 
 qrc_images.o: qrc_images.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_images.o qrc_images.cpp
@@ -1651,6 +2747,9 @@ moc_orderswindow.o: moc_orderswindow.cpp
 
 moc_menu.o: moc_menu.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_menu.o moc_menu.cpp
+
+moc_worker.o: moc_worker.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_worker.o moc_worker.cpp
 
 ####### Install
 

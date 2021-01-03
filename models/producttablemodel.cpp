@@ -6,14 +6,21 @@
 #include <QString>
 #include <QString>
 
+#include <infrastructure/repositories/productrepository.h>
+
 ProductTableModel::ProductTableModel()
-    : products  {
-          new Product(QString("AK-47 factory new"), QString("test/photo"), QString("1_c"), QString("1_i"), QString("Field-tested"), 150.0, 200.0)
-//              Product(QString name, QString photo, QString classId, QString instanceId, QString quality, double orderLimit, double sellLimit)
-//          new Product("M16 Field tested", 200, 300)
+{
+    ProductRepository repository;
+    products = repository.getProducts();
+    qDebug() << "---------------Products length" << products.length();
+}
+
+ProductTableModel::~ProductTableModel()
+{
+    for(auto product : products) {
+        delete product;
     }
-    {
-    }
+}
 
 int ProductTableModel::rowCount(const QModelIndex &parent) const
 {

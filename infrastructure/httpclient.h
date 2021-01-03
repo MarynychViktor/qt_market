@@ -22,6 +22,7 @@ public:
 
 private:
     QNetworkAccessManager* manager;
+    int timeout = 5000;
 };
 
 #endif // HTTPCLIENT_H
