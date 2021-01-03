@@ -14,6 +14,7 @@ Menu::Menu(QApplication* app, QWidget *parent) :
            qInfo("Destroyeddd");
         });
     });
+    setWindowTitle("Menu window");
     connect(ui->exitButton, &QPushButton::clicked, app, &QApplication::exit);
     setFixedSize(QSize(200, 270));
 }

@@ -1,5 +1,5 @@
 #include "product.h"
-#include "consts.h"
+#include "../consts.h"
 
 
 Product* Product::fromJson(QJsonObject data)

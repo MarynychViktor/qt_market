@@ -5,6 +5,7 @@
 
 #include <QJsonValue>
 #include <QString>
+#include <QList>
 
 
 

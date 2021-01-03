@@ -1,4 +1,5 @@
 #include "iteminfo.h"
+#include <QString>
 
 
 int ItemInfo::getMyTradePrice()
@@ -51,8 +52,7 @@ ItemInfo::ItemInfo(
 
 QString ItemInfo::toString()
 {
-    auto baseItem = QString("ClassId: %1\n InstanceId: %2\n Name: %3\n Market Name: %4\n Our market instanceId: %5\n Market hash name %6\n Rarity: %7\n Quality: %8\n Type: %9\n Hash: %10\n Min Price: %11")
-            .arg(
+    auto baseItem = QString("ClassId: %1\n InstanceId: %2\n Name: %3\n Market Name: %4\n Our market instanceId: %5\n Market hash name %6\n Rarity: %7\n Quality: %8\n Type: %9\n Hash: %10\n Min Price: %11").arg(
                 classId,
                 instanceId,
                 name,

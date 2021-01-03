@@ -1,20 +1,25 @@
-cmake_minimum_required(VERSION 3.1.0)
+cmake_minimum_required(VERSION 3.17)
 project(market_qt VERSION 1.0.0 LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5Core REQUIRED)
-find_package(Qt5Gui REQUIRED)
-find_package(Qt5Network REQUIRED)
-find_package(Qt5Sql REQUIRED)
-find_package(Qt5Widgets REQUIRED)
 
+set(CMAKE_CURRENT_SOURCE_DIR home/marinich_v/Qt/5.15.2/gcc_64)
+set(REQUIRED_LIBS Core Gui Widgets Sql Network)
+set(REQUIRED_LIBS_QUALIFIED Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Sql Qt5::Network)
+set(CMAKE_PREFIX_PATH   /home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5)
+
+set(Qt5_DIR /home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake)
+
+set(Qt5Core_DIR /home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core)
+set(Qt5_DIR /home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5)
+set(QT_QMAKE_EXECUTABLE /home/marinich_v/Qt/5.15.2/gcc_64/bin/qmake)
+set(NO_CMAKE_SYSTEM_PATH true)
 set(SOURCES
+        main.cpp
         form.cpp
         infrastructure/helpers/stringhelper.cpp
         infrastructure/httpclient.cpp
@@ -26,19 +31,18 @@ set(SOURCES
         infrastructure/models/traderesponse.cpp
         infrastructure/repositories/productrepository.cpp
         jobs/updatetradepricesjob.cpp
-        main.cpp
         models/product.cpp
         pages/orderswindow.cpp
         pages/menu.cpp
         models/producttablemodel.cpp
         workers/worker.cpp
-    )
+        )
 set(HEADERS
         consts.h
         form.h
         infrastructure/helpers/stringhelper.h
         infrastructure/httpclient.h
-        infrastructure/markethttpclient.h
+        ./infrastructure/markethttpclient.h
         infrastructure/marketsettings.h
         infrastructure/models/iteminfo.h
         infrastructure/models/itemmassinforesult.h
@@ -53,13 +57,15 @@ set(HEADERS
         workers/worker.h
         )
 
- set(RESOURCE_FILES
-     resources/images.qrc)
+set(RESOURCE_FILES
+        resources/images.qrc)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
-include_directories(resources/)
-add_executable(market_qt ${HEADERS} ${RESOURCE_FILES} ${SOURCES})
-target_include_directories(${PROJECT_NAME} PUBLIC include)
+#include_directories( ${CMAKE_BINARY_DIR} )
+add_executable(${PROJECT_NAME} ${HEADERS}  ${SOURCES} ${RESOURCE_FILES} )
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-target_link_libraries(market_qt Qt5::Core Qt5::Gui Qt5::Sql Qt5::Network Qt5::Widgets)
+find_package(Qt5 COMPONENTS ${REQUIRED_LIBS} REQUIRED)
+target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED})
+
 

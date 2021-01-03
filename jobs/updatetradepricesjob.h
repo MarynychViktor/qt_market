@@ -1,9 +1,12 @@
 #ifndef UPDATETRADEPRICESJOB_H
 #define UPDATETRADEPRICESJOB_H
 
-#include <infrastructure/markethttpclient.h>
-#include <infrastructure/repositories/productrepository.h>
+//#include "../infrastructure/markethttpclient.h"
+//#include "../infrastructure/repositories/productrepository.h"
 
+
+#include "../infrastructure/repositories/productrepository.h"
+#include "../markethttpclient.h"
 
 class UpdateTradePricesJob
 {

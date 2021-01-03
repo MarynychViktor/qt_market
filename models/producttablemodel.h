@@ -2,9 +2,7 @@
 #define PRODUCTTABLEMODEL_H
 
 #include <QAbstractTableModel>
-
-#include <models/product.h>
-
+#include "product.h"
 
 
 class ProductTableModel  : public QAbstractTableModel

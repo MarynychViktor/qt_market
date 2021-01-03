@@ -3,12 +3,12 @@
 
 #include "httpclient.h"
 #include "marketsettings.h"
+#include "models/traderesponse.h"
+#include "models/itemmassinforesult.h"
+#include "models/iteminfo.h"
 
 #include <QString>
 
-#include <infrastructure/models/iteminfo.h>
-#include <infrastructure/models/itemmassinforesult.h>
-#include <infrastructure/models/traderesponse.h>
 
 #include <math.h>
 

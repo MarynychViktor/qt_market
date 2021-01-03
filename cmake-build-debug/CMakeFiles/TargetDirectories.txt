@@ -1,0 +1,4 @@
+/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt.dir
+/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt_autogen.dir

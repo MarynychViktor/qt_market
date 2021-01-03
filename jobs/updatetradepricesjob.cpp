@@ -1,7 +1,7 @@
 #include "updatetradepricesjob.h"
 
-#include <models/product.h>
-#include <consts.h>
+#include "../models/product.h"
+#include "../consts.h"
 
 UpdateTradePricesJob::UpdateTradePricesJob()
 {

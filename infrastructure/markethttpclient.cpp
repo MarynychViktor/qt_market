@@ -7,9 +7,6 @@
 #include <QJsonObject>
 #include <QUrlQuery>
 
-#include <infrastructure/models/traderesponse.h>
-
-#include <infrastructure/helpers/stringhelper.h>
 
 const QString MarketHttpClient::API_ENDPOINT  = "api url";
 

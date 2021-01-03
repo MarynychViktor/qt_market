@@ -3,7 +3,9 @@
 
 #include <QSqlDatabase>
 
-#include <models/product.h>
+
+#include <functional>
+#include "../../models/product.h"
 
 class ProductRepository
 {

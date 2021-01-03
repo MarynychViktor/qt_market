@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default",
+	"CMAKE_CURRENT_SOURCE_DIR" : "home/marinich_v/Qt/5.15.2/gcc_64",
+	"CMAKE_SOURCE_DIR" : "/home/marinich_v/sandbox/qt/MarketQt",
+	"INCLUDE_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/marinich_v/sandbox/qt/MarketQt/resources/images/shopping-bag.svg",
+		"/home/marinich_v/sandbox/qt/MarketQt/resources/images/logout.svg",
+		"/home/marinich_v/sandbox/qt/MarketQt/resources/images/csgo-wallpaper.jpg",
+		"/home/marinich_v/sandbox/qt/MarketQt/resources/images/trading.svg"
+	],
+	"LOCK_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/marinich_v/sandbox/qt/MarketQt/resources/images.qrc",
+	"VERBOSITY" : 0
+}

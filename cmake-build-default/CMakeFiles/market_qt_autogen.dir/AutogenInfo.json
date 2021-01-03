@@ -1,0 +1,304 @@
+{
+	"BUILD_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen",
+	"CMAKE_BINARY_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default",
+	"CMAKE_CURRENT_SOURCE_DIR" : "home/marinich_v/Qt/5.15.2/gcc_64",
+	"CMAKE_EXECUTABLE" : "/home/marinich_v/Qt/Tools/CMake/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/marinich_v/sandbox/qt/MarketQt/CMakeLists.txt",
+		"/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/3.19.0/CMakeSystem.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/3.19.0/CMakeCXXCompiler.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/UnixPaths.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeFindCodeBlocks.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/ProcessorCount.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/GNU.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
+		"/home/marinich_v/sandbox/qt/MarketQt/resources/images.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/marinich_v/sandbox/qt/MarketQt",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/consts.h",
+			"MU",
+			"EWIEGA46WW/moc_consts.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/form.h",
+			"MU",
+			"EWIEGA46WW/moc_form.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/helpers/stringhelper.h",
+			"MU",
+			"MFKVNNVRFW/moc_stringhelper.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/httpclient.h",
+			"MU",
+			"4PK47B5JKE/moc_httpclient.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/markethttpclient.h",
+			"MU",
+			"4PK47B5JKE/moc_markethttpclient.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/marketsettings.h",
+			"MU",
+			"4PK47B5JKE/moc_marketsettings.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/iteminfo.h",
+			"MU",
+			"XZZCXIRYJL/moc_iteminfo.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/itemmassinforesult.h",
+			"MU",
+			"XZZCXIRYJL/moc_itemmassinforesult.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/offerinfo.h",
+			"MU",
+			"XZZCXIRYJL/moc_offerinfo.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/traderesponse.h",
+			"MU",
+			"XZZCXIRYJL/moc_traderesponse.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/repositories/productrepository.h",
+			"MU",
+			"3YXGS2J3F7/moc_productrepository.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/jobs/updatetradepricesjob.h",
+			"MU",
+			"AJN4HOEG3V/moc_updatetradepricesjob.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/models/product.h",
+			"MU",
+			"IVK4DJNV27/moc_product.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/models/producttablemodel.h",
+			"MU",
+			"IVK4DJNV27/moc_producttablemodel.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/pages/menu.h",
+			"MU",
+			"P2WXERC3RM/moc_menu.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.h",
+			"MU",
+			"P2WXERC3RM/moc_orderswindow.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/workers/worker.h",
+			"MU",
+			"WLPROMMMF6/moc_worker.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/marinich_v/sandbox/qt/MarketQt/home/marinich_v/Qt/5.15.2/gcc_64",
+		"/home/marinich_v/sandbox/qt/MarketQt/home/marinich_v/Qt/5.15.2/gcc_64/include",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql",
+		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/market_qt_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/market_qt_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/marinich_v/sandbox/qt/MarketQt/cmake-build-default/CMakeFiles/market_qt_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/marinich_v/sandbox/qt/MarketQt/form.cpp", "MU" ],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/helpers/stringhelper.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/httpclient.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/markethttpclient.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/marketsettings.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/iteminfo.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/itemmassinforesult.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/offerinfo.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/traderesponse.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/infrastructure/repositories/productrepository.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/jobs/updatetradepricesjob.cpp",
+			"MU"
+		],
+		[ "/home/marinich_v/sandbox/qt/MarketQt/main.cpp", "MU" ],
+		[ "/home/marinich_v/sandbox/qt/MarketQt/models/product.cpp", "MU" ],
+		[
+			"/home/marinich_v/sandbox/qt/MarketQt/models/producttablemodel.cpp",
+			"MU"
+		],
+		[ "/home/marinich_v/sandbox/qt/MarketQt/pages/menu.cpp", "MU" ],
+		[ "/home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.cpp", "MU" ],
+		[ "/home/marinich_v/sandbox/qt/MarketQt/workers/worker.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

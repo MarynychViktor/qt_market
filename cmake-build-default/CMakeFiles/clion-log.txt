@@ -1,0 +1,4 @@
+/home/marinich_v/Qt/Tools/CMake/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/marinich_v/sandbox/qt/MarketQt
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/marinich_v/sandbox/qt/MarketQt/cmake-build-default

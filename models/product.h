@@ -4,8 +4,8 @@
 #include <QJsonObject>
 #include <QString>
 #include <string.h>
-
-#include <infrastructure/models/itemmassinforesult.h>
+#include "../infrastructure/markethttpclient.h"
+#include "product.h"
 
 
 class Product

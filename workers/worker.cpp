@@ -1,6 +1,6 @@
 #include "worker.h"
+#include "../jobs/updatetradepricesjob.h"
 
-#include <jobs/updatetradepricesjob.h>
 
 Worker::Worker(QObject *parent) : QObject(parent)
 {

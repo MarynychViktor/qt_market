@@ -1,5 +1,5 @@
 #include "itemmassinforesult.h"
-#include "consts.h"
+#include "../../consts.h"
 
 ItemMassInfoResult::ItemMassInfoResult(QString classId, QString instanceId, QString name, QString photo, QString quality, ItemMassInfoResult::OrderOffers *orderOffers, ItemMassInfoResult::TradeOffers *tradeOffers)
     : classId(classId), instanceId(instanceId), name(name), photo(photo), quality(quality), orderOffers(orderOffers), tradeOffers(tradeOffers)

@@ -3,18 +3,13 @@
 #include <QString>
 #include <QTableView>
 #include <QNetworkReply>
-#include <form.h>
+#include "form.h"
 #include <QJsonDocument>
 #include <QThread>
 
-#include <pages/menu.h>
+#include "pages/menu.h"
+#include "workers/worker.h"
 
-#include <infrastructure/httpclient.h>
-#include <infrastructure/markethttpclient.h>
-
-#include <workers/worker.h>
-
-#include <infrastructure/repositories/productrepository.h>
 
 int main(int argc, char **argv)
 {

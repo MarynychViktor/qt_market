@@ -1,7 +1,7 @@
 #include "orderswindow.h"
 #include "ui_orderswindow.h"
 
-#include <models/producttablemodel.h>
+#include "../models/producttablemodel.h"
 
 #include <QSizePolicy>
 

@@ -1,4 +1,5 @@
 #include "producttablemodel.h"
+#include "../jobs/updatetradepricesjob.h"
 
 #include <QAbstractTableModel>
 #include <QDebug>
@@ -6,7 +7,6 @@
 #include <QString>
 #include <QString>
 
-#include <infrastructure/repositories/productrepository.h>
 
 ProductTableModel::ProductTableModel()
 {
