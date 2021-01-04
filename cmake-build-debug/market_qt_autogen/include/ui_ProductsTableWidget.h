@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QTableView>
 #include <QtWidgets/QVBoxLayout>
@@ -22,6 +23,8 @@ class Ui_ProductsTableWidget
 {
 public:
     QVBoxLayout *verticalLayout;
+    QVBoxLayout *laoyut;
+    QHBoxLayout *horizontalLayout;
     QTableView *tableView;
 
     void setupUi(QWidget *ProductsTableWidget)
@@ -31,10 +34,23 @@ public:
         ProductsTableWidget->resize(658, 505);
         verticalLayout = new QVBoxLayout(ProductsTableWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        laoyut = new QVBoxLayout();
+        laoyut->setObjectName(QString::fromUtf8("laoyut"));
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setSpacing(6);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setSizeConstraint(QLayout::SetMinimumSize);
+
+        laoyut->addLayout(horizontalLayout);
+
         tableView = new QTableView(ProductsTableWidget);
         tableView->setObjectName(QString::fromUtf8("tableView"));
+        tableView->setMaximumSize(QSize(16777215, 16777215));
 
-        verticalLayout->addWidget(tableView);
+        laoyut->addWidget(tableView);
+
+
+        verticalLayout->addLayout(laoyut);
 
 
         retranslateUi(ProductsTableWidget);

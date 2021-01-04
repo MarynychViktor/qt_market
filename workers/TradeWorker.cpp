@@ -6,7 +6,6 @@
 #include "../jobs/updatetradepricesjob.h"
 
 void TradeWorker::start() {
-    qDebug() << "Trade worker started";
     emit started(this);
 
     UpdateTradePricesJob* job = new UpdateTradePricesJob;

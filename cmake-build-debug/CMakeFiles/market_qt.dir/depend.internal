@@ -1933,17 +1933,25 @@ CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QHBoxLayout
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QPushButton
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QSpacerItem
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QTabWidget
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QVBoxLayout
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QWidget
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractbutton.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qboxlayout.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qdesktopwidget.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qgridlayout.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlayout.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtabwidget.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgets-config.h
@@ -1956,6 +1964,9 @@ CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
  /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/markethttpclient.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/models/product.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp
@@ -2109,6 +2120,7 @@ CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QHBoxLayout
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QHeaderView
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QSizePolicy
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QTableView

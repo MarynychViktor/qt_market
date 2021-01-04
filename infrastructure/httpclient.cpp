@@ -46,6 +46,7 @@ QByteArray SyncHttpClient::post(const QString& path, const QByteArray& data)
     QEventLoop loop;
     QNetworkRequest request{QUrl(path)};
     request.setHeader(QNetworkRequest::KnownHeaders::ContentTypeHeader, "application/x-www-form-urlencoded");
+
     QNetworkReply *reply = manager->post(request, data);
     QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
     QObject::connect(&timer, &QTimer::timeout, &loop, &QEventLoop::quit);

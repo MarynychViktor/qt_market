@@ -16,6 +16,8 @@ public:
     QList<Product*> getProducts();
     Product* findByClassAndInstanceIds(QString classId, QString instanceId);
     void addProduct(Product* product);
+    void updateMaxAllowedOrderPrice(Product* product, int newPrice);
+    void updateMinAllowedTradePrice(Product* product, int newPrice);
 
 private:
     void initialize();

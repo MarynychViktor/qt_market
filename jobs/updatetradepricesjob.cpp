@@ -17,8 +17,6 @@ UpdateTradePricesJob::~UpdateTradePricesJob()
 
 void UpdateTradePricesJob::run()
 {
-   qDebug() << "Starting update trade prices job";
-
    QList<TradeResponse*> trades = marketClient->getTrades();
 
    QList<QString> combinedTradeIds;
@@ -31,20 +29,19 @@ void UpdateTradePricesJob::run()
        }
    }
 
+   qDebug() << "Combined trade ids" << combinedTradeIds;
    auto tradesMassInfo = marketClient->getMassInfo(combinedTradeIds);
 
    QHash<QString, int> newPrices;
 
    for(auto tradeProductInfo : tradesMassInfo) {
-       qDebug() << tradeProductInfo << "tradeProductInfo";
        auto product = Product::fromItemMassInfo(tradeProductInfo);
 
        auto localProduct = repository->findByClassAndInstanceIds(product->classId, product->instanceId);
        if (localProduct == NULL) {
-           qDebug() << "Added local product" << product->toJson();
            repository->addProduct(product);
        } else {
-           qDebug() << "local product exists";
+           product = localProduct;
        }
 
        auto tradeOffers = tradeProductInfo->tradeOffers;
@@ -81,6 +78,4 @@ void UpdateTradePricesJob::run()
    for(auto tradeMassInfo : tradesMassInfo) {
        delete tradeMassInfo;
    }
-
-   qDebug() << "Finished update trade prices job";
 }

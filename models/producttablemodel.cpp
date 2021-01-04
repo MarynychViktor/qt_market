@@ -7,9 +7,6 @@
 
 ProductTableModel::ProductTableModel()
 {
-    ProductRepository repository;
-    products = repository.getProducts();
-    qDebug() << "---------------Products length" << products.length();
 }
 
 ProductTableModel::~ProductTableModel()
@@ -31,6 +28,7 @@ int ProductTableModel::columnCount(const QModelIndex &parent) const
 
 QVariant ProductTableModel::data(const QModelIndex &index, int role) const
 {
+    qDebug() << "DATA for " << index.row() << index.column();
     if (role == Qt::DisplayRole || role == Qt::EditRole) {
         auto product = products.at(index.row());
 
@@ -73,6 +71,7 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
 {
     if (index.isValid() && role == Qt::EditRole) {
         qInfo("Edit model fired");
+        ProductRepository repository;
         auto product = products.at(index.row());
         switch (index.column()) {
             case 0:
@@ -80,9 +79,11 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
                 break;
             case 1:
                 product->maxAllowedOrderPrice = value.toDouble();
+                repository.updateMaxAllowedOrderPrice(product, value.toInt());
                 break;
             case 2:
                 product->minAllowedTradePrice = value.toDouble();
+                repository.updateMinAllowedTradePrice(product, value.toInt());
                 break;
         }
 
@@ -123,4 +124,10 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
           });
 
    emit dataChanged(createIndex(0, 0), createIndex(rowCount(), columnCount()));
+}
+
+void ProductTableModel::setProducts(QList<Product *> updatedProducts) {
+    products = updatedProducts;
+    emit dataChanged(createIndex(0, 0), createIndex(rowCount(), columnCount()));
+    qDebug() << "---------------Products length" << products.length() << rowCount() << columnCount();
 }

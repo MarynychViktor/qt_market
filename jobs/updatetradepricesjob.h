@@ -8,6 +8,8 @@
 #include "../infrastructure/repositories/productrepository.h"
 #include "../markethttpclient.h"
 
+using namespace std;
+
 class UpdateTradePricesJob
 {
 public:

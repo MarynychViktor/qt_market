@@ -35,7 +35,7 @@ QList<Product*> ProductRepository::getProducts()
             );
          }
 
-         if (query.lastError().type() != QSqlError::NoError) {
+         if (query.lastError().isValid()) {
              throw std::runtime_error(query.lastError().text().toStdString());
          }
      });
@@ -51,6 +51,7 @@ Product *ProductRepository::findByClassAndInstanceIds(QString classId, QString i
         query.prepare("SELECT * FROM products WHERE classId = :classId AND instanceId = :instanceId LIMIT 1");
         query.bindValue(":classId", classId);
         query.bindValue(":instanceId", instanceId);
+
         query.exec();
 
         if (query.next()) {
@@ -64,6 +65,10 @@ Product *ProductRepository::findByClassAndInstanceIds(QString classId, QString i
                query.value(7).toInt()
             );
         }
+
+        if (query.lastError().isValid()) {
+            throw std::runtime_error(query.lastError().text().toStdString());
+        }
     });
 
     return product;
@@ -71,7 +76,6 @@ Product *ProductRepository::findByClassAndInstanceIds(QString classId, QString i
 
 void ProductRepository::addProduct(Product *product)
 {
-    qDebug() << product->toJson() << "Adding product";
    runQuery([&product](QSqlQuery query) {
        query.prepare("INSERT INTO products (name, photo, classId, instanceId, quality, orderLimit, sellLimit)"
 " VALUES (:name, :photo, :classId, :instanceId, :quality, :orderLimit, :sellLimit)");
@@ -90,6 +94,38 @@ void ProductRepository::addProduct(Product *product)
        }
    });
 }
+
+
+void ProductRepository::updateMaxAllowedOrderPrice(Product* product, int newPrice) {
+    runQuery([&product](QSqlQuery query) {
+        query.prepare("UPDATE products SET orderLimit = :orderLimit WHERE classId = :classId AND instanceId = :instanceId");
+        query.bindValue(":orderLimit", product->maxAllowedOrderPrice);
+        query.bindValue(":classId", product->classId);
+        query.bindValue(":instanceId", product->instanceId);
+
+        query.exec();
+
+        if (query.lastError().isValid()) {
+            throw std::runtime_error(query.lastError().text().toStdString());
+        }
+    });
+}
+
+void ProductRepository::updateMinAllowedTradePrice(Product* product, int newPrice) {
+    runQuery([&product](QSqlQuery query) {
+        query.prepare("UPDATE products SET sellLimit = :sellLimit WHERE classId = :classId AND instanceId = :instanceId");
+        query.bindValue(":sellLimit", product->minAllowedTradePrice);
+        query.bindValue(":classId", product->classId);
+        query.bindValue(":instanceId", product->instanceId);
+
+        query.exec();
+
+        if (query.lastError().isValid()) {
+            throw std::runtime_error(query.lastError().text().toStdString());
+        }
+    });
+}
+
 
 
 void ProductRepository::initialize()
