@@ -5,20 +5,20 @@
 #include <QWidget>
 
 namespace Ui {
-class OrdersWindow;
+class ProductsTableWidget;
 }
 
-class OrdersWindow : public QWidget
+class ProductsTableWidget : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit OrdersWindow(QWidget *parent = nullptr);
+    explicit ProductsTableWidget(QWidget *parent = nullptr);
     void setModel(QAbstractItemModel *model);
-    ~OrdersWindow();
+    ~ProductsTableWidget();
 
 private:
-    Ui::OrdersWindow *ui;
+    Ui::ProductsTableWidget *ui;
 };
 
 #endif // ORDERSWINDOW_H

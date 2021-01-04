@@ -1,6 +1,7 @@
-/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/WLPROMMMF6/moc_worker.cpp: /home/marinich_v/sandbox/qt/MarketQt/workers/worker.h \
-  /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QThread \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
@@ -13,6 +14,8 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
@@ -42,6 +45,7 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qthread.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
@@ -140,6 +144,7 @@
   /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/ext/type_traits.h \
   /usr/include/c++/9/functional \
+  /usr/include/c++/9/future \
   /usr/include/c++/9/initializer_list \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \

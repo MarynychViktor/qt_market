@@ -1,22 +1,22 @@
 #include "menu.h"
 #include "ui_menu.h"
 
-Menu::Menu(QApplication* app, QWidget *parent) :
+Menu::Menu(QWidget *parent) :
     QWidget(parent),
-    application(app),
+//    application(app),
     ui(new Ui::Menu)
 {
     ui->setupUi(this);
-    connect(ui->ordersButton, &QPushButton::clicked, [this]() {
-        ordersWindow = new OrdersWindow();
-        ordersWindow->show();
-        connect(ordersWindow, &QObject::destroyed, []() {
-           qInfo("Destroyeddd");
-        });
-    });
-    setWindowTitle("Menu window");
-    connect(ui->exitButton, &QPushButton::clicked, app, &QApplication::exit);
-    setFixedSize(QSize(200, 270));
+//    connect(ui->ordersButton, &QPushButton::clicked, [this]() {
+//        ordersWindow = new OrdersWindow();
+//        ordersWindow->show();
+//        connect(ordersWindow, &QObject::destroyed, []() {
+//           qInfo("Destroyeddd");
+//        });
+//    });
+//    setWindowTitle("Menu window");
+//    connect(ui->exitButton, &QPushButton::clicked, app, &QApplication::exit);
+//    setFixedSize(QSize(200, 270));
 }
 
 Menu::~Menu()
@@ -29,9 +29,10 @@ QSize Menu::sizeHint() const {
 }
 
 void Menu::closeEvent(QCloseEvent *event) {
-    if (ordersWindow != NULL) {
-        ordersWindow->close();
-    }
+//    if (ordersWindow != NULL) {
+//        ordersWindow->close();
+//    }
 
+    event->ignore();
     event->accept();
 }

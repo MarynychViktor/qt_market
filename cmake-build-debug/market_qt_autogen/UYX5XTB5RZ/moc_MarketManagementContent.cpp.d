@@ -1,5 +1,5 @@
-/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/P2WXERC3RM/moc_orderswindow.cpp: /home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.h \
-  /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qabstractitemmodel.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
@@ -86,6 +86,7 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgets-config.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/9/algorithm \

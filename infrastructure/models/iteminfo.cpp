@@ -1,5 +1,6 @@
 #include "iteminfo.h"
 #include <QString>
+#include <utility>
 
 
 int ItemInfo::getMyTradePrice()
@@ -35,19 +36,19 @@ ItemInfo::ItemInfo(
     QList<OfferInfo> sellOffers,
     QList<OfferInfo> buyOffers
 ) {
-    this->classId = classId;
-    this->instanceId = instanceId;
-    this->name = name;
-    this->marketName = marketName;
-    this->ourMarketInstanceId = ourMarketInstanceId;
-    this->marketHashName = marketHashName;
-    this->rarity = rarity;
-    this->quality = quality;
-    this->type = type;
-    this->hash = hash;
+    this->classId = std::move(classId);
+    this->instanceId = std::move(instanceId);
+    this->name = std::move(name);
+    this->marketName = std::move(marketName);
+    this->ourMarketInstanceId = std::move(ourMarketInstanceId);
+    this->marketHashName = std::move(marketHashName);
+    this->rarity = std::move(rarity);
+    this->quality = std::move(quality);
+    this->type = std::move(type);
+    this->hash = std::move(hash);
     this->minPrice = minPrice;
-    this->sellOffers = sellOffers;
-    this->buyOffers = buyOffers;
+    this->sellOffers = std::move(sellOffers);
+    this->buyOffers = std::move(buyOffers);
 }
 
 QString ItemInfo::toString()

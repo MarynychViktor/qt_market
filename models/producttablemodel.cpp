@@ -2,9 +2,6 @@
 #include "../jobs/updatetradepricesjob.h"
 
 #include <QAbstractTableModel>
-#include <QDebug>
-#include <QModelIndex>
-#include <QString>
 #include <QString>
 
 

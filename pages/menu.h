@@ -1,7 +1,7 @@
 #ifndef MENU_H
 #define MENU_H
 
-#include "orderswindow.h"
+#include "../ui/ProductsTableWidget.h"
 
 #include <QWidget>
 #include <QCloseEvent>
@@ -15,12 +15,12 @@ class Menu : public QWidget
     Q_OBJECT
 
 public:
-    explicit Menu(QApplication* application, QWidget *parent = nullptr);
+    explicit Menu(QWidget *parent = nullptr);
     QSize sizeHint() const override;
     ~Menu();
 
-    QApplication* application;
-    OrdersWindow* ordersWindow;
+//    QApplication* application;
+//    OrdersWindow* ordersWindow;
 
 protected:
     void closeEvent(QCloseEvent *event) override;

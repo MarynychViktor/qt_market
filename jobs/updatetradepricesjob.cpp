@@ -24,7 +24,7 @@ void UpdateTradePricesJob::run()
    QList<QString> combinedTradeIds;
    QMap<QString, TradeResponse*> tradesMap;
 
-   for(auto trade : trades) {
+   for (auto trade : trades) {
        if (trade->isOnSale()) {
            combinedTradeIds.append(QString("%1_%2").arg(trade->classId, trade->instanceId));
            tradesMap.insert(QString("%1_%2").arg(trade->classId, trade->instanceId), trade);

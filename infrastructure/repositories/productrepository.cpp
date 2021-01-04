@@ -22,7 +22,6 @@ QList<Product*> ProductRepository::getProducts()
      runQuery([&products](QSqlQuery query) {
          query.exec("SELECT * FROM products");
          while(query.next()) {
-             qDebug() << "Append product";
             products.append(
                 new Product(
                    query.value(1).toString(),
@@ -36,8 +35,9 @@ QList<Product*> ProductRepository::getProducts()
             );
          }
 
-         qDebug() << "LAst insert id" <<  query.lastInsertId();
-         qDebug() << "LAst error id" <<  query.lastError();
+         if (query.lastError().type() != QSqlError::NoError) {
+             throw std::runtime_error(query.lastError().text().toStdString());
+         }
      });
 
      return products;
@@ -51,6 +51,7 @@ Product *ProductRepository::findByClassAndInstanceIds(QString classId, QString i
         query.prepare("SELECT * FROM products WHERE classId = :classId AND instanceId = :instanceId LIMIT 1");
         query.bindValue(":classId", classId);
         query.bindValue(":instanceId", instanceId);
+        query.exec();
 
         if (query.next()) {
             product = new Product(
@@ -70,6 +71,7 @@ Product *ProductRepository::findByClassAndInstanceIds(QString classId, QString i
 
 void ProductRepository::addProduct(Product *product)
 {
+    qDebug() << product->toJson() << "Adding product";
    runQuery([&product](QSqlQuery query) {
        query.prepare("INSERT INTO products (name, photo, classId, instanceId, quality, orderLimit, sellLimit)"
 " VALUES (:name, :photo, :classId, :instanceId, :quality, :orderLimit, :sellLimit)");
@@ -82,8 +84,10 @@ void ProductRepository::addProduct(Product *product)
        query.bindValue(":sellLimit", product->minAllowedTradePrice);
 
        query.exec();
-       qDebug() << "addProduct LAst insert id" <<  query.lastInsertId();
-       qDebug() << "addProduct LAst error id" <<  query.lastError() << product->name;
+
+       if (!query.lastInsertId().isValid()) {
+           throw std::runtime_error(query.lastError().text().toStdString());
+       }
    });
 }
 
@@ -101,12 +105,13 @@ void ProductRepository::initialize()
                     " orderLimit UNSIGNED BIG INT NOT NULL,"
                     " sellLimit UNSIGNED BIG INT NOT NULL)");
 
-        qDebug() << "LAst insert id" <<  query.lastInsertId();
-        qDebug() << "LAst error id" <<  query.lastError();
+        if (query.lastError().type() != QSqlError::NoError) {
+            throw std::runtime_error(query.lastError().text().toStdString());
+        }
     });
 }
 
-void ProductRepository::runQuery(std::function<void(QSqlQuery query)> handler)
+void ProductRepository::runQuery(const std::function<void(QSqlQuery query)>& handler)
 {
      QString name;
     {
@@ -114,8 +119,8 @@ void ProductRepository::runQuery(std::function<void(QSqlQuery query)> handler)
         name = getConnectionName();
 
         while (QSqlDatabase::contains(name)) {
-            if (retry > 3) {
-                throw "Failed to resolve connection name";
+            if (retry > 10) {
+                throw std::runtime_error("Failed to resolve connection name");
             }
 
             name = getConnectionName();
@@ -126,8 +131,7 @@ void ProductRepository::runQuery(std::function<void(QSqlQuery query)> handler)
         db.setDatabaseName("products.db");
 
         if (!db.open()) {
-            qDebug() << "Open db";
-            throw db.lastError();
+            throw std::runtime_error("Failed to resolve connection name");
         };
         handler(QSqlQuery(db));
     }
@@ -141,4 +145,3 @@ QString ProductRepository::getConnectionName()
     return QString::number(t) + QString("_") + QString::number(rand() % 1000);
 }
 
-//Product(QString name, QString photo, QString classId, QString instanceId, QString quality, double orderLimit, double sellLimit)

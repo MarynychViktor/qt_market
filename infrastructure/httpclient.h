@@ -3,7 +3,6 @@
 
 #include <QNetworkAccessManager>
 
-typedef void HttpResponseHandler(QNetworkReply *reply);
 using namespace std;
 
 class SyncHttpClient
@@ -17,8 +16,8 @@ public:
         delete manager;
     };
 
-    QByteArray get(QString path);
-    QByteArray post(QString path, QByteArray data);
+    QByteArray get(const QString& path);
+    QByteArray post(const QString& path, const QByteArray& data);
 
 private:
     QNetworkAccessManager* manager;

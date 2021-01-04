@@ -1,5 +1,5 @@
-/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/EWIEGA46WW/moc_form.cpp: /home/marinich_v/sandbox/qt/MarketQt/form.h \
-  /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/EWIEGA46WW/moc_form.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/form.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \

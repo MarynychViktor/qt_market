@@ -1,5 +1,5 @@
 /********************************************************************************
-** Form generated from reading UI file 'orderswindow.ui'
+** Form generated from reading UI file 'ProductsTableWidget.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.15.2
 **

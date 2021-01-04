@@ -5,7 +5,7 @@
 #include <QNetworkReply>
 #include <QTimer>
 
-QByteArray SyncHttpClient::get(QString path)
+QByteArray SyncHttpClient::get(const QString& path)
 {
     QTimer timer;
     timer.setSingleShot(true);
@@ -13,26 +13,22 @@ QByteArray SyncHttpClient::get(QString path)
     QEventLoop loop;
     QNetworkReply *reply = manager->get(QNetworkRequest(QUrl(path)));
 
-    QObject::connect(reply, &QNetworkReply::finished, [&loop]() {
-        loop.exit();
-    });
+    QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    QObject::connect(&timer, &QTimer::timeout, &loop, &QEventLoop::quit);
 
-    QObject::connect(&timer, &QTimer::timeout, [&loop]() {
-        loop.exit();
-    });
     timer.start(timeout);
     loop.exec();
 
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw new std::runtime_error("Timeout exception");
+        throw std::runtime_error("Timeout exception");
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);
 
     if (statusCode.toInt() > 299) {
-        throw new std::runtime_error(reply->errorString().toStdString());
+        throw std::runtime_error(reply->errorString().toStdString());
     }
 
     QByteArray response = reply->readAll();
@@ -42,7 +38,7 @@ QByteArray SyncHttpClient::get(QString path)
     return response;
 }
 
-QByteArray SyncHttpClient::post(QString path, QByteArray data)
+QByteArray SyncHttpClient::post(const QString& path, const QByteArray& data)
 {
     QTimer timer;
     timer.setSingleShot(true);
@@ -51,28 +47,22 @@ QByteArray SyncHttpClient::post(QString path, QByteArray data)
     QNetworkRequest request{QUrl(path)};
     request.setHeader(QNetworkRequest::KnownHeaders::ContentTypeHeader, "application/x-www-form-urlencoded");
     QNetworkReply *reply = manager->post(request, data);
+    QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    QObject::connect(&timer, &QTimer::timeout, &loop, &QEventLoop::quit);
 
-    QObject::connect(reply, &QNetworkReply::finished, [&loop]() {
-        qDebug() << "Network reply finished";
-        loop.exit();
-    });
-    QObject::connect(reply, &QNetworkReply::errorOccurred, [&loop]() {
-        qDebug() << "Network reply error ocurred";
-//        loop.exit();
-    });
     timer.start(timeout);
     loop.exec();
 
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw new std::runtime_error("Timeout exception");
+        throw std::runtime_error("Timeout exception");
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);
 
     if (statusCode.toInt() > 299) {
-        throw new std::runtime_error(reply->errorString().toStdString());
+        throw std::runtime_error(reply->errorString().toStdString());
     }
 
     QByteArray response = reply->readAll();

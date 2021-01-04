@@ -32,10 +32,11 @@ set(SOURCES
         infrastructure/repositories/productrepository.cpp
         jobs/updatetradepricesjob.cpp
         models/product.cpp
-        pages/orderswindow.cpp
+        ui/ProductsTableWidget.cpp
         pages/menu.cpp
         models/producttablemodel.cpp
-        workers/worker.cpp
+        workers/Worker.cpp
+        ui/MarketManagementContent.cpp
         )
 set(HEADERS
         consts.h
@@ -51,14 +52,15 @@ set(HEADERS
         infrastructure/repositories/productrepository.h
         jobs/updatetradepricesjob.h
         models/product.h
-        pages/orderswindow.h
+        ui/ProductsTableWidget.h
         pages/menu.h
         models/producttablemodel.h
-        workers/worker.h
+        workers/Worker.h
+        ui/MarketManagementContent.h
         )
 
 set(RESOURCE_FILES
-        resources/images.qrc)
+        resources/images.qrc exceptions/MarketException.cpp exceptions/MarketException.h workers/WorkerManager.cpp workers/WorkerManager.h ui/MainWindow.cpp ui/MainWindow.h workers/TradeWorker.cpp workers/TradeWorker.h)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 #include_directories( ${CMAKE_BINARY_DIR} )

@@ -62,10 +62,10 @@ RM = /home/marinich_v/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/MarketQt
+CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug
 
 # Utility rule file for market_qt_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug
 include CMakeFiles/market_qt_autogen.dir/progress.make
 
 CMakeFiles/market_qt_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target market_qt"
-	/home/marinich_v/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target market_qt"
+	/home/marinich_v/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutogenInfo.json Debug
 
 market_qt_autogen: CMakeFiles/market_qt_autogen
 market_qt_autogen: CMakeFiles/market_qt_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/market_qt_autogen.dir/clean:
 .PHONY : CMakeFiles/market_qt_autogen.dir/clean
 
 CMakeFiles/market_qt_autogen.dir/depend:
-	cd /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marinich_v/sandbox/qt/MarketQt /home/marinich_v/sandbox/qt/MarketQt /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marinich_v/sandbox/qt/marketqt-cmake /home/marinich_v/sandbox/qt/marketqt-cmake /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/market_qt_autogen.dir/depend
 

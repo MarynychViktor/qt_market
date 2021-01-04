@@ -62,10 +62,10 @@ RM = /home/marinich_v/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/MarketQt
+CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/market_qt.dir/depend.make
@@ -83,255 +83,320 @@ market_qt_autogen/3YJK5W5UP7/qrc_images.cpp: ../resources/images/logout.svg
 market_qt_autogen/3YJK5W5UP7/qrc_images.cpp: ../resources/images/csgo-wallpaper.jpg
 market_qt_autogen/3YJK5W5UP7/qrc_images.cpp: ../resources/images/trading.svg
 market_qt_autogen/3YJK5W5UP7/qrc_images.cpp: /home/marinich_v/Qt/5.15.2/gcc_64/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/images.qrc"
-	/home/marinich_v/Qt/Tools/CMake/bin/cmake -E cmake_autorcc /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Info.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resources/images.qrc"
+	/home/marinich_v/Qt/Tools/CMake/bin/cmake -E cmake_autorcc /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Info.json Debug
 
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: market_qt_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp
 
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp > CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp > CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp -o CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp -o CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/market_qt.dir/main.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/market_qt.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/main.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/market_qt.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/main.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp
 
 CMakeFiles/market_qt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/main.cpp > CMakeFiles/market_qt.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp > CMakeFiles/market_qt.dir/main.cpp.i
 
 CMakeFiles/market_qt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/main.cpp -o CMakeFiles/market_qt.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp -o CMakeFiles/market_qt.dir/main.cpp.s
 
 CMakeFiles/market_qt.dir/form.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/form.cpp.o: ../form.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/market_qt.dir/form.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/form.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/form.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/market_qt.dir/form.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/form.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/form.cpp
 
 CMakeFiles/market_qt.dir/form.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/form.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/form.cpp > CMakeFiles/market_qt.dir/form.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/form.cpp > CMakeFiles/market_qt.dir/form.cpp.i
 
 CMakeFiles/market_qt.dir/form.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/form.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/form.cpp -o CMakeFiles/market_qt.dir/form.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/form.cpp -o CMakeFiles/market_qt.dir/form.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o: ../infrastructure/helpers/stringhelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/helpers/stringhelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/helpers/stringhelper.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/helpers/stringhelper.cpp > CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/helpers/stringhelper.cpp > CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/helpers/stringhelper.cpp -o CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/helpers/stringhelper.cpp -o CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o: ../infrastructure/httpclient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/httpclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/httpclient.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/httpclient.cpp > CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/httpclient.cpp > CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/httpclient.cpp -o CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/httpclient.cpp -o CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o: ../infrastructure/markethttpclient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/markethttpclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/markethttpclient.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/markethttpclient.cpp > CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/markethttpclient.cpp > CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/markethttpclient.cpp -o CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/markethttpclient.cpp -o CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o: ../infrastructure/marketsettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/marketsettings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/marketsettings.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/marketsettings.cpp > CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/marketsettings.cpp > CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/marketsettings.cpp -o CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/marketsettings.cpp -o CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o: ../infrastructure/models/iteminfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/iteminfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/iteminfo.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/iteminfo.cpp > CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/iteminfo.cpp > CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/iteminfo.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/iteminfo.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o: ../infrastructure/models/itemmassinforesult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/itemmassinforesult.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/itemmassinforesult.cpp > CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.cpp > CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/itemmassinforesult.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o: ../infrastructure/models/offerinfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/offerinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/offerinfo.cpp > CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.cpp > CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/offerinfo.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o: ../infrastructure/models/traderesponse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/traderesponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/traderesponse.cpp > CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.cpp > CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/models/traderesponse.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.cpp -o CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.s
 
 CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o: ../infrastructure/repositories/productrepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/infrastructure/repositories/productrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.cpp
 
 CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/infrastructure/repositories/productrepository.cpp > CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.cpp > CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.i
 
 CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/infrastructure/repositories/productrepository.cpp -o CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.cpp -o CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.s
 
 CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o: ../jobs/updatetradepricesjob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/jobs/updatetradepricesjob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.cpp
 
 CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/jobs/updatetradepricesjob.cpp > CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.cpp > CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.i
 
 CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/jobs/updatetradepricesjob.cpp -o CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.cpp -o CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.s
 
 CMakeFiles/market_qt.dir/models/product.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/models/product.cpp.o: ../models/product.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/market_qt.dir/models/product.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/models/product.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/models/product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/market_qt.dir/models/product.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/models/product.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/models/product.cpp
 
 CMakeFiles/market_qt.dir/models/product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/models/product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/models/product.cpp > CMakeFiles/market_qt.dir/models/product.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/models/product.cpp > CMakeFiles/market_qt.dir/models/product.cpp.i
 
 CMakeFiles/market_qt.dir/models/product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/models/product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/models/product.cpp -o CMakeFiles/market_qt.dir/models/product.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/models/product.cpp -o CMakeFiles/market_qt.dir/models/product.cpp.s
 
-CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o: CMakeFiles/market_qt.dir/flags.make
-CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o: ../pages/orderswindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.cpp
+CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: ../ui/ProductsTableWidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp
 
-CMakeFiles/market_qt.dir/pages/orderswindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/pages/orderswindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.cpp > CMakeFiles/market_qt.dir/pages/orderswindow.cpp.i
+CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp > CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.i
 
-CMakeFiles/market_qt.dir/pages/orderswindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/pages/orderswindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/pages/orderswindow.cpp -o CMakeFiles/market_qt.dir/pages/orderswindow.cpp.s
+CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp -o CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.s
 
 CMakeFiles/market_qt.dir/pages/menu.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/pages/menu.cpp.o: ../pages/menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/market_qt.dir/pages/menu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/pages/menu.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/pages/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/market_qt.dir/pages/menu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/pages/menu.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp
 
 CMakeFiles/market_qt.dir/pages/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/pages/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/pages/menu.cpp > CMakeFiles/market_qt.dir/pages/menu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp > CMakeFiles/market_qt.dir/pages/menu.cpp.i
 
 CMakeFiles/market_qt.dir/pages/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/pages/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/pages/menu.cpp -o CMakeFiles/market_qt.dir/pages/menu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp -o CMakeFiles/market_qt.dir/pages/menu.cpp.s
 
 CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o: ../models/producttablemodel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/models/producttablemodel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.cpp
 
 CMakeFiles/market_qt.dir/models/producttablemodel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/models/producttablemodel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/models/producttablemodel.cpp > CMakeFiles/market_qt.dir/models/producttablemodel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.cpp > CMakeFiles/market_qt.dir/models/producttablemodel.cpp.i
 
 CMakeFiles/market_qt.dir/models/producttablemodel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/models/producttablemodel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/models/producttablemodel.cpp -o CMakeFiles/market_qt.dir/models/producttablemodel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.cpp -o CMakeFiles/market_qt.dir/models/producttablemodel.cpp.s
 
-CMakeFiles/market_qt.dir/workers/worker.cpp.o: CMakeFiles/market_qt.dir/flags.make
-CMakeFiles/market_qt.dir/workers/worker.cpp.o: ../workers/worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/market_qt.dir/workers/worker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/workers/worker.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/workers/worker.cpp
+CMakeFiles/market_qt.dir/workers/Worker.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/workers/Worker.cpp.o: ../workers/Worker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/market_qt.dir/workers/Worker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/workers/Worker.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.cpp
 
-CMakeFiles/market_qt.dir/workers/worker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/workers/worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/workers/worker.cpp > CMakeFiles/market_qt.dir/workers/worker.cpp.i
+CMakeFiles/market_qt.dir/workers/Worker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/workers/Worker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.cpp > CMakeFiles/market_qt.dir/workers/Worker.cpp.i
 
-CMakeFiles/market_qt.dir/workers/worker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/workers/worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/workers/worker.cpp -o CMakeFiles/market_qt.dir/workers/worker.cpp.s
+CMakeFiles/market_qt.dir/workers/Worker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/workers/Worker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.cpp -o CMakeFiles/market_qt.dir/workers/Worker.cpp.s
+
+CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o: ../ui/MarketManagementContent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp
+
+CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp > CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.i
+
+CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp -o CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.s
+
+CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o: ../exceptions/MarketException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/exceptions/MarketException.cpp
+
+CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/exceptions/MarketException.cpp > CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.i
+
+CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/exceptions/MarketException.cpp -o CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.s
+
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../workers/WorkerManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp
+
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp > CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.i
+
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp -o CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.s
+
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../ui/MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp
+
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/ui/MainWindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp > CMakeFiles/market_qt.dir/ui/MainWindow.cpp.i
+
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/ui/MainWindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp -o CMakeFiles/market_qt.dir/ui/MainWindow.cpp.s
+
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../workers/TradeWorker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp
+
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp > CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.i
+
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp -o CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.s
 
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o -c /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
 
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp > CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp > CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i
 
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.s
 
 # Object files for target market_qt
 market_qt_OBJECTS = \
@@ -349,10 +414,15 @@ market_qt_OBJECTS = \
 "CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o" \
 "CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o" \
 "CMakeFiles/market_qt.dir/models/product.cpp.o" \
-"CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o" \
+"CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o" \
 "CMakeFiles/market_qt.dir/pages/menu.cpp.o" \
 "CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o" \
-"CMakeFiles/market_qt.dir/workers/worker.cpp.o" \
+"CMakeFiles/market_qt.dir/workers/Worker.cpp.o" \
+"CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o" \
+"CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o" \
+"CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o" \
+"CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o" \
+"CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o" \
 "CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
 
 # External object files for target market_qt
@@ -372,10 +442,15 @@ market_qt: CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o
 market_qt: CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o
 market_qt: CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o
 market_qt: CMakeFiles/market_qt.dir/models/product.cpp.o
-market_qt: CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o
+market_qt: CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o
 market_qt: CMakeFiles/market_qt.dir/pages/menu.cpp.o
 market_qt: CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o
-market_qt: CMakeFiles/market_qt.dir/workers/worker.cpp.o
+market_qt: CMakeFiles/market_qt.dir/workers/Worker.cpp.o
+market_qt: CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
+market_qt: CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o
+market_qt: CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o
+market_qt: CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
+market_qt: CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o
 market_qt: CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o
 market_qt: CMakeFiles/market_qt.dir/build.make
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so.5.15.2
@@ -384,7 +459,7 @@ market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 market_qt: CMakeFiles/market_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable market_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable market_qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/market_qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -397,6 +472,6 @@ CMakeFiles/market_qt.dir/clean:
 .PHONY : CMakeFiles/market_qt.dir/clean
 
 CMakeFiles/market_qt.dir/depend: market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
-	cd /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marinich_v/sandbox/qt/MarketQt /home/marinich_v/sandbox/qt/MarketQt /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles/market_qt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marinich_v/sandbox/qt/marketqt-cmake /home/marinich_v/sandbox/qt/marketqt-cmake /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/market_qt.dir/depend
 

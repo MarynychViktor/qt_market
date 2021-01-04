@@ -1,4 +1,5 @@
 #include "markethttpclient.h"
+#include "../exceptions/MarketException.h"
 
 #include <QStringBuilder>
 #include <QNetworkReply>
@@ -14,9 +15,8 @@ QList<TradeResponse*> MarketHttpClient::getTrades()
 {
     auto path = QString("%1/Trades/?key=%5").arg(API_ENDPOINT, settings->apiKey);
     auto content = httpClient->get(path);
+    auto tradesResponse = QJsonDocument::fromJson(content);
 
-    QJsonDocument document;
-    auto tradesResponse = document.fromJson(content);
     QList<TradeResponse*> trades;
 
     for(auto el : tradesResponse.array()) {
@@ -26,16 +26,16 @@ QList<TradeResponse*> MarketHttpClient::getTrades()
     return trades;
 }
 
-QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combinedIds)
+QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(const QList<QString>& combinedIds)
 {
-    if(combinedIds.isEmpty()) {
-        throw new std::runtime_error("Please provide list of product combined ids");
+    if (combinedIds.isEmpty()) {
+        throw std::runtime_error("Please provide list of product combined ids");
     }
 
     auto endpointPath = QString("%1/MassInfo/1/2/0/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     QString listIds;
 
-    for(auto combinedId : combinedIds) {
+    for(const QString& combinedId : combinedIds) {
         if (listIds.length() == 0) {
             listIds = combinedId;
         } else {
@@ -46,17 +46,16 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
 
     QByteArray rawResponse =  httpClient->post(endpointPath, listIds.toUtf8());
     QList<ItemMassInfoResult*> massInfoResultList;
-    QJsonDocument document;
-    auto massInfoDocument = document.fromJson(rawResponse);
 
-    if(!massInfoDocument["success"].toBool()) {
-        throw new std::runtime_error("Response returned with non success code");
+    auto massInfoDocument = QJsonDocument::fromJson(rawResponse);
+
+    if (!massInfoDocument["success"].toBool()) {
+        throw MarketException("Get mass info failed");
     }
 
-    for(auto massInfoItemDocument : massInfoDocument["results"].toArray()) {
+    for (auto massInfoItemDocument : massInfoDocument["results"].toArray()) {
         auto massInfoItemObject = massInfoItemDocument.toObject();
         auto massInfoItemAdditionalObject = massInfoItemObject["info"].toObject();
-        qDebug() << "massInfoItemObject" << massInfoItemObject;
 
         QHash<int, int> orderOffersHash;
         auto orderBuyOffersObject = massInfoItemObject["buy_offers"].toObject();
@@ -82,7 +81,6 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
             tradeOffersHash.insert(tradeOfferArray.at(0).toInt(), tradeOfferArray.at(1).toInt());
         }
 
-        qDebug() << tradeOffersObject["my_offers"] << "MY offers";
         if (tradeOffersObject["my_offers"].isArray()) {
             for (auto myTradeOffer : tradeOffersObject["my_offers"].toArray()) {
                 myTradeOffers.append(myTradeOffer.toInt());
@@ -95,6 +93,7 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
             tradeOffersHash
         );
 
+        qDebug() << "massInfoItemObject" << massInfoItemObject;
         massInfoResultList.append(new ItemMassInfoResult(
             massInfoItemObject["classid"].toString(),
             massInfoItemObject["instanceid"].toString(),
@@ -109,15 +108,14 @@ QList<ItemMassInfoResult *> MarketHttpClient::getMassInfo(QList<QString> combine
     return massInfoResultList;
 }
 
-ItemInfo * MarketHttpClient::getItemInfo(QString classId, QString instanceId)
+ItemInfo * MarketHttpClient::getItemInfo(const QString& classId, const QString& instanceId)
 {
         auto path = QString("%1/ItemInfo/%2_%3/ru/?key=%5").arg(API_ENDPOINT, classId, instanceId, settings->apiKey);
         auto content = httpClient->get(path);
-        QJsonDocument document;
-        auto itemResponse = document.fromJson(content);
+        auto itemResponse = QJsonDocument::fromJson(content);
 
         QList<OfferInfo> sellOffers;
-        for(auto offerRef : itemResponse["offers"].toArray()) {
+        for (auto offerRef : itemResponse["offers"].toArray()) {
             auto offer = offerRef.toObject();
 
             sellOffers.push_back(
@@ -163,13 +161,10 @@ void MarketHttpClient::massSetPriceById(QHash<QString, int> newPrices)
     auto path = QString("%1/MassSetPriceById/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     QUrlQuery query;
 
-    newPrices.keyBegin();
-    std::for_each(newPrices.keyBegin(), newPrices.keyEnd(), [&query, &newPrices](QString key) {
+    std::for_each(newPrices.keyBegin(), newPrices.keyEnd(), [&query, &newPrices](const QString& key) {
         qDebug() << "Value " << newPrices << newPrices.value(key) << QString::number(newPrices[key]);
         query.addQueryItem(QString("list[%1]").arg(key), QString::number(newPrices[key]));
     });
 
-    QByteArray data = query.toString().toUtf8();
-
-    httpClient->post(path, data);
+    httpClient->post(path, query.toString().toUtf8());
 }

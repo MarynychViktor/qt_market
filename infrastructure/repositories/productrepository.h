@@ -19,7 +19,7 @@ public:
 
 private:
     void initialize();
-    void runQuery(std::function<void(QSqlQuery)> handler);
+    void runQuery(const std::function<void(QSqlQuery)>& handler);
     QString getConnectionName();
 };
 

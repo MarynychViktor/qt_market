@@ -25,15 +25,9 @@ public:
     };
 
     QList<TradeResponse*> getTrades();
-    QList<ItemMassInfoResult*> getMassInfo(QList<QString> combinedIds);
-    ItemInfo* getItemInfo(QString classId, QString instanceId);
+    QList<ItemMassInfoResult*> getMassInfo(const QList<QString>& combinedIds);
+    ItemInfo* getItemInfo(const QString& classId, const QString& instanceId);
     void massSetPriceById(QHash<QString, int> newPrices);
-
-    //    public async Task<ItemInfo> GetProductInfo(string classId, string instanceId, string lang = "ru")
-//    {
-//        string requestUrl = getItemInfoPath(classId, instanceId, lang);
-//        return await _networkClient.GetJson<ItemInfo>(requestUrl);
-//    }
 private:
     SyncHttpClient* httpClient;
     MarketSettings* settings;

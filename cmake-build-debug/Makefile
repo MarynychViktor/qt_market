@@ -67,10 +67,10 @@ RM = /home/marinich_v/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/MarketQt
+CMAKE_SOURCE_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marinich_v/sandbox/qt/MarketQt/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -154,6 +154,33 @@ market_qt_autogen: cmake_check_build_system
 market_qt_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt_autogen.dir/build.make CMakeFiles/market_qt_autogen.dir/build
 .PHONY : market_qt_autogen/fast
+
+exceptions/MarketException.o: exceptions/MarketException.cpp.o
+
+.PHONY : exceptions/MarketException.o
+
+# target to build an object file
+exceptions/MarketException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o
+.PHONY : exceptions/MarketException.cpp.o
+
+exceptions/MarketException.i: exceptions/MarketException.cpp.i
+
+.PHONY : exceptions/MarketException.i
+
+# target to preprocess a source file
+exceptions/MarketException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.i
+.PHONY : exceptions/MarketException.cpp.i
+
+exceptions/MarketException.s: exceptions/MarketException.cpp.s
+
+.PHONY : exceptions/MarketException.s
+
+# target to generate assembly for a file
+exceptions/MarketException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.s
+.PHONY : exceptions/MarketException.cpp.s
 
 form.o: form.cpp.o
 
@@ -614,59 +641,167 @@ pages/menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/pages/menu.cpp.s
 .PHONY : pages/menu.cpp.s
 
-pages/orderswindow.o: pages/orderswindow.cpp.o
+ui/MainWindow.o: ui/MainWindow.cpp.o
 
-.PHONY : pages/orderswindow.o
-
-# target to build an object file
-pages/orderswindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/pages/orderswindow.cpp.o
-.PHONY : pages/orderswindow.cpp.o
-
-pages/orderswindow.i: pages/orderswindow.cpp.i
-
-.PHONY : pages/orderswindow.i
-
-# target to preprocess a source file
-pages/orderswindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/pages/orderswindow.cpp.i
-.PHONY : pages/orderswindow.cpp.i
-
-pages/orderswindow.s: pages/orderswindow.cpp.s
-
-.PHONY : pages/orderswindow.s
-
-# target to generate assembly for a file
-pages/orderswindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/pages/orderswindow.cpp.s
-.PHONY : pages/orderswindow.cpp.s
-
-workers/worker.o: workers/worker.cpp.o
-
-.PHONY : workers/worker.o
+.PHONY : ui/MainWindow.o
 
 # target to build an object file
-workers/worker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/worker.cpp.o
-.PHONY : workers/worker.cpp.o
+ui/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
+.PHONY : ui/MainWindow.cpp.o
 
-workers/worker.i: workers/worker.cpp.i
+ui/MainWindow.i: ui/MainWindow.cpp.i
 
-.PHONY : workers/worker.i
+.PHONY : ui/MainWindow.i
 
 # target to preprocess a source file
-workers/worker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/worker.cpp.i
-.PHONY : workers/worker.cpp.i
+ui/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MainWindow.cpp.i
+.PHONY : ui/MainWindow.cpp.i
 
-workers/worker.s: workers/worker.cpp.s
+ui/MainWindow.s: ui/MainWindow.cpp.s
 
-.PHONY : workers/worker.s
+.PHONY : ui/MainWindow.s
 
 # target to generate assembly for a file
-workers/worker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/worker.cpp.s
-.PHONY : workers/worker.cpp.s
+ui/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MainWindow.cpp.s
+.PHONY : ui/MainWindow.cpp.s
+
+ui/MarketManagementContent.o: ui/MarketManagementContent.cpp.o
+
+.PHONY : ui/MarketManagementContent.o
+
+# target to build an object file
+ui/MarketManagementContent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
+.PHONY : ui/MarketManagementContent.cpp.o
+
+ui/MarketManagementContent.i: ui/MarketManagementContent.cpp.i
+
+.PHONY : ui/MarketManagementContent.i
+
+# target to preprocess a source file
+ui/MarketManagementContent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.i
+.PHONY : ui/MarketManagementContent.cpp.i
+
+ui/MarketManagementContent.s: ui/MarketManagementContent.cpp.s
+
+.PHONY : ui/MarketManagementContent.s
+
+# target to generate assembly for a file
+ui/MarketManagementContent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.s
+.PHONY : ui/MarketManagementContent.cpp.s
+
+ui/ProductsTableWidget.o: ui/ProductsTableWidget.cpp.o
+
+.PHONY : ui/ProductsTableWidget.o
+
+# target to build an object file
+ui/ProductsTableWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o
+.PHONY : ui/ProductsTableWidget.cpp.o
+
+ui/ProductsTableWidget.i: ui/ProductsTableWidget.cpp.i
+
+.PHONY : ui/ProductsTableWidget.i
+
+# target to preprocess a source file
+ui/ProductsTableWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.i
+.PHONY : ui/ProductsTableWidget.cpp.i
+
+ui/ProductsTableWidget.s: ui/ProductsTableWidget.cpp.s
+
+.PHONY : ui/ProductsTableWidget.s
+
+# target to generate assembly for a file
+ui/ProductsTableWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.s
+.PHONY : ui/ProductsTableWidget.cpp.s
+
+workers/TradeWorker.o: workers/TradeWorker.cpp.o
+
+.PHONY : workers/TradeWorker.o
+
+# target to build an object file
+workers/TradeWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o
+.PHONY : workers/TradeWorker.cpp.o
+
+workers/TradeWorker.i: workers/TradeWorker.cpp.i
+
+.PHONY : workers/TradeWorker.i
+
+# target to preprocess a source file
+workers/TradeWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.i
+.PHONY : workers/TradeWorker.cpp.i
+
+workers/TradeWorker.s: workers/TradeWorker.cpp.s
+
+.PHONY : workers/TradeWorker.s
+
+# target to generate assembly for a file
+workers/TradeWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.s
+.PHONY : workers/TradeWorker.cpp.s
+
+workers/Worker.o: workers/Worker.cpp.o
+
+.PHONY : workers/Worker.o
+
+# target to build an object file
+workers/Worker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/Worker.cpp.o
+.PHONY : workers/Worker.cpp.o
+
+workers/Worker.i: workers/Worker.cpp.i
+
+.PHONY : workers/Worker.i
+
+# target to preprocess a source file
+workers/Worker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/Worker.cpp.i
+.PHONY : workers/Worker.cpp.i
+
+workers/Worker.s: workers/Worker.cpp.s
+
+.PHONY : workers/Worker.s
+
+# target to generate assembly for a file
+workers/Worker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/Worker.cpp.s
+.PHONY : workers/Worker.cpp.s
+
+workers/WorkerManager.o: workers/WorkerManager.cpp.o
+
+.PHONY : workers/WorkerManager.o
+
+# target to build an object file
+workers/WorkerManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o
+.PHONY : workers/WorkerManager.cpp.o
+
+workers/WorkerManager.i: workers/WorkerManager.cpp.i
+
+.PHONY : workers/WorkerManager.i
+
+# target to preprocess a source file
+workers/WorkerManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.i
+.PHONY : workers/WorkerManager.cpp.i
+
+workers/WorkerManager.s: workers/WorkerManager.cpp.s
+
+.PHONY : workers/WorkerManager.s
+
+# target to generate assembly for a file
+workers/WorkerManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.s
+.PHONY : workers/WorkerManager.cpp.s
 
 # Help Target
 help:
@@ -678,6 +813,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... market_qt_autogen"
 	@echo "... market_qt"
+	@echo "... exceptions/MarketException.o"
+	@echo "... exceptions/MarketException.i"
+	@echo "... exceptions/MarketException.s"
 	@echo "... form.o"
 	@echo "... form.i"
 	@echo "... form.s"
@@ -729,12 +867,24 @@ help:
 	@echo "... pages/menu.o"
 	@echo "... pages/menu.i"
 	@echo "... pages/menu.s"
-	@echo "... pages/orderswindow.o"
-	@echo "... pages/orderswindow.i"
-	@echo "... pages/orderswindow.s"
-	@echo "... workers/worker.o"
-	@echo "... workers/worker.i"
-	@echo "... workers/worker.s"
+	@echo "... ui/MainWindow.o"
+	@echo "... ui/MainWindow.i"
+	@echo "... ui/MainWindow.s"
+	@echo "... ui/MarketManagementContent.o"
+	@echo "... ui/MarketManagementContent.i"
+	@echo "... ui/MarketManagementContent.s"
+	@echo "... ui/ProductsTableWidget.o"
+	@echo "... ui/ProductsTableWidget.i"
+	@echo "... ui/ProductsTableWidget.s"
+	@echo "... workers/TradeWorker.o"
+	@echo "... workers/TradeWorker.i"
+	@echo "... workers/TradeWorker.s"
+	@echo "... workers/Worker.o"
+	@echo "... workers/Worker.i"
+	@echo "... workers/Worker.s"
+	@echo "... workers/WorkerManager.o"
+	@echo "... workers/WorkerManager.i"
+	@echo "... workers/WorkerManager.s"
 .PHONY : help
 
 
