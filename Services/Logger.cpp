@@ -4,7 +4,6 @@
 
 #include "Logger.h"
 
-
 void Logger::error(const QString& message)
 {
     qWarning() << QString("[Error][%1]: %2").arg(isoDateString(), message);

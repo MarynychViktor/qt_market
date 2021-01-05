@@ -4,25 +4,26 @@
 
 #include <QDialog>
 #include <QMessageBox>
-#include "MainWindow.h"
-#include "QMenuBar"
-#include "QAction"
-#include "MarketManagementContent.h"
-#include "../Infrastructure/DI/ServiceLocator.h"
-#include "../Services/Logger.h"
+#include <QMenuBar>
+#include <QAction>
 #include <QEventLoop>
 #include <memory>
 
+#include "MainWindow.h"
+#include "MarketManagementContent.h"
+#include "../Infrastructure/DI/ServiceLocator.h"
+
 using namespace std;
+
 // TODO: refactor trash
-MainWindow::MainWindow(QWidget *parent)
-        : QMainWindow(parent, Qt::Window)
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent, Qt::Window)
 {
     setCentralWidget(new MarketManagementContent(this));
     setUpWorker();
 }
 
-void MainWindow::closeEvent(QCloseEvent *event) {
+void MainWindow::closeEvent(QCloseEvent *event)
+{
     QEventLoop loop;
     workerManager->stop();
 
@@ -36,7 +37,8 @@ void MainWindow::closeEvent(QCloseEvent *event) {
     loop.exec();
 }
 
-void MainWindow::setUpWorker() {
+void MainWindow::setUpWorker()
+{
     auto instance = ServiceLocator::Instance();
     workerManager = instance->GetService<WorkerManager>();
     auto tradeWorker = new TradeWorker();

@@ -10,8 +10,7 @@ class MarketManagementContent;
 
 class MarketManagementContent : public QWidget
 {
-    Q_OBJECT
-
+Q_OBJECT
 public:
     explicit MarketManagementContent(QWidget *parent = nullptr);
     ~MarketManagementContent();

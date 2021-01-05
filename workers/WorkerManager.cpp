@@ -13,15 +13,18 @@ WorkerManager::WorkerManager(QObject *parent)
 {
 }
 
-void WorkerManager::stop() {
+void WorkerManager::stop()
+{
     isStopRequested = true;
 }
 
-void WorkerManager::startWorker(Worker *worker) {
+void WorkerManager::startWorker(Worker *worker)
+{
     activeWorkers.append(worker);
 }
 
-void WorkerManager::stopWorker(Worker *worker) {
+void WorkerManager::stopWorker(Worker *worker)
+{
     bool removed = false;
 
     for (int i = 0; i < activeWorkers.length(); i++) {
