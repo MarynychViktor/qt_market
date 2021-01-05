@@ -100,79 +100,84 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h",
+			"MU",
+			"3ZPKKT53DT/moc_AppException.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h",
+			"MU",
+			"3ZPKKT53DT/moc_MarketException.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h",
+			"MU",
+			"3ZPKKT53DT/moc_NotFoundException.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h",
+			"MU",
+			"2IH3D476MI/moc_HttpClient.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h",
+			"MU",
+			"2IH3D476MI/moc_MarketHttpClient.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h",
+			"MU",
+			"BIA7FUK3XI/moc_MarketSettings.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h",
+			"MU",
+			"6JSKM7TLYW/moc_ItemInfo.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h",
+			"MU",
+			"6JSKM7TLYW/moc_ItemMassInfoResult.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h",
+			"MU",
+			"6JSKM7TLYW/moc_OfferInfo.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h",
+			"MU",
+			"6JSKM7TLYW/moc_TradeResponse.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h",
+			"MU",
+			"W5UIAL3KR5/moc_ProductRepository.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h",
+			"MU",
+			"DMJPQCIT5E/moc_UpdateTradePricesJob.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h",
+			"MU",
+			"25IR5XJDBU/moc_Product.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h",
+			"MU",
+			"25IR5XJDBU/moc_ProductTableModel.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h",
+			"MU",
+			"4VYEQU4VHD/moc_ProductManager.cpp"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h",
 			"MU",
 			"EWIEGA46WW/moc_consts.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/exceptions/MarketException.h",
-			"MU",
-			"RHBJBCZP5P/moc_MarketException.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/form.h",
-			"MU",
-			"EWIEGA46WW/moc_form.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/helpers/stringhelper.h",
-			"MU",
-			"MFKVNNVRFW/moc_stringhelper.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/httpclient.h",
-			"MU",
-			"4PK47B5JKE/moc_httpclient.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/markethttpclient.h",
-			"MU",
-			"4PK47B5JKE/moc_markethttpclient.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/marketsettings.h",
-			"MU",
-			"4PK47B5JKE/moc_marketsettings.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/iteminfo.h",
-			"MU",
-			"XZZCXIRYJL/moc_iteminfo.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.h",
-			"MU",
-			"XZZCXIRYJL/moc_itemmassinforesult.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.h",
-			"MU",
-			"XZZCXIRYJL/moc_offerinfo.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.h",
-			"MU",
-			"XZZCXIRYJL/moc_traderesponse.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.h",
-			"MU",
-			"3YXGS2J3F7/moc_productrepository.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.h",
-			"MU",
-			"AJN4HOEG3V/moc_updatetradepricesjob.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/models/product.h",
-			"MU",
-			"IVK4DJNV27/moc_product.cpp"
-		],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.h",
-			"MU",
-			"IVK4DJNV27/moc_producttablemodel.cpp"
 		],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h",
@@ -272,56 +277,63 @@
 	"SOURCES" : 
 	[
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/exceptions/MarketException.cpp",
-			"MU"
-		],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/form.cpp", "MU" ],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/helpers/stringhelper.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/httpclient.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/markethttpclient.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/marketsettings.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/iteminfo.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/itemmassinforesult.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/offerinfo.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/models/traderesponse.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/infrastructure/repositories/productrepository.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/jobs/updatetradepricesjob.cpp",
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.cpp",
+			"MU"
+		],
+		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.cpp", "MU" ],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.cpp",
 			"MU"
 		],
 		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp", "MU" ],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/models/product.cpp", "MU" ],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/models/producttablemodel.cpp",
-			"MU"
-		],
 		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp", "MU" ],
 		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp", "MU" ],
 		[

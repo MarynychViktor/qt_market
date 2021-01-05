@@ -3,24 +3,26 @@
 //
 
 #include "TradeWorker.h"
-#include "../jobs/updatetradepricesjob.h"
+#include <QDebug>
 
 void TradeWorker::start() {
-    emit started(this);
+    emit started();
 
-    UpdateTradePricesJob* job = new UpdateTradePricesJob;
-    try {
-        job->run();
-    }  catch (std::runtime_error e) {
-        qDebug() << "Error " << e.what();
-    }  catch (...) {
-        qDebug() << "Failed";
-        emit error(QString("Trade worker start failed"));
-    }
+//    auto job = make_shared<UpdateTradePricesJob>();
+//    try {
+//        job->run();
+//    }  catch (runtime_error& e) {
+//        qDebug() << "Error " << e.what();
+//    }  catch (...) {
+//        qDebug() << "Failed";
+//        emit error(QString("Trade worker start failed"));
+//    }
 
-    emit finished(this);
-    delete job;
+    emit finished();
 }
 
-TradeWorker::TradeWorker(QObject *parent) : Worker(parent) {}
+TradeWorker::TradeWorker(QObject *parent)
+    : Worker(parent)
+{
+}
 

@@ -155,329 +155,410 @@ market_qt_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt_autogen.dir/build.make CMakeFiles/market_qt_autogen.dir/build
 .PHONY : market_qt_autogen/fast
 
-exceptions/MarketException.o: exceptions/MarketException.cpp.o
+Exceptions/AppException.o: Exceptions/AppException.cpp.o
 
-.PHONY : exceptions/MarketException.o
-
-# target to build an object file
-exceptions/MarketException.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.o
-.PHONY : exceptions/MarketException.cpp.o
-
-exceptions/MarketException.i: exceptions/MarketException.cpp.i
-
-.PHONY : exceptions/MarketException.i
-
-# target to preprocess a source file
-exceptions/MarketException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.i
-.PHONY : exceptions/MarketException.cpp.i
-
-exceptions/MarketException.s: exceptions/MarketException.cpp.s
-
-.PHONY : exceptions/MarketException.s
-
-# target to generate assembly for a file
-exceptions/MarketException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/exceptions/MarketException.cpp.s
-.PHONY : exceptions/MarketException.cpp.s
-
-form.o: form.cpp.o
-
-.PHONY : form.o
+.PHONY : Exceptions/AppException.o
 
 # target to build an object file
-form.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/form.cpp.o
-.PHONY : form.cpp.o
+Exceptions/AppException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/AppException.cpp.o
+.PHONY : Exceptions/AppException.cpp.o
 
-form.i: form.cpp.i
+Exceptions/AppException.i: Exceptions/AppException.cpp.i
 
-.PHONY : form.i
+.PHONY : Exceptions/AppException.i
 
 # target to preprocess a source file
-form.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/form.cpp.i
-.PHONY : form.cpp.i
+Exceptions/AppException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/AppException.cpp.i
+.PHONY : Exceptions/AppException.cpp.i
 
-form.s: form.cpp.s
+Exceptions/AppException.s: Exceptions/AppException.cpp.s
 
-.PHONY : form.s
+.PHONY : Exceptions/AppException.s
 
 # target to generate assembly for a file
-form.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/form.cpp.s
-.PHONY : form.cpp.s
+Exceptions/AppException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/AppException.cpp.s
+.PHONY : Exceptions/AppException.cpp.s
 
-infrastructure/helpers/stringhelper.o: infrastructure/helpers/stringhelper.cpp.o
+Exceptions/MarketException.o: Exceptions/MarketException.cpp.o
 
-.PHONY : infrastructure/helpers/stringhelper.o
+.PHONY : Exceptions/MarketException.o
 
 # target to build an object file
-infrastructure/helpers/stringhelper.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.o
-.PHONY : infrastructure/helpers/stringhelper.cpp.o
+Exceptions/MarketException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/MarketException.cpp.o
+.PHONY : Exceptions/MarketException.cpp.o
 
-infrastructure/helpers/stringhelper.i: infrastructure/helpers/stringhelper.cpp.i
+Exceptions/MarketException.i: Exceptions/MarketException.cpp.i
 
-.PHONY : infrastructure/helpers/stringhelper.i
+.PHONY : Exceptions/MarketException.i
 
 # target to preprocess a source file
-infrastructure/helpers/stringhelper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.i
-.PHONY : infrastructure/helpers/stringhelper.cpp.i
+Exceptions/MarketException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/MarketException.cpp.i
+.PHONY : Exceptions/MarketException.cpp.i
 
-infrastructure/helpers/stringhelper.s: infrastructure/helpers/stringhelper.cpp.s
+Exceptions/MarketException.s: Exceptions/MarketException.cpp.s
 
-.PHONY : infrastructure/helpers/stringhelper.s
+.PHONY : Exceptions/MarketException.s
 
 # target to generate assembly for a file
-infrastructure/helpers/stringhelper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/helpers/stringhelper.cpp.s
-.PHONY : infrastructure/helpers/stringhelper.cpp.s
+Exceptions/MarketException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/MarketException.cpp.s
+.PHONY : Exceptions/MarketException.cpp.s
 
-infrastructure/httpclient.o: infrastructure/httpclient.cpp.o
+Exceptions/NotFoundException.o: Exceptions/NotFoundException.cpp.o
 
-.PHONY : infrastructure/httpclient.o
+.PHONY : Exceptions/NotFoundException.o
 
 # target to build an object file
-infrastructure/httpclient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.o
-.PHONY : infrastructure/httpclient.cpp.o
+Exceptions/NotFoundException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o
+.PHONY : Exceptions/NotFoundException.cpp.o
 
-infrastructure/httpclient.i: infrastructure/httpclient.cpp.i
+Exceptions/NotFoundException.i: Exceptions/NotFoundException.cpp.i
 
-.PHONY : infrastructure/httpclient.i
+.PHONY : Exceptions/NotFoundException.i
 
 # target to preprocess a source file
-infrastructure/httpclient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.i
-.PHONY : infrastructure/httpclient.cpp.i
+Exceptions/NotFoundException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.i
+.PHONY : Exceptions/NotFoundException.cpp.i
 
-infrastructure/httpclient.s: infrastructure/httpclient.cpp.s
+Exceptions/NotFoundException.s: Exceptions/NotFoundException.cpp.s
 
-.PHONY : infrastructure/httpclient.s
+.PHONY : Exceptions/NotFoundException.s
 
 # target to generate assembly for a file
-infrastructure/httpclient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/httpclient.cpp.s
-.PHONY : infrastructure/httpclient.cpp.s
+Exceptions/NotFoundException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.s
+.PHONY : Exceptions/NotFoundException.cpp.s
 
-infrastructure/markethttpclient.o: infrastructure/markethttpclient.cpp.o
+Http/HttpClient.o: Http/HttpClient.cpp.o
 
-.PHONY : infrastructure/markethttpclient.o
+.PHONY : Http/HttpClient.o
 
 # target to build an object file
-infrastructure/markethttpclient.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.o
-.PHONY : infrastructure/markethttpclient.cpp.o
+Http/HttpClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o
+.PHONY : Http/HttpClient.cpp.o
 
-infrastructure/markethttpclient.i: infrastructure/markethttpclient.cpp.i
+Http/HttpClient.i: Http/HttpClient.cpp.i
 
-.PHONY : infrastructure/markethttpclient.i
+.PHONY : Http/HttpClient.i
 
 # target to preprocess a source file
-infrastructure/markethttpclient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.i
-.PHONY : infrastructure/markethttpclient.cpp.i
+Http/HttpClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/HttpClient.cpp.i
+.PHONY : Http/HttpClient.cpp.i
 
-infrastructure/markethttpclient.s: infrastructure/markethttpclient.cpp.s
+Http/HttpClient.s: Http/HttpClient.cpp.s
 
-.PHONY : infrastructure/markethttpclient.s
+.PHONY : Http/HttpClient.s
 
 # target to generate assembly for a file
-infrastructure/markethttpclient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/markethttpclient.cpp.s
-.PHONY : infrastructure/markethttpclient.cpp.s
+Http/HttpClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/HttpClient.cpp.s
+.PHONY : Http/HttpClient.cpp.s
 
-infrastructure/marketsettings.o: infrastructure/marketsettings.cpp.o
+Http/MarketHttpClient.o: Http/MarketHttpClient.cpp.o
 
-.PHONY : infrastructure/marketsettings.o
+.PHONY : Http/MarketHttpClient.o
 
 # target to build an object file
-infrastructure/marketsettings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.o
-.PHONY : infrastructure/marketsettings.cpp.o
+Http/MarketHttpClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o
+.PHONY : Http/MarketHttpClient.cpp.o
 
-infrastructure/marketsettings.i: infrastructure/marketsettings.cpp.i
+Http/MarketHttpClient.i: Http/MarketHttpClient.cpp.i
 
-.PHONY : infrastructure/marketsettings.i
+.PHONY : Http/MarketHttpClient.i
 
 # target to preprocess a source file
-infrastructure/marketsettings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.i
-.PHONY : infrastructure/marketsettings.cpp.i
+Http/MarketHttpClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.i
+.PHONY : Http/MarketHttpClient.cpp.i
 
-infrastructure/marketsettings.s: infrastructure/marketsettings.cpp.s
+Http/MarketHttpClient.s: Http/MarketHttpClient.cpp.s
 
-.PHONY : infrastructure/marketsettings.s
+.PHONY : Http/MarketHttpClient.s
 
 # target to generate assembly for a file
-infrastructure/marketsettings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/marketsettings.cpp.s
-.PHONY : infrastructure/marketsettings.cpp.s
+Http/MarketHttpClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.s
+.PHONY : Http/MarketHttpClient.cpp.s
 
-infrastructure/models/iteminfo.o: infrastructure/models/iteminfo.cpp.o
+Infrastructure/MarketSettings.o: Infrastructure/MarketSettings.cpp.o
 
-.PHONY : infrastructure/models/iteminfo.o
+.PHONY : Infrastructure/MarketSettings.o
 
 # target to build an object file
-infrastructure/models/iteminfo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.o
-.PHONY : infrastructure/models/iteminfo.cpp.o
+Infrastructure/MarketSettings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.o
+.PHONY : Infrastructure/MarketSettings.cpp.o
 
-infrastructure/models/iteminfo.i: infrastructure/models/iteminfo.cpp.i
+Infrastructure/MarketSettings.i: Infrastructure/MarketSettings.cpp.i
 
-.PHONY : infrastructure/models/iteminfo.i
+.PHONY : Infrastructure/MarketSettings.i
 
 # target to preprocess a source file
-infrastructure/models/iteminfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.i
-.PHONY : infrastructure/models/iteminfo.cpp.i
+Infrastructure/MarketSettings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.i
+.PHONY : Infrastructure/MarketSettings.cpp.i
 
-infrastructure/models/iteminfo.s: infrastructure/models/iteminfo.cpp.s
+Infrastructure/MarketSettings.s: Infrastructure/MarketSettings.cpp.s
 
-.PHONY : infrastructure/models/iteminfo.s
+.PHONY : Infrastructure/MarketSettings.s
 
 # target to generate assembly for a file
-infrastructure/models/iteminfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/iteminfo.cpp.s
-.PHONY : infrastructure/models/iteminfo.cpp.s
+Infrastructure/MarketSettings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.s
+.PHONY : Infrastructure/MarketSettings.cpp.s
 
-infrastructure/models/itemmassinforesult.o: infrastructure/models/itemmassinforesult.cpp.o
+Infrastructure/Models/ItemInfo.o: Infrastructure/Models/ItemInfo.cpp.o
 
-.PHONY : infrastructure/models/itemmassinforesult.o
+.PHONY : Infrastructure/Models/ItemInfo.o
 
 # target to build an object file
-infrastructure/models/itemmassinforesult.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.o
-.PHONY : infrastructure/models/itemmassinforesult.cpp.o
+Infrastructure/Models/ItemInfo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o
+.PHONY : Infrastructure/Models/ItemInfo.cpp.o
 
-infrastructure/models/itemmassinforesult.i: infrastructure/models/itemmassinforesult.cpp.i
+Infrastructure/Models/ItemInfo.i: Infrastructure/Models/ItemInfo.cpp.i
 
-.PHONY : infrastructure/models/itemmassinforesult.i
+.PHONY : Infrastructure/Models/ItemInfo.i
 
 # target to preprocess a source file
-infrastructure/models/itemmassinforesult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.i
-.PHONY : infrastructure/models/itemmassinforesult.cpp.i
+Infrastructure/Models/ItemInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.i
+.PHONY : Infrastructure/Models/ItemInfo.cpp.i
 
-infrastructure/models/itemmassinforesult.s: infrastructure/models/itemmassinforesult.cpp.s
+Infrastructure/Models/ItemInfo.s: Infrastructure/Models/ItemInfo.cpp.s
 
-.PHONY : infrastructure/models/itemmassinforesult.s
+.PHONY : Infrastructure/Models/ItemInfo.s
 
 # target to generate assembly for a file
-infrastructure/models/itemmassinforesult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/itemmassinforesult.cpp.s
-.PHONY : infrastructure/models/itemmassinforesult.cpp.s
+Infrastructure/Models/ItemInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.s
+.PHONY : Infrastructure/Models/ItemInfo.cpp.s
 
-infrastructure/models/offerinfo.o: infrastructure/models/offerinfo.cpp.o
+Infrastructure/Models/ItemMassInfoResult.o: Infrastructure/Models/ItemMassInfoResult.cpp.o
 
-.PHONY : infrastructure/models/offerinfo.o
+.PHONY : Infrastructure/Models/ItemMassInfoResult.o
 
 # target to build an object file
-infrastructure/models/offerinfo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.o
-.PHONY : infrastructure/models/offerinfo.cpp.o
+Infrastructure/Models/ItemMassInfoResult.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o
+.PHONY : Infrastructure/Models/ItemMassInfoResult.cpp.o
 
-infrastructure/models/offerinfo.i: infrastructure/models/offerinfo.cpp.i
+Infrastructure/Models/ItemMassInfoResult.i: Infrastructure/Models/ItemMassInfoResult.cpp.i
 
-.PHONY : infrastructure/models/offerinfo.i
+.PHONY : Infrastructure/Models/ItemMassInfoResult.i
 
 # target to preprocess a source file
-infrastructure/models/offerinfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.i
-.PHONY : infrastructure/models/offerinfo.cpp.i
+Infrastructure/Models/ItemMassInfoResult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.i
+.PHONY : Infrastructure/Models/ItemMassInfoResult.cpp.i
 
-infrastructure/models/offerinfo.s: infrastructure/models/offerinfo.cpp.s
+Infrastructure/Models/ItemMassInfoResult.s: Infrastructure/Models/ItemMassInfoResult.cpp.s
 
-.PHONY : infrastructure/models/offerinfo.s
+.PHONY : Infrastructure/Models/ItemMassInfoResult.s
 
 # target to generate assembly for a file
-infrastructure/models/offerinfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/offerinfo.cpp.s
-.PHONY : infrastructure/models/offerinfo.cpp.s
+Infrastructure/Models/ItemMassInfoResult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.s
+.PHONY : Infrastructure/Models/ItemMassInfoResult.cpp.s
 
-infrastructure/models/traderesponse.o: infrastructure/models/traderesponse.cpp.o
+Infrastructure/Models/OfferInfo.o: Infrastructure/Models/OfferInfo.cpp.o
 
-.PHONY : infrastructure/models/traderesponse.o
+.PHONY : Infrastructure/Models/OfferInfo.o
 
 # target to build an object file
-infrastructure/models/traderesponse.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.o
-.PHONY : infrastructure/models/traderesponse.cpp.o
+Infrastructure/Models/OfferInfo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OfferInfo.cpp.o
+.PHONY : Infrastructure/Models/OfferInfo.cpp.o
 
-infrastructure/models/traderesponse.i: infrastructure/models/traderesponse.cpp.i
+Infrastructure/Models/OfferInfo.i: Infrastructure/Models/OfferInfo.cpp.i
 
-.PHONY : infrastructure/models/traderesponse.i
+.PHONY : Infrastructure/Models/OfferInfo.i
 
 # target to preprocess a source file
-infrastructure/models/traderesponse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.i
-.PHONY : infrastructure/models/traderesponse.cpp.i
+Infrastructure/Models/OfferInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OfferInfo.cpp.i
+.PHONY : Infrastructure/Models/OfferInfo.cpp.i
 
-infrastructure/models/traderesponse.s: infrastructure/models/traderesponse.cpp.s
+Infrastructure/Models/OfferInfo.s: Infrastructure/Models/OfferInfo.cpp.s
 
-.PHONY : infrastructure/models/traderesponse.s
+.PHONY : Infrastructure/Models/OfferInfo.s
 
 # target to generate assembly for a file
-infrastructure/models/traderesponse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/models/traderesponse.cpp.s
-.PHONY : infrastructure/models/traderesponse.cpp.s
+Infrastructure/Models/OfferInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OfferInfo.cpp.s
+.PHONY : Infrastructure/Models/OfferInfo.cpp.s
 
-infrastructure/repositories/productrepository.o: infrastructure/repositories/productrepository.cpp.o
+Infrastructure/Models/TradeResponse.o: Infrastructure/Models/TradeResponse.cpp.o
 
-.PHONY : infrastructure/repositories/productrepository.o
+.PHONY : Infrastructure/Models/TradeResponse.o
 
 # target to build an object file
-infrastructure/repositories/productrepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.o
-.PHONY : infrastructure/repositories/productrepository.cpp.o
+Infrastructure/Models/TradeResponse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.o
+.PHONY : Infrastructure/Models/TradeResponse.cpp.o
 
-infrastructure/repositories/productrepository.i: infrastructure/repositories/productrepository.cpp.i
+Infrastructure/Models/TradeResponse.i: Infrastructure/Models/TradeResponse.cpp.i
 
-.PHONY : infrastructure/repositories/productrepository.i
+.PHONY : Infrastructure/Models/TradeResponse.i
 
 # target to preprocess a source file
-infrastructure/repositories/productrepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.i
-.PHONY : infrastructure/repositories/productrepository.cpp.i
+Infrastructure/Models/TradeResponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.i
+.PHONY : Infrastructure/Models/TradeResponse.cpp.i
 
-infrastructure/repositories/productrepository.s: infrastructure/repositories/productrepository.cpp.s
+Infrastructure/Models/TradeResponse.s: Infrastructure/Models/TradeResponse.cpp.s
 
-.PHONY : infrastructure/repositories/productrepository.s
+.PHONY : Infrastructure/Models/TradeResponse.s
 
 # target to generate assembly for a file
-infrastructure/repositories/productrepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/infrastructure/repositories/productrepository.cpp.s
-.PHONY : infrastructure/repositories/productrepository.cpp.s
+Infrastructure/Models/TradeResponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.s
+.PHONY : Infrastructure/Models/TradeResponse.cpp.s
 
-jobs/updatetradepricesjob.o: jobs/updatetradepricesjob.cpp.o
+Infrastructure/Repositories/ProductRepository.o: Infrastructure/Repositories/ProductRepository.cpp.o
 
-.PHONY : jobs/updatetradepricesjob.o
+.PHONY : Infrastructure/Repositories/ProductRepository.o
 
 # target to build an object file
-jobs/updatetradepricesjob.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.o
-.PHONY : jobs/updatetradepricesjob.cpp.o
+Infrastructure/Repositories/ProductRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.o
+.PHONY : Infrastructure/Repositories/ProductRepository.cpp.o
 
-jobs/updatetradepricesjob.i: jobs/updatetradepricesjob.cpp.i
+Infrastructure/Repositories/ProductRepository.i: Infrastructure/Repositories/ProductRepository.cpp.i
 
-.PHONY : jobs/updatetradepricesjob.i
+.PHONY : Infrastructure/Repositories/ProductRepository.i
 
 # target to preprocess a source file
-jobs/updatetradepricesjob.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.i
-.PHONY : jobs/updatetradepricesjob.cpp.i
+Infrastructure/Repositories/ProductRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.i
+.PHONY : Infrastructure/Repositories/ProductRepository.cpp.i
 
-jobs/updatetradepricesjob.s: jobs/updatetradepricesjob.cpp.s
+Infrastructure/Repositories/ProductRepository.s: Infrastructure/Repositories/ProductRepository.cpp.s
 
-.PHONY : jobs/updatetradepricesjob.s
+.PHONY : Infrastructure/Repositories/ProductRepository.s
 
 # target to generate assembly for a file
-jobs/updatetradepricesjob.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/jobs/updatetradepricesjob.cpp.s
-.PHONY : jobs/updatetradepricesjob.cpp.s
+Infrastructure/Repositories/ProductRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.s
+.PHONY : Infrastructure/Repositories/ProductRepository.cpp.s
+
+Jobs/UpdateTradePricesJob.o: Jobs/UpdateTradePricesJob.cpp.o
+
+.PHONY : Jobs/UpdateTradePricesJob.o
+
+# target to build an object file
+Jobs/UpdateTradePricesJob.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Jobs/UpdateTradePricesJob.cpp.o
+.PHONY : Jobs/UpdateTradePricesJob.cpp.o
+
+Jobs/UpdateTradePricesJob.i: Jobs/UpdateTradePricesJob.cpp.i
+
+.PHONY : Jobs/UpdateTradePricesJob.i
+
+# target to preprocess a source file
+Jobs/UpdateTradePricesJob.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Jobs/UpdateTradePricesJob.cpp.i
+.PHONY : Jobs/UpdateTradePricesJob.cpp.i
+
+Jobs/UpdateTradePricesJob.s: Jobs/UpdateTradePricesJob.cpp.s
+
+.PHONY : Jobs/UpdateTradePricesJob.s
+
+# target to generate assembly for a file
+Jobs/UpdateTradePricesJob.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Jobs/UpdateTradePricesJob.cpp.s
+.PHONY : Jobs/UpdateTradePricesJob.cpp.s
+
+Models/Product.o: Models/Product.cpp.o
+
+.PHONY : Models/Product.o
+
+# target to build an object file
+Models/Product.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/Product.cpp.o
+.PHONY : Models/Product.cpp.o
+
+Models/Product.i: Models/Product.cpp.i
+
+.PHONY : Models/Product.i
+
+# target to preprocess a source file
+Models/Product.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/Product.cpp.i
+.PHONY : Models/Product.cpp.i
+
+Models/Product.s: Models/Product.cpp.s
+
+.PHONY : Models/Product.s
+
+# target to generate assembly for a file
+Models/Product.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/Product.cpp.s
+.PHONY : Models/Product.cpp.s
+
+Models/ProductTableModel.o: Models/ProductTableModel.cpp.o
+
+.PHONY : Models/ProductTableModel.o
+
+# target to build an object file
+Models/ProductTableModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o
+.PHONY : Models/ProductTableModel.cpp.o
+
+Models/ProductTableModel.i: Models/ProductTableModel.cpp.i
+
+.PHONY : Models/ProductTableModel.i
+
+# target to preprocess a source file
+Models/ProductTableModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.i
+.PHONY : Models/ProductTableModel.cpp.i
+
+Models/ProductTableModel.s: Models/ProductTableModel.cpp.s
+
+.PHONY : Models/ProductTableModel.s
+
+# target to generate assembly for a file
+Models/ProductTableModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.s
+.PHONY : Models/ProductTableModel.cpp.s
+
+Services/ProductManager.o: Services/ProductManager.cpp.o
+
+.PHONY : Services/ProductManager.o
+
+# target to build an object file
+Services/ProductManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o
+.PHONY : Services/ProductManager.cpp.o
+
+Services/ProductManager.i: Services/ProductManager.cpp.i
+
+.PHONY : Services/ProductManager.i
+
+# target to preprocess a source file
+Services/ProductManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/ProductManager.cpp.i
+.PHONY : Services/ProductManager.cpp.i
+
+Services/ProductManager.s: Services/ProductManager.cpp.s
+
+.PHONY : Services/ProductManager.s
+
+# target to generate assembly for a file
+Services/ProductManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/ProductManager.cpp.s
+.PHONY : Services/ProductManager.cpp.s
 
 main.o: main.cpp.o
 
@@ -559,60 +640,6 @@ market_qt_autogen/mocs_compilation.s: market_qt_autogen/mocs_compilation.cpp.s
 market_qt_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.s
 .PHONY : market_qt_autogen/mocs_compilation.cpp.s
-
-models/product.o: models/product.cpp.o
-
-.PHONY : models/product.o
-
-# target to build an object file
-models/product.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/product.cpp.o
-.PHONY : models/product.cpp.o
-
-models/product.i: models/product.cpp.i
-
-.PHONY : models/product.i
-
-# target to preprocess a source file
-models/product.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/product.cpp.i
-.PHONY : models/product.cpp.i
-
-models/product.s: models/product.cpp.s
-
-.PHONY : models/product.s
-
-# target to generate assembly for a file
-models/product.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/product.cpp.s
-.PHONY : models/product.cpp.s
-
-models/producttablemodel.o: models/producttablemodel.cpp.o
-
-.PHONY : models/producttablemodel.o
-
-# target to build an object file
-models/producttablemodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/producttablemodel.cpp.o
-.PHONY : models/producttablemodel.cpp.o
-
-models/producttablemodel.i: models/producttablemodel.cpp.i
-
-.PHONY : models/producttablemodel.i
-
-# target to preprocess a source file
-models/producttablemodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/producttablemodel.cpp.i
-.PHONY : models/producttablemodel.cpp.i
-
-models/producttablemodel.s: models/producttablemodel.cpp.s
-
-.PHONY : models/producttablemodel.s
-
-# target to generate assembly for a file
-models/producttablemodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/models/producttablemodel.cpp.s
-.PHONY : models/producttablemodel.cpp.s
 
 pages/menu.o: pages/menu.cpp.o
 
@@ -813,42 +840,51 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... market_qt_autogen"
 	@echo "... market_qt"
-	@echo "... exceptions/MarketException.o"
-	@echo "... exceptions/MarketException.i"
-	@echo "... exceptions/MarketException.s"
-	@echo "... form.o"
-	@echo "... form.i"
-	@echo "... form.s"
-	@echo "... infrastructure/helpers/stringhelper.o"
-	@echo "... infrastructure/helpers/stringhelper.i"
-	@echo "... infrastructure/helpers/stringhelper.s"
-	@echo "... infrastructure/httpclient.o"
-	@echo "... infrastructure/httpclient.i"
-	@echo "... infrastructure/httpclient.s"
-	@echo "... infrastructure/markethttpclient.o"
-	@echo "... infrastructure/markethttpclient.i"
-	@echo "... infrastructure/markethttpclient.s"
-	@echo "... infrastructure/marketsettings.o"
-	@echo "... infrastructure/marketsettings.i"
-	@echo "... infrastructure/marketsettings.s"
-	@echo "... infrastructure/models/iteminfo.o"
-	@echo "... infrastructure/models/iteminfo.i"
-	@echo "... infrastructure/models/iteminfo.s"
-	@echo "... infrastructure/models/itemmassinforesult.o"
-	@echo "... infrastructure/models/itemmassinforesult.i"
-	@echo "... infrastructure/models/itemmassinforesult.s"
-	@echo "... infrastructure/models/offerinfo.o"
-	@echo "... infrastructure/models/offerinfo.i"
-	@echo "... infrastructure/models/offerinfo.s"
-	@echo "... infrastructure/models/traderesponse.o"
-	@echo "... infrastructure/models/traderesponse.i"
-	@echo "... infrastructure/models/traderesponse.s"
-	@echo "... infrastructure/repositories/productrepository.o"
-	@echo "... infrastructure/repositories/productrepository.i"
-	@echo "... infrastructure/repositories/productrepository.s"
-	@echo "... jobs/updatetradepricesjob.o"
-	@echo "... jobs/updatetradepricesjob.i"
-	@echo "... jobs/updatetradepricesjob.s"
+	@echo "... Exceptions/AppException.o"
+	@echo "... Exceptions/AppException.i"
+	@echo "... Exceptions/AppException.s"
+	@echo "... Exceptions/MarketException.o"
+	@echo "... Exceptions/MarketException.i"
+	@echo "... Exceptions/MarketException.s"
+	@echo "... Exceptions/NotFoundException.o"
+	@echo "... Exceptions/NotFoundException.i"
+	@echo "... Exceptions/NotFoundException.s"
+	@echo "... Http/HttpClient.o"
+	@echo "... Http/HttpClient.i"
+	@echo "... Http/HttpClient.s"
+	@echo "... Http/MarketHttpClient.o"
+	@echo "... Http/MarketHttpClient.i"
+	@echo "... Http/MarketHttpClient.s"
+	@echo "... Infrastructure/MarketSettings.o"
+	@echo "... Infrastructure/MarketSettings.i"
+	@echo "... Infrastructure/MarketSettings.s"
+	@echo "... Infrastructure/Models/ItemInfo.o"
+	@echo "... Infrastructure/Models/ItemInfo.i"
+	@echo "... Infrastructure/Models/ItemInfo.s"
+	@echo "... Infrastructure/Models/ItemMassInfoResult.o"
+	@echo "... Infrastructure/Models/ItemMassInfoResult.i"
+	@echo "... Infrastructure/Models/ItemMassInfoResult.s"
+	@echo "... Infrastructure/Models/OfferInfo.o"
+	@echo "... Infrastructure/Models/OfferInfo.i"
+	@echo "... Infrastructure/Models/OfferInfo.s"
+	@echo "... Infrastructure/Models/TradeResponse.o"
+	@echo "... Infrastructure/Models/TradeResponse.i"
+	@echo "... Infrastructure/Models/TradeResponse.s"
+	@echo "... Infrastructure/Repositories/ProductRepository.o"
+	@echo "... Infrastructure/Repositories/ProductRepository.i"
+	@echo "... Infrastructure/Repositories/ProductRepository.s"
+	@echo "... Jobs/UpdateTradePricesJob.o"
+	@echo "... Jobs/UpdateTradePricesJob.i"
+	@echo "... Jobs/UpdateTradePricesJob.s"
+	@echo "... Models/Product.o"
+	@echo "... Models/Product.i"
+	@echo "... Models/Product.s"
+	@echo "... Models/ProductTableModel.o"
+	@echo "... Models/ProductTableModel.i"
+	@echo "... Models/ProductTableModel.s"
+	@echo "... Services/ProductManager.o"
+	@echo "... Services/ProductManager.i"
+	@echo "... Services/ProductManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -858,12 +894,6 @@ help:
 	@echo "... market_qt_autogen/mocs_compilation.o"
 	@echo "... market_qt_autogen/mocs_compilation.i"
 	@echo "... market_qt_autogen/mocs_compilation.s"
-	@echo "... models/product.o"
-	@echo "... models/product.i"
-	@echo "... models/product.s"
-	@echo "... models/producttablemodel.o"
-	@echo "... models/producttablemodel.i"
-	@echo "... models/producttablemodel.s"
 	@echo "... pages/menu.o"
 	@echo "... pages/menu.i"
 	@echo "... pages/menu.s"

@@ -1,7 +1,19 @@
 /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QThread \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QUrl \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVector \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
@@ -9,21 +21,34 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
@@ -35,7 +60,12 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
@@ -45,22 +75,59 @@
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qthread.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \
   /usr/include/c++/9/algorithm \
   /usr/include/c++/9/array \
   /usr/include/c++/9/atomic \
+  /usr/include/c++/9/backward/auto_ptr.h \
   /usr/include/c++/9/backward/binders.h \
+  /usr/include/c++/9/bit \
   /usr/include/c++/9/bits/algorithmfwd.h \
   /usr/include/c++/9/bits/alloc_traits.h \
   /usr/include/c++/9/bits/allocated_ptr.h \
   /usr/include/c++/9/bits/allocator.h \
+  /usr/include/c++/9/bits/atomic_base.h \
+  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
   /usr/include/c++/9/bits/basic_ios.h \
   /usr/include/c++/9/bits/basic_ios.tcc \
   /usr/include/c++/9/bits/basic_string.h \
@@ -99,6 +166,9 @@
   /usr/include/c++/9/bits/ptr_traits.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/refwrap.h \
+  /usr/include/c++/9/bits/shared_ptr.h \
+  /usr/include/c++/9/bits/shared_ptr_atomic.h \
+  /usr/include/c++/9/bits/shared_ptr_base.h \
   /usr/include/c++/9/bits/std_abs.h \
   /usr/include/c++/9/bits/std_function.h \
   /usr/include/c++/9/bits/stl_algo.h \
@@ -115,6 +185,7 @@
   /usr/include/c++/9/bits/stl_multimap.h \
   /usr/include/c++/9/bits/stl_numeric.h \
   /usr/include/c++/9/bits/stl_pair.h \
+  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
   /usr/include/c++/9/bits/stl_relops.h \
   /usr/include/c++/9/bits/stl_tempbuf.h \
   /usr/include/c++/9/bits/stl_tree.h \
@@ -126,6 +197,8 @@
   /usr/include/c++/9/bits/string_view.tcc \
   /usr/include/c++/9/bits/stringfwd.h \
   /usr/include/c++/9/bits/uniform_int_dist.h \
+  /usr/include/c++/9/bits/unique_ptr.h \
+  /usr/include/c++/9/bits/uses_allocator.h \
   /usr/include/c++/9/bits/vector.tcc \
   /usr/include/c++/9/cctype \
   /usr/include/c++/9/clocale \
@@ -140,6 +213,7 @@
   /usr/include/c++/9/ext/aligned_buffer.h \
   /usr/include/c++/9/ext/alloc_traits.h \
   /usr/include/c++/9/ext/atomicity.h \
+  /usr/include/c++/9/ext/concurrence.h \
   /usr/include/c++/9/ext/new_allocator.h \
   /usr/include/c++/9/ext/numeric_traits.h \
   /usr/include/c++/9/ext/string_conversions.h \
@@ -154,12 +228,14 @@
   /usr/include/c++/9/limits \
   /usr/include/c++/9/list \
   /usr/include/c++/9/map \
+  /usr/include/c++/9/memory \
   /usr/include/c++/9/new \
   /usr/include/c++/9/numeric \
   /usr/include/c++/9/optional \
   /usr/include/c++/9/ostream \
   /usr/include/c++/9/pstl/execution_defs.h \
   /usr/include/c++/9/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/9/pstl/glue_memory_defs.h \
   /usr/include/c++/9/pstl/glue_numeric_defs.h \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/streambuf \
@@ -180,6 +256,8 @@
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -204,9 +282,12 @@
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -215,14 +296,18 @@
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \

@@ -20,47 +20,43 @@ set(QT_QMAKE_EXECUTABLE /home/marinich_v/Qt/5.15.2/gcc_64/bin/qmake)
 set(NO_CMAKE_SYSTEM_PATH true)
 set(SOURCES
         main.cpp
-        form.cpp
-        infrastructure/helpers/stringhelper.cpp
-        infrastructure/httpclient.cpp
-        infrastructure/markethttpclient.cpp
-        infrastructure/marketsettings.cpp
-        infrastructure/models/iteminfo.cpp
-        infrastructure/models/itemmassinforesult.cpp
-        infrastructure/models/offerinfo.cpp
-        infrastructure/models/traderesponse.cpp
-        infrastructure/repositories/productrepository.cpp
-        jobs/updatetradepricesjob.cpp
-        models/product.cpp
+        Http/HttpClient.cpp
+        Http/MarketHttpClient.cpp
+        Infrastructure/MarketSettings.cpp
+        Infrastructure/Models/ItemInfo.cpp
+        Infrastructure/Models/ItemMassInfoResult.cpp
+        Infrastructure/Models/OfferInfo.cpp
+        Infrastructure/Models/TradeResponse.cpp
+        Infrastructure/Repositories/ProductRepository.cpp
+        Jobs/UpdateTradePricesJob.cpp
+        Models/Product.cpp
         ui/ProductsTableWidget.cpp
         pages/menu.cpp
-        models/producttablemodel.cpp
+        Models/ProductTableModel.cpp
         workers/Worker.cpp
         ui/MarketManagementContent.cpp
         )
 set(HEADERS
         consts.h
-        form.h
-        infrastructure/helpers/stringhelper.h
-        infrastructure/httpclient.h
-        ./infrastructure/markethttpclient.h
-        infrastructure/marketsettings.h
-        infrastructure/models/iteminfo.h
-        infrastructure/models/itemmassinforesult.h
-        infrastructure/models/offerinfo.h
-        infrastructure/models/traderesponse.h
-        infrastructure/repositories/productrepository.h
-        jobs/updatetradepricesjob.h
-        models/product.h
+        Http/HttpClient.h
+        Http/MarketHttpClient.h
+        Infrastructure/MarketSettings.h
+        Infrastructure/Models/ItemInfo.h
+        Infrastructure/Models/ItemMassInfoResult.h
+        Infrastructure/Models/OfferInfo.h
+        Infrastructure/Models/TradeResponse.h
+        Infrastructure/Repositories/ProductRepository.h
+        Jobs/UpdateTradePricesJob.h
+        Models/Product.h
         ui/ProductsTableWidget.h
         pages/menu.h
-        models/producttablemodel.h
+        Models/ProductTableModel.h
         workers/Worker.h
         ui/MarketManagementContent.h
         )
 
 set(RESOURCE_FILES
-        resources/images.qrc exceptions/MarketException.cpp exceptions/MarketException.h workers/WorkerManager.cpp workers/WorkerManager.h ui/MainWindow.cpp ui/MainWindow.h workers/TradeWorker.cpp workers/TradeWorker.h)
+        resources/images.qrc Exceptions/MarketException.cpp Exceptions/MarketException.h workers/WorkerManager.cpp workers/WorkerManager.h ui/MainWindow.cpp ui/MainWindow.h workers/TradeWorker.cpp workers/TradeWorker.h Services/ProductManager.cpp Services/ProductManager.h Exceptions/AppException.cpp Exceptions/AppException.h Exceptions/NotFoundException.cpp Exceptions/NotFoundException.h)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 #include_directories( ${CMAKE_BINARY_DIR} )

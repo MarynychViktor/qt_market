@@ -7,14 +7,21 @@
 
 
 #include "Worker.h"
+#include "../Infrastructure/Repositories/ProductRepository.h"
 
+using namespace std;
 class TradeWorker : public Worker {
     Q_OBJECT
 public:
+    TradeWorker(QObject *parent = nullptr);
     ~TradeWorker() {};
-    explicit TradeWorker(QObject *parent = nullptr);
 public slots:
     void start() override;
+signals:
+    void started();
+    void finished();
+    void quit();
+    void error(QString err);
 };
 
 

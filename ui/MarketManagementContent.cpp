@@ -1,7 +1,7 @@
 #include "MarketManagementContent.h"
 #include "ui_MarketManagementContent.h"
-#include "../models/producttablemodel.h"
-#include "../jobs/updatetradepricesjob.h"
+#include "../Models/ProductTableModel.h"
+#include "../Jobs/UpdateTradePricesJob.h"
 
 MarketManagementContent::MarketManagementContent(QWidget *parent) :
     QWidget(parent),
@@ -16,15 +16,13 @@ MarketManagementContent::MarketManagementContent(QWidget *parent) :
     trades = new ProductsTableWidget();
 
     ProductRepository repository;
-    auto model = new ProductTableModel();
-    model->setProducts(repository.getProducts());
+    auto model = new ProductTableModel(repository.getProducts());
     trades->setModel(model);
     ui->tradesContent->addWidget(trades);
 
     connect(ui->tradesRefresh, &QPushButton::clicked, [this]() {
         ProductRepository repository;
-        auto model = new ProductTableModel();
-        model->setProducts(repository.getProducts());
+        auto model = new ProductTableModel(repository.getProducts());
         trades->setModel(model);
     });
 }

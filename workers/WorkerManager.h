@@ -8,13 +8,14 @@
 
 #include <QObject>
 #include "Worker.h"
+#include "TradeWorker.h"
 using namespace std;
 
 class WorkerManager  : public QObject
 {
     Q_OBJECT;
 public:
-    explicit WorkerManager(QObject *parent = nullptr);
+    WorkerManager(QObject *parent = nullptr);
 
     template<class W>
     void runWorkerInLoop() {
@@ -26,17 +27,15 @@ public:
         auto worker = new W;
         worker->moveToThread(thread);
 
-        QObject::connect(thread, &QThread::started,  [&worker, this]() {
-            worker->start();
-            startWorker(worker);
-        });
+        // SOMETHING WRONG HERE
+        QObject::connect(thread, &QThread::started, worker, &Worker::start);
 
-        QObject::connect(worker, &Worker::finished,  [this](Worker* w) {
+        QObject::connect(worker, &Worker::finished,  [this, &worker]() {
             if (isStopRequested) {
-                stopWorker(w);
-                emit w->quit();
+                stopWorker(worker);
+                emit worker->quit();
             } else {
-                w->start();
+                worker->start();
             }
         });
 

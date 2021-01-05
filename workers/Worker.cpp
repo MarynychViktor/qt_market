@@ -1,3 +1,3 @@
 #include "Worker.h"
-#include "../jobs/updatetradepricesjob.h"
+#include "../Jobs/UpdateTradePricesJob.h"
 #include "QThread"

@@ -1,7 +1,7 @@
 #include "ProductsTableWidget.h"
 #include "ui_ProductsTableWidget.h"
 
-#include "../models/producttablemodel.h"
+#include "../Models/ProductTableModel.h"
 
 #include <QSizePolicy>
 

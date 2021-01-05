@@ -9,16 +9,18 @@
 #include <QMainWindow>
 #include "../pages/menu.h"
 #include "../workers/WorkerManager.h"
+#include "../Services/ProductManager.h"
 
 class MainWindow : public QMainWindow {
 public:
     MainWindow(QWidget *parent = nullptr);
 
 private:
-    Menu* menu;
+    shared_ptr<ProductRepository> productRepository;
+    shared_ptr<MarketHttpClient> marketClient;
     WorkerManager* workerManager;
+    shared_ptr<ProductManager> productManager;
 
-    void createMenu();
     void closeEvent(QCloseEvent *event) override;
 };
 

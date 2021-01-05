@@ -14,8 +14,8 @@ public:
 public slots:
     virtual void start() {};
 signals:
-    void started(Worker* worker);
-    void finished(Worker* worker);
+    void started();
+    void finished();
     void quit();
     void error(QString err);
 };

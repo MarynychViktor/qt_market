@@ -8,25 +8,24 @@
 #include "QMenuBar"
 #include "QAction"
 #include "MarketManagementContent.h"
-#include "../workers/WorkerManager.h"
-#include "../workers/TradeWorker.h"
-#include <QDebug>
 #include <QEventLoop>
+#include <memory>
+#include "../workers/WorkerManager.h"
 
-MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent, Qt::Window) {
-//    menu = new Menu(this);
+using namespace std;
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent, Qt::Window)
+{
+    productRepository = make_shared<ProductRepository>(ProductRepository());
+    marketClient = make_shared<MarketHttpClient>(MarketHttpClient());
+    productManager = make_shared<ProductManager>(productRepository, marketClient);
+
     setCentralWidget(new MarketManagementContent(this));
-//    setFixedSize(250, 300);
-    createMenu();
-    workerManager = new WorkerManager();
-    workerManager->runWorkerInLoop<TradeWorker>();
-}
 
-void MainWindow::createMenu() {
-    auto fileMenu = menuBar()->addMenu(tr("File"));
-    fileMenu->addAction(new QAction("New", this));
-    fileMenu->addAction(new QAction("Edit", this));
-    fileMenu->addAction(new QAction("Exit", this));
+    workerManager = new WorkerManager();
+    auto tradeWorker = new TradeWorker();
+    workerManager->runWorkerInLoop<TradeWorker>();
 }
 
 void MainWindow::closeEvent(QCloseEvent *event) {

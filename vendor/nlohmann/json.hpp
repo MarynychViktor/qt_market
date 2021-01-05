@@ -66,7 +66,7 @@ SOFTWARE.
 #include <utility> // pair, declval
 #include <valarray> // valarray
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 
 #include <exception> // exception
@@ -2120,7 +2120,7 @@ JSON_HEDLEY_DIAGNOSTIC_POP
     #pragma GCC diagnostic ignored "-Wdocumentation"
 #endif
 
-// allow to disable exceptions
+// allow to disable Exceptions
 #if (defined(__cpp_exceptions) || defined(__EXCEPTIONS) || defined(_CPPUNWIND)) && !defined(JSON_NOEXCEPTION)
     #define JSON_THROW(exception) throw exception
     #define JSON_TRY try
@@ -2385,33 +2385,33 @@ namespace nlohmann
 namespace detail
 {
 ////////////////
-// exceptions //
+// Exceptions //
 ////////////////
 
 /*!
 @brief general exception of the @ref basic_json class
 
 This class is an extension of `std::exception` objects with a member @a id for
-exception ids. It is used as the base class for all exceptions thrown by the
+exception ids. It is used as the base class for all Exceptions thrown by the
 @ref basic_json class. This class can hence be used as "wildcard" to catch
-exceptions.
+Exceptions.
 
 Subclasses:
-- @ref parse_error for exceptions indicating a parse error
-- @ref invalid_iterator for exceptions indicating errors with iterators
-- @ref type_error for exceptions indicating executing a member function with
+- @ref parse_error for Exceptions indicating a parse error
+- @ref invalid_iterator for Exceptions indicating errors with iterators
+- @ref type_error for Exceptions indicating executing a member function with
                   a wrong type
-- @ref out_of_range for exceptions indicating access out of the defined range
-- @ref other_error for exceptions indicating other library errors
+- @ref out_of_range for Exceptions indicating access out of the defined range
+- @ref other_error for Exceptions indicating other library errors
 
 @internal
-@note To have nothrow-copy-constructible exceptions, we internally use
+@note To have nothrow-copy-constructible Exceptions, we internally use
       `std::runtime_error` which can cope with arbitrary-length error messages.
       Intermediate strings are built with static functions and then passed to
       the actual constructor.
 @endinternal
 
-@liveexample{The following code shows how arbitrary library exceptions can be
+@liveexample{The following code shows how arbitrary library Exceptions can be
 caught.,exception}
 
 @since version 3.0.0
@@ -2479,12 +2479,12 @@ json.exception.parse_error.115 | parse error at byte 5: syntax error while parsi
 @liveexample{The following code shows how a `parse_error` exception can be
 caught.,parse_error}
 
-@sa - @ref exception for the base class of the library exceptions
-@sa - @ref invalid_iterator for exceptions indicating errors with iterators
-@sa - @ref type_error for exceptions indicating executing a member function with
+@sa - @ref exception for the base class of the library Exceptions
+@sa - @ref invalid_iterator for Exceptions indicating errors with iterators
+@sa - @ref type_error for Exceptions indicating executing a member function with
                     a wrong type
-@sa - @ref out_of_range for exceptions indicating access out of the defined range
-@sa - @ref other_error for exceptions indicating other library errors
+@sa - @ref out_of_range for Exceptions indicating access out of the defined range
+@sa - @ref other_error for Exceptions indicating other library errors
 
 @since version 3.0.0
 */
@@ -2565,12 +2565,12 @@ json.exception.invalid_iterator.214 | cannot get value | Cannot get value for it
 @liveexample{The following code shows how an `invalid_iterator` exception can be
 caught.,invalid_iterator}
 
-@sa - @ref exception for the base class of the library exceptions
-@sa - @ref parse_error for exceptions indicating a parse error
-@sa - @ref type_error for exceptions indicating executing a member function with
+@sa - @ref exception for the base class of the library Exceptions
+@sa - @ref parse_error for Exceptions indicating a parse error
+@sa - @ref type_error for Exceptions indicating executing a member function with
                     a wrong type
-@sa - @ref out_of_range for exceptions indicating access out of the defined range
-@sa - @ref other_error for exceptions indicating other library errors
+@sa - @ref out_of_range for Exceptions indicating access out of the defined range
+@sa - @ref other_error for Exceptions indicating other library errors
 
 @since version 3.0.0
 */
@@ -2620,11 +2620,11 @@ json.exception.type_error.317 | JSON value cannot be serialized to requested for
 @liveexample{The following code shows how a `type_error` exception can be
 caught.,type_error}
 
-@sa - @ref exception for the base class of the library exceptions
-@sa - @ref parse_error for exceptions indicating a parse error
-@sa - @ref invalid_iterator for exceptions indicating errors with iterators
-@sa - @ref out_of_range for exceptions indicating access out of the defined range
-@sa - @ref other_error for exceptions indicating other library errors
+@sa - @ref exception for the base class of the library Exceptions
+@sa - @ref parse_error for Exceptions indicating a parse error
+@sa - @ref invalid_iterator for Exceptions indicating errors with iterators
+@sa - @ref out_of_range for Exceptions indicating access out of the defined range
+@sa - @ref other_error for Exceptions indicating other library errors
 
 @since version 3.0.0
 */
@@ -2666,12 +2666,12 @@ json.exception.out_of_range.409 | BSON key cannot contain code point U+0000 (at 
 @liveexample{The following code shows how an `out_of_range` exception can be
 caught.,out_of_range}
 
-@sa - @ref exception for the base class of the library exceptions
-@sa - @ref parse_error for exceptions indicating a parse error
-@sa - @ref invalid_iterator for exceptions indicating errors with iterators
-@sa - @ref type_error for exceptions indicating executing a member function with
+@sa - @ref exception for the base class of the library Exceptions
+@sa - @ref parse_error for Exceptions indicating a parse error
+@sa - @ref invalid_iterator for Exceptions indicating errors with iterators
+@sa - @ref type_error for Exceptions indicating executing a member function with
                     a wrong type
-@sa - @ref other_error for exceptions indicating other library errors
+@sa - @ref other_error for Exceptions indicating other library errors
 
 @since version 3.0.0
 */
@@ -2701,12 +2701,12 @@ name / id                      | example message | description
 ------------------------------ | --------------- | -------------------------
 json.exception.other_error.501 | unsuccessful: {"op":"test","path":"/baz", "value":"bar"} | A JSON Patch operation 'test' failed. The unsuccessful operation is also printed.
 
-@sa - @ref exception for the base class of the library exceptions
-@sa - @ref parse_error for exceptions indicating a parse error
-@sa - @ref invalid_iterator for exceptions indicating errors with iterators
-@sa - @ref type_error for exceptions indicating executing a member function with
+@sa - @ref exception for the base class of the library Exceptions
+@sa - @ref parse_error for Exceptions indicating a parse error
+@sa - @ref invalid_iterator for Exceptions indicating errors with iterators
+@sa - @ref type_error for Exceptions indicating executing a member function with
                     a wrong type
-@sa - @ref out_of_range for exceptions indicating access out of the defined range
+@sa - @ref out_of_range for Exceptions indicating access out of the defined range
 
 @liveexample{The following code shows how an `other_error` exception can be
 caught.,other_error}
@@ -3053,7 +3053,7 @@ namespace detail
 // Note to maintainers:
 //
 // Every trait in this file expects a non CV-qualified type.
-// The only exceptions are in the 'aliases for detected' section
+// The only Exceptions are in the 'aliases for detected' section
 // (i.e. those of the form: decltype(T::member_function(std::declval<T>())))
 //
 // In this case, T has to be properly CV-qualified to constraint the function arguments
@@ -4566,7 +4566,7 @@ class byte_container_with_subtype : public BinaryType
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @sa @ref subtype() -- return the binary subtype
     @sa @ref clear_subtype() -- clears the binary subtype
@@ -4593,7 +4593,7 @@ class byte_container_with_subtype : public BinaryType
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @sa @ref set_subtype() -- sets the binary subtype
     @sa @ref clear_subtype() -- clears the binary subtype
@@ -4615,7 +4615,7 @@ class byte_container_with_subtype : public BinaryType
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @sa @ref subtype() -- return the binary subtype
     @sa @ref set_subtype() -- sets the binary subtype
@@ -4638,7 +4638,7 @@ class byte_container_with_subtype : public BinaryType
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @sa @ref subtype() -- return the binary subtype
     @sa @ref set_subtype() -- sets the binary subtype
@@ -4664,7 +4664,7 @@ class byte_container_with_subtype : public BinaryType
 
 // #include <nlohmann/detail/conversions/to_json.hpp>
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/hash.hpp>
 
@@ -4805,7 +4805,7 @@ std::size_t hash(const BasicJsonType& j)
 #include <utility> // make_pair, move
 #include <vector> // vector
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/input/input_adapters.hpp>
 
@@ -5295,7 +5295,7 @@ class span_input_adapter
 #include <utility> // move
 #include <vector> // vector
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/macro_scope.hpp>
 
@@ -5450,7 +5450,7 @@ class json_sax_dom_parser
     /*!
     @param[in, out] r  reference to a JSON value that is manipulated while
                        parsing
-    @param[in] allow_exceptions_  whether parse errors yield exceptions
+    @param[in] allow_exceptions_  whether parse errors yield Exceptions
     */
     explicit json_sax_dom_parser(BasicJsonType& r, const bool allow_exceptions_ = true)
         : root(r), allow_exceptions(allow_exceptions_)
@@ -5607,7 +5607,7 @@ class json_sax_dom_parser
     BasicJsonType* object_element = nullptr;
     /// whether a syntax error occurred
     bool errored = false;
-    /// whether to throw exceptions in case of errors
+    /// whether to throw Exceptions in case of errors
     const bool allow_exceptions = true;
 };
 
@@ -5901,7 +5901,7 @@ class json_sax_dom_callback_parser
     bool errored = false;
     /// callback function
     const parser_callback_t callback = nullptr;
-    /// whether to throw exceptions in case of errors
+    /// whether to throw Exceptions in case of errors
     const bool allow_exceptions = true;
     /// a discarded value for the callback
     BasicJsonType discarded = BasicJsonType::value_t::discarded;
@@ -10159,7 +10159,7 @@ class binary_reader
     @param[in] format   the current format
     @param[in] detail   a detailed error message
     @param[in] context  further context information
-    @return a message string to use in the parse_error exceptions
+    @return a message string to use in the parse_error Exceptions
     */
     std::string exception_message(const input_format_t format,
                                   const std::string& detail,
@@ -10225,7 +10225,7 @@ class binary_reader
 #include <utility> // move
 #include <vector> // vector
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/input/input_adapters.hpp>
 
@@ -10719,7 +10719,7 @@ class parser
     token_type last_token = token_type::uninitialized;
     /// the lexer
     lexer_t m_lexer;
-    /// whether to throw exceptions in case of errors
+    /// whether to throw Exceptions in case of errors
     const bool allow_exceptions = true;
 };
 }  // namespace detail
@@ -10744,11 +10744,11 @@ namespace detail
 /*
 @brief an iterator for primitive JSON types
 
-This class models an iterator for primitive JSON types (boolean, number,
+This class Models an iterator for primitive JSON types (boolean, number,
 string). It's only purpose is to allow the iterator/const_iterator classes
 to "iterate" over primitive values. Internally, the iterator is modeled by
-a `difference_type` variable. Value begin_value (`0`) models the begin,
-end_value (`1`) models past the end.
+a `difference_type` variable. Value begin_value (`0`) Models the begin,
+end_value (`1`) Models past the end.
 */
 class primitive_iterator_t
 {
@@ -10883,7 +10883,7 @@ template<typename BasicJsonType> struct internal_iterator
 #include <iterator> // iterator, random_access_iterator_tag, bidirectional_iterator_tag, advance, next
 #include <type_traits> // conditional, is_const, remove_const
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/iterators/internal_iterator.hpp>
 
@@ -11663,7 +11663,7 @@ class json_reverse_iterator : public std::reverse_iterator<Base>
 #include <utility> // move
 #include <vector> // vector
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/macro_scope.hpp>
 
@@ -11965,7 +11965,7 @@ class json_pointer
 
     @complexity Constant.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example shows the result of `empty` for different JSON
     Pointers.,json_pointer__empty}
@@ -12392,7 +12392,7 @@ class json_pointer
     @brief split the string input to reference tokens
 
     @note This function is only called by the json_pointer constructor.
-          All exceptions below are documented there.
+          All Exceptions below are documented there.
 
     @throw parse_error.107  if the pointer is not empty or begins with '/'
     @throw parse_error.108  if character '~' is not followed by '0' or '1'
@@ -12606,7 +12606,7 @@ class json_pointer
 
     @complexity Linear in the length of the JSON pointer
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
     */
     friend bool operator==(json_pointer const& lhs,
                            json_pointer const& rhs) noexcept
@@ -12623,7 +12623,7 @@ class json_pointer
 
     @complexity Linear in the length of the JSON pointer
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
     */
     friend bool operator!=(json_pointer const& lhs,
                            json_pointer const& rhs) noexcept
@@ -15562,7 +15562,7 @@ char* to_chars(char* first, const char* last, FloatType value)
 } // namespace detail
 } // namespace nlohmann
 
-// #include <nlohmann/detail/exceptions.hpp>
+// #include <nlohmann/detail/Exceptions.hpp>
 
 // #include <nlohmann/detail/macro_scope.hpp>
 
@@ -16871,11 +16871,11 @@ class basic_json
     using json_sax_t = json_sax<basic_json>;
 
     ////////////////
-    // exceptions //
+    // Exceptions //
     ////////////////
 
-    /// @name exceptions
-    /// Classes to implement user-defined exceptions.
+    /// @name Exceptions
+    /// Classes to implement user-defined Exceptions.
     /// @{
 
     /// @copydoc detail::exception
@@ -17989,7 +17989,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this constructor never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code shows the constructor with and without a
     null pointer parameter.,basic_json__nullptr_t}
@@ -18516,7 +18516,7 @@ class basic_json
 
     @pre Range `[first, last)` is valid. Usually, this precondition cannot be
          checked efficiently. Only certain edge cases are detected; see the
-         description of the exceptions below. A violation of this precondition
+         description of the Exceptions below. A violation of this precondition
          yields undefined behavior.
 
     @warning A precondition is enforced with a runtime assertion that will
@@ -18756,7 +18756,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this constructor never throws
-    exceptions.
+    Exceptions.
 
     @requirement This function helps `basic_json` satisfying the
     [MoveConstructible](https://en.cppreference.com/w/cpp/named_req/MoveConstructible)
@@ -18897,7 +18897,7 @@ class basic_json
     @see https://docs.python.org/2/library/json.html#json.dump
 
     @since version 1.0.0; indentation character @a indent_char, option
-           @a ensure_ascii and exceptions added in version 3.0.0; error
+           @a ensure_ascii and Exceptions added in version 3.0.0; error
            handlers added in version 3.4.0; serialization of binary values added
            in version 3.8.0.
     */
@@ -18944,7 +18944,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `type()` for all JSON
     types.,type}
@@ -18971,7 +18971,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_primitive()` for all JSON
     types.,is_primitive}
@@ -19001,7 +19001,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_structured()` for all JSON
     types.,is_structured}
@@ -19027,7 +19027,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_null()` for all JSON
     types.,is_null}
@@ -19049,7 +19049,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_boolean()` for all JSON
     types.,is_boolean}
@@ -19073,7 +19073,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_number()` for all JSON
     types.,is_number}
@@ -19103,7 +19103,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_number_integer()` for all
     JSON types.,is_number_integer}
@@ -19131,7 +19131,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_number_unsigned()` for all
     JSON types.,is_number_unsigned}
@@ -19159,7 +19159,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_number_float()` for all
     JSON types.,is_number_float}
@@ -19186,7 +19186,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_object()` for all JSON
     types.,is_object}
@@ -19208,7 +19208,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_array()` for all JSON
     types.,is_array}
@@ -19230,7 +19230,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_string()` for all JSON
     types.,is_string}
@@ -19252,7 +19252,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_binary()` for all JSON
     types.,is_binary}
@@ -19279,7 +19279,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies `is_discarded()` for all JSON
     types.,is_discarded}
@@ -19302,7 +19302,7 @@ class basic_json
     @complexity Constant.
 
     @exceptionsafety No-throw guarantee: this member function never throws
-    exceptions.
+    Exceptions.
 
     @liveexample{The following code exemplifies the @ref value_t operator for
     all JSON types.,operator__value_t}
@@ -19932,7 +19932,7 @@ class basic_json
     @since version 1.0.0
 
     @liveexample{The example below shows how array elements can be read and
-    written using `at()`. It also demonstrates the different exceptions that
+    written using `at()`. It also demonstrates the different Exceptions that
     can be thrown.,at__size_type}
     */
     reference at(size_type idx)
@@ -19979,7 +19979,7 @@ class basic_json
     @since version 1.0.0
 
     @liveexample{The example below shows how array elements can be read using
-    `at()`. It also demonstrates the different exceptions that can be thrown.,
+    `at()`. It also demonstrates the different Exceptions that can be thrown.,
     at__size_type_const}
     */
     const_reference at(size_type idx) const
@@ -20030,7 +20030,7 @@ class basic_json
     @since version 1.0.0
 
     @liveexample{The example below shows how object elements can be read and
-    written using `at()`. It also demonstrates the different exceptions that
+    written using `at()`. It also demonstrates the different Exceptions that
     can be thrown.,at__object_t_key_type}
     */
     reference at(const typename object_t::key_type& key)
@@ -20081,7 +20081,7 @@ class basic_json
     @since version 1.0.0
 
     @liveexample{The example below shows how object elements can be read using
-    `at()`. It also demonstrates the different exceptions that can be thrown.,
+    `at()`. It also demonstrates the different Exceptions that can be thrown.,
     at__object_t_key_type_const}
     */
     const_reference at(const typename object_t::key_type& key) const
@@ -21547,7 +21547,7 @@ class basic_json
 
     @iterators No changes.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @note This function does not return whether a string stored as JSON value
     is empty - it returns whether the JSON container itself is empty which is
@@ -21619,7 +21619,7 @@ class basic_json
 
     @iterators No changes.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @note This function does not return the length of a string stored as JSON
     value - it returns the number of elements in the JSON value which is 1 in
@@ -21694,7 +21694,7 @@ class basic_json
 
     @iterators No changes.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @requirement This function helps `basic_json` satisfying the
     [Container](https://en.cppreference.com/w/cpp/named_req/Container)
@@ -21771,7 +21771,7 @@ class basic_json
     @iterators All iterators, pointers and references related to this container
                are invalidated.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @sa @ref basic_json(value_t) -- constructor that creates an object with the
         same value than calling `clear()`
@@ -22743,7 +22743,7 @@ class basic_json
     @param[in] rhs  second JSON value to consider
     @return whether the values @a lhs and @a rhs are equal
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @complexity Linear.
 
@@ -22853,7 +22853,7 @@ class basic_json
 
     @complexity Linear.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example demonstrates comparing several JSON
     types.,operator__notequal}
@@ -22906,7 +22906,7 @@ class basic_json
 
     @complexity Linear.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example demonstrates comparing several JSON
     types.,operator__less}
@@ -23020,7 +23020,7 @@ class basic_json
 
     @complexity Linear.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example demonstrates comparing several JSON
     types.,operator__greater}
@@ -23066,7 +23066,7 @@ class basic_json
 
     @complexity Linear.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example demonstrates comparing several JSON
     types.,operator__lessequal}
@@ -23112,7 +23112,7 @@ class basic_json
 
     @complexity Linear.
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @liveexample{The example demonstrates comparing several JSON
     types.,operator__greaterequal}
@@ -23240,7 +23240,7 @@ class basic_json
     @param[in] cb  a parser callback function of type @ref parser_callback_t
     which is used to control the deserialization by filtering unwanted values
     (optional)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
     @param[in] ignore_comments  whether comments should be ignored and treated
     like whitespace (true) or yield a parse error (true); (optional, false by
@@ -23299,7 +23299,7 @@ class basic_json
     @param[in] cb  a parser callback function of type @ref parser_callback_t
     which is used to control the deserialization by filtering unwanted values
     (optional)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
     @param[in] ignore_comments  whether comments should be ignored and treated
     like whitespace (true) or yield a parse error (true); (optional, false by
@@ -23540,7 +23540,7 @@ class basic_json
             binary      | `"binary"`
             discarded   | `"discarded"`
 
-    @exceptionsafety No-throw guarantee: this function never throws exceptions.
+    @exceptionsafety No-throw guarantee: this function never throws Exceptions.
 
     @complexity Constant.
 
@@ -24069,7 +24069,7 @@ class basic_json
     @param[in] i  an input in CBOR format convertible to an input adapter
     @param[in] strict  whether to expect the input to be consumed until EOF
                        (true by default)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
     @param[in] tag_handler how to treat CBOR tags (optional, error by default)
 
@@ -24211,7 +24211,7 @@ class basic_json
                   adapter
     @param[in] strict  whether to expect the input to be consumed until EOF
                        (true by default)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
 
     @return deserialized JSON value; in case of a parse error and
@@ -24330,7 +24330,7 @@ class basic_json
     @param[in] i  an input in UBJSON format convertible to an input adapter
     @param[in] strict  whether to expect the input to be consumed until EOF
                        (true by default)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
 
     @return deserialized JSON value; in case of a parse error and
@@ -24449,7 +24449,7 @@ class basic_json
     @param[in] i  an input in BSON format convertible to an input adapter
     @param[in] strict  whether to expect the input to be consumed until EOF
                        (true by default)
-    @param[in] allow_exceptions  whether to throw exceptions in case of a
+    @param[in] allow_exceptions  whether to throw Exceptions in case of a
     parse error (optional, true by default)
 
     @return deserialized JSON value; in case of a parse error and
