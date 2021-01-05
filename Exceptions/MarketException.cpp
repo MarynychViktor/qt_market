@@ -6,6 +6,5 @@
 
 #include <utility>
 
-MarketException::MarketException(QString msg) : AppException(std::move(msg)) {
-}
+MarketException::MarketException(QString msg) : AppException(std::move(msg)) {}
 

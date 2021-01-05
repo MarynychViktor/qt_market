@@ -1,5 +1,7 @@
 /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime \
+  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash \
   /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
@@ -113,6 +115,7 @@
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h \

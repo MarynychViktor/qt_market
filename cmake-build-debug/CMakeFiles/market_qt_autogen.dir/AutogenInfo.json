@@ -115,6 +115,11 @@
 			"3ZPKKT53DT/moc_NotFoundException.cpp"
 		],
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h",
+			"MU",
+			"3ZPKKT53DT/moc_TimeoutException.cpp"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h",
 			"MU",
 			"2IH3D476MI/moc_HttpClient.cpp"
@@ -173,6 +178,11 @@
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h",
 			"MU",
 			"25IR5XJDBU/moc_ProductTableModel.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h",
+			"MU",
+			"4VYEQU4VHD/moc_Logger.cpp"
 		],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h",
@@ -294,6 +304,10 @@
 			"MU"
 		],
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.cpp",
+			"MU"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp",
 			"MU"
 		],
@@ -336,6 +350,10 @@
 		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.cpp", "MU" ],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.cpp",
 			"MU"
 		],
 		[

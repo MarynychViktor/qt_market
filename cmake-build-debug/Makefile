@@ -236,6 +236,33 @@ Exceptions/NotFoundException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.s
 .PHONY : Exceptions/NotFoundException.cpp.s
 
+Exceptions/TimeoutException.o: Exceptions/TimeoutException.cpp.o
+
+.PHONY : Exceptions/TimeoutException.o
+
+# target to build an object file
+Exceptions/TimeoutException.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o
+.PHONY : Exceptions/TimeoutException.cpp.o
+
+Exceptions/TimeoutException.i: Exceptions/TimeoutException.cpp.i
+
+.PHONY : Exceptions/TimeoutException.i
+
+# target to preprocess a source file
+Exceptions/TimeoutException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.i
+.PHONY : Exceptions/TimeoutException.cpp.i
+
+Exceptions/TimeoutException.s: Exceptions/TimeoutException.cpp.s
+
+.PHONY : Exceptions/TimeoutException.s
+
+# target to generate assembly for a file
+Exceptions/TimeoutException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.s
+.PHONY : Exceptions/TimeoutException.cpp.s
+
 Http/HttpClient.o: Http/HttpClient.cpp.o
 
 .PHONY : Http/HttpClient.o
@@ -560,6 +587,33 @@ Models/ProductTableModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.s
 .PHONY : Models/ProductTableModel.cpp.s
 
+Services/Logger.o: Services/Logger.cpp.o
+
+.PHONY : Services/Logger.o
+
+# target to build an object file
+Services/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/Logger.cpp.o
+.PHONY : Services/Logger.cpp.o
+
+Services/Logger.i: Services/Logger.cpp.i
+
+.PHONY : Services/Logger.i
+
+# target to preprocess a source file
+Services/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/Logger.cpp.i
+.PHONY : Services/Logger.cpp.i
+
+Services/Logger.s: Services/Logger.cpp.s
+
+.PHONY : Services/Logger.s
+
+# target to generate assembly for a file
+Services/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Services/Logger.cpp.s
+.PHONY : Services/Logger.cpp.s
+
 Services/ProductManager.o: Services/ProductManager.cpp.o
 
 .PHONY : Services/ProductManager.o
@@ -876,6 +930,9 @@ help:
 	@echo "... Exceptions/NotFoundException.o"
 	@echo "... Exceptions/NotFoundException.i"
 	@echo "... Exceptions/NotFoundException.s"
+	@echo "... Exceptions/TimeoutException.o"
+	@echo "... Exceptions/TimeoutException.i"
+	@echo "... Exceptions/TimeoutException.s"
 	@echo "... Http/HttpClient.o"
 	@echo "... Http/HttpClient.i"
 	@echo "... Http/HttpClient.s"
@@ -912,6 +969,9 @@ help:
 	@echo "... Models/ProductTableModel.o"
 	@echo "... Models/ProductTableModel.i"
 	@echo "... Models/ProductTableModel.s"
+	@echo "... Services/Logger.o"
+	@echo "... Services/Logger.i"
+	@echo "... Services/Logger.s"
 	@echo "... Services/ProductManager.o"
 	@echo "... Services/ProductManager.i"
 	@echo "... Services/ProductManager.s"

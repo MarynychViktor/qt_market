@@ -6,5 +6,4 @@
 
 #include <utility>
 
-NotFoundException::NotFoundException(QString msg) : AppException(std::move(msg)) {
-}
+NotFoundException::NotFoundException(QString msg) : AppException(std::move(msg)) {}

@@ -140,6 +140,12 @@
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h">
 			<Option target="market_qt"/>
 		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h">
+			<Option target="market_qt"/>
+		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp">
 			<Option target="market_qt"/>
 		</Unit>
@@ -210,6 +216,12 @@
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h">
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.cpp">

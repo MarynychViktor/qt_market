@@ -20,7 +20,6 @@ int main(int argc, char **argv)
     MainWindow mainWindow;
     mainWindow.show();
 
-
 //    productRepository = make_shared<ProductRepository>(ProductRepository());
 
   return app.exec();

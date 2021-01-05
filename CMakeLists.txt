@@ -56,7 +56,7 @@ set(HEADERS
         )
 
 set(RESOURCE_FILES
-        resources/images.qrc Exceptions/MarketException.cpp Exceptions/MarketException.h workers/WorkerManager.cpp workers/WorkerManager.h ui/MainWindow.cpp ui/MainWindow.h workers/TradeWorker.cpp workers/TradeWorker.h Services/ProductManager.cpp Services/ProductManager.h Exceptions/AppException.cpp Exceptions/AppException.h Exceptions/NotFoundException.cpp Exceptions/NotFoundException.h Infrastructure/DI/ServiceLocator.cpp Infrastructure/DI/ServiceLocator.h)
+        resources/images.qrc Exceptions/MarketException.cpp Exceptions/MarketException.h workers/WorkerManager.cpp workers/WorkerManager.h ui/MainWindow.cpp ui/MainWindow.h workers/TradeWorker.cpp workers/TradeWorker.h Services/ProductManager.cpp Services/ProductManager.h Exceptions/AppException.cpp Exceptions/AppException.h Exceptions/NotFoundException.cpp Exceptions/NotFoundException.h Infrastructure/DI/ServiceLocator.cpp Infrastructure/DI/ServiceLocator.h Services/Logger.cpp Services/Logger.h Exceptions/TimeoutException.cpp Exceptions/TimeoutException.h)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 #include_directories( ${CMAKE_BINARY_DIR} )

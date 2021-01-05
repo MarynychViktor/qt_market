@@ -9,6 +9,8 @@
 #include <QObject>
 #include "Worker.h"
 #include "TradeWorker.h"
+#include "../Services/Logger.h"
+
 using namespace std;
 
 class WorkerManager  : public QObject
@@ -27,10 +29,14 @@ public:
         worker->moveToThread(thread);
 
         // SOMETHING WRONG HERE
-        QObject::connect(thread, &QThread::started, worker, &Worker::start);
+        QObject::connect(thread, &QThread::started, [this, worker]() {
+            worker->start();
+            startWorker(worker);
+        });
 
-        QObject::connect(worker, &Worker::finished, [this, &worker]() {
+        QObject::connect(worker, &W::finished, [this, worker]() {
             if (isStopRequested) {
+                Logger::debug("Worker stop requested");
                 stopWorker(worker);
                 emit worker->quit();
             } else {
@@ -38,8 +44,8 @@ public:
             }
         });
 
-        QObject::connect(worker, &Worker::quit, thread, &QThread::quit);
-        QObject::connect(thread, &QThread::finished, worker, &Worker::deleteLater);
+        QObject::connect(worker, &W::quit, thread, &QThread::quit);
+        QObject::connect(thread, &QThread::finished, worker, &W::deleteLater);
         QObject::connect(thread, &QThread::finished, thread, &QThread::deleteLater);
 
         thread->start();

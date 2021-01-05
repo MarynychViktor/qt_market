@@ -5,15 +5,21 @@
 #include "TradeWorker.h"
 #include "../consts.h"
 #include "../Infrastructure/DI/ServiceLocator.h"
-#include "../Services/ProductManager.h"
+#include "../Services/Logger.h"
+#include "../Exceptions/TimeoutException.h"
+#include "../Exceptions/MarketException.h"
 #include <QDebug>
 #include <memory>
+#include <QElapsedTimer>
 
 void TradeWorker::start() {
     emit started();
+    Logger::info("Trade worker started");
     prepareServices();
+    QElapsedTimer timer;
 
     try {
+        timer.start();
         initializeTrades();
         QHash<QString, int> newPrices;
 
@@ -42,13 +48,16 @@ void TradeWorker::start() {
         if (!newPrices.isEmpty()) {
             marketClient->massSetPriceById(newPrices);
         }
-    }  catch (runtime_error& e) {
-        qDebug() << "Error " << e.what();
+    }  catch (TimeoutException& e) {
+        Logger::error(e.getMessage());
+    } catch (MarketException& e) {
+        Logger::error(e.getMessage());
     }  catch (...) {
-        qDebug() << "Failed";
+        Logger::error("Something went wrong");
         emit error(QString("Trade worker start failed"));
     }
 
+    Logger::info(QString("Trade worker finished in %1s").arg(QString::number(timer.elapsed() / 1000.0)));
     emit finished();
 }
 

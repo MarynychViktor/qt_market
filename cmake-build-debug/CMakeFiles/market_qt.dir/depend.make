@@ -156,7 +156,60 @@ CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o: ../Exceptions/AppEx
 CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o: ../Exceptions/NotFoundException.cpp
 CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o: ../Exceptions/NotFoundException.h
 
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qexception.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmutex.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpoint.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringview.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: ../Exceptions/AppException.h
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: ../Exceptions/TimeoutException.cpp
+CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o: ../Exceptions/TimeoutException.h
+
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QEventLoop
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QIODevice
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
@@ -189,6 +242,7 @@ CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_6
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qeventloop.h
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
@@ -256,6 +310,9 @@ CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_6
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Exceptions/AppException.h
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Exceptions/MarketException.h
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Exceptions/TimeoutException.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Http/HttpClient.cpp
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Http/HttpClient.h
 
@@ -1213,6 +1270,77 @@ CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/Product.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/ProductTableModel.cpp
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/ProductTableModel.h
 
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmutex.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpoint.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringview.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: ../Services/Logger.cpp
+CMakeFiles/market_qt.dir/Services/Logger.cpp.o: ../Services/Logger.h
+
 CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
@@ -1337,6 +1465,7 @@ CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o: ../Services/ProductManag
 CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o: ../Services/ProductManager.h
 
 CMakeFiles/market_qt.dir/main.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/main.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/main.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/main.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/main.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
@@ -1533,6 +1662,7 @@ CMakeFiles/market_qt.dir/main.cpp.o: ../Infrastructure/Models/TradeResponse.h
 CMakeFiles/market_qt.dir/main.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/main.cpp.o: ../Jobs/UpdateTradePricesJob.h
 CMakeFiles/market_qt.dir/main.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/main.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/main.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/main.cpp.o: ../main.cpp
 CMakeFiles/market_qt.dir/main.cpp.o: ../pages/menu.h
@@ -1545,6 +1675,8 @@ CMakeFiles/market_qt.dir/main.cpp.o: ../workers/WorkerManager.h
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
 
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
+CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument
@@ -1705,6 +1837,7 @@ CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Infrastruc
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Jobs/UpdateTradePricesJob.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o: market_qt_autogen/P2WXERC3RM/moc_menu.cpp
@@ -1855,6 +1988,7 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.o: ../ui/ProductsTableWidget.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.o: market_qt_autogen/include/ui_menu.h
 
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QEventLoop
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
@@ -2034,6 +2168,7 @@ CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Infrastructure/Models/TradeResp
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Jobs/UpdateTradePricesJob.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../pages/menu.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o: ../ui/MainWindow.cpp
@@ -2419,7 +2554,10 @@ CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: ../ui/ProductsTableWidget
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: ../ui/ProductsTableWidget.h
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: market_qt_autogen/include/ui_ProductsTableWidget.h
 
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QElapsedTimer
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument
@@ -2459,6 +2597,7 @@ CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/g
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
@@ -2532,6 +2671,9 @@ CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/g
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Exceptions/AppException.h
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Exceptions/MarketException.h
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Exceptions/TimeoutException.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Http/HttpClient.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Http/MarketHttpClient.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Infrastructure/DI/ServiceLocator.h
@@ -2543,6 +2685,7 @@ CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Infrastructure/Models/Tra
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Jobs/UpdateTradePricesJob.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../consts.h
 CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o: ../workers/TradeWorker.cpp
@@ -2673,6 +2816,7 @@ CMakeFiles/market_qt.dir/workers/Worker.cpp.o: ../Models/Product.h
 CMakeFiles/market_qt.dir/workers/Worker.cpp.o: ../workers/Worker.cpp
 CMakeFiles/market_qt.dir/workers/Worker.cpp.o: ../workers/Worker.h
 
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
@@ -2795,6 +2939,7 @@ CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Infrastructure/Models/T
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Jobs/UpdateTradePricesJob.h
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../workers/TradeWorker.h
 CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o: ../workers/Worker.h

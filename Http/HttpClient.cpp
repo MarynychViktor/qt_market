@@ -1,4 +1,6 @@
 #include "HttpClient.h"
+#include "../Exceptions/TimeoutException.h"
+#include "../Exceptions/MarketException.h"
 
 #include <QEventLoop>
 #include <QNetworkAccessManager>
@@ -22,13 +24,13 @@ QByteArray SyncHttpClient::get(const QString& path)
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw std::runtime_error("Timeout exception");
+        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(QString::number(timeout), path));
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);
 
     if (statusCode.toInt() > 299) {
-        throw std::runtime_error(reply->errorString().toStdString());
+        throw MarketException(QString("HttpPost request failed with code %1 : %2").arg(QString::number(statusCode.toInt()), reply->errorString()));
     }
 
     QByteArray response = reply->readAll();
@@ -57,13 +59,13 @@ QByteArray SyncHttpClient::post(const QString& path, const QByteArray& data)
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw std::runtime_error("Timeout exception");
+        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(QString::number(timeout), path));
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);
 
     if (statusCode.toInt() > 299) {
-        throw std::runtime_error(reply->errorString().toStdString());
+        throw MarketException(QString("HttpPost request failed with code %1 : %2").arg(QString::number(statusCode.toInt()), reply->errorString()));
     }
 
     QByteArray response = reply->readAll();

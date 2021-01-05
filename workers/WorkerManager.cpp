@@ -3,11 +3,14 @@
 //
 
 #include "WorkerManager.h"
+#include "../Services/Logger.h"
 #include <QDebug>
 
 using namespace std;
 
-WorkerManager::WorkerManager(QObject *parent) : QObject(parent) {
+WorkerManager::WorkerManager(QObject *parent)
+    : QObject(parent)
+{
 }
 
 void WorkerManager::stop() {
@@ -30,7 +33,7 @@ void WorkerManager::stopWorker(Worker *worker) {
     }
 
     if (activeWorkers.isEmpty()) {
-        qDebug() << "Worker manager stopped";
+        Logger::debug("Worker manager stopped");
         emit stopped();
     }
 }
