@@ -18,19 +18,18 @@ public:
     WorkerManager(QObject *parent = nullptr);
 
     template<class W>
-    void runWorkerInLoop() {
+    void runWorkerInLoop(W * worker) {
         if (!is_base_of<Worker, W>()) {
             throw runtime_error("Template class should be base of Worker");
         }
 
         auto thread = new QThread;
-        auto worker = new W;
         worker->moveToThread(thread);
 
         // SOMETHING WRONG HERE
         QObject::connect(thread, &QThread::started, worker, &Worker::start);
 
-        QObject::connect(worker, &Worker::finished,  [this, &worker]() {
+        QObject::connect(worker, &Worker::finished, [this, &worker]() {
             if (isStopRequested) {
                 stopWorker(worker);
                 emit worker->quit();

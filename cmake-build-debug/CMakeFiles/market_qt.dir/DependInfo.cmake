@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o"
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o"
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o"
+  "/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o"
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.o"
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o"
   "/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.cpp" "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o"

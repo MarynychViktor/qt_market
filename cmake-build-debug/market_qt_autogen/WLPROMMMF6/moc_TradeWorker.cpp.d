@@ -111,7 +111,9 @@
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h \
   /usr/include/alloca.h \
   /usr/include/assert.h \

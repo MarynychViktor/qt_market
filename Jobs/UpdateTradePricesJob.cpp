@@ -28,7 +28,6 @@ void UpdateTradePricesJob::run()
        }
    }
 
-   qDebug() << "Combined trade ids" << combinedTradeIds;
    auto tradesMassInfo = marketClient->getMassInfo(combinedTradeIds);
 
    QHash<QString, int> newPrices;

@@ -14,13 +14,12 @@ using namespace std;
 class MarketHttpClient
 {
 public:
-    MarketHttpClient()
-        : httpClient(new SyncHttpClient()),
-          settings(new MarketSettings)
+    MarketHttpClient(shared_ptr<SyncHttpClient> client, shared_ptr<MarketSettings> settings)
+        : httpClient(client),
+          settings(settings)
     {};
 
-    ~MarketHttpClient() {
-    };
+    ~MarketHttpClient() {};
 
     QList<shared_ptr<TradeResponse>> getTrades();
     QList<shared_ptr<ItemMassInfoResult>> getMassInfo(const QList<QString>& combinedIds);

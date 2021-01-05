@@ -21,7 +21,6 @@ int ProductTableModel::columnCount(const QModelIndex &parent) const
 
 QVariant ProductTableModel::data(const QModelIndex &index, int role) const
 {
-    qDebug() << "DATA for " << index.row() << index.column();
     if (role == Qt::DisplayRole || role == Qt::EditRole) {
         auto product = products.at(index.row());
 
@@ -63,7 +62,6 @@ QVariant ProductTableModel::headerData(int section, Qt::Orientation orientation,
 bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value, int role)
 {
     if (index.isValid() && role == Qt::EditRole) {
-        qInfo("Edit model fired");
         ProductRepository repository;
         auto product = products.at(index.row());
         switch (index.column()) {
@@ -120,5 +118,4 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
 void ProductTableModel::setProducts(QList<shared_ptr<Product>> updatedProducts) {
     products = updatedProducts;
     emit dataChanged(createIndex(0, 0), createIndex(rowCount(), columnCount()));
-    qDebug() << "---------------Products length" << products.length() << rowCount() << columnCount();
 }

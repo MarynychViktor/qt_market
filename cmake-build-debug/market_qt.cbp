@@ -152,6 +152,12 @@
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h">
 			<Option target="market_qt"/>
 		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h">
+			<Option target="market_qt"/>
+		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.cpp">
 			<Option target="market_qt"/>
 		</Unit>

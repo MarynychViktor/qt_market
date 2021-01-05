@@ -398,9 +398,22 @@ CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.cpp -o CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.s
 
+CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o: ../Infrastructure/DI/ServiceLocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp
+
+CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp > CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.i
+
+CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp -o CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.s
+
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
 
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i: cmake_force
@@ -437,6 +450,7 @@ market_qt_OBJECTS = \
 "CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o" \
 "CMakeFiles/market_qt.dir/Exceptions/AppException.cpp.o" \
 "CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o" \
+"CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o" \
 "CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
 
 # External object files for target market_qt
@@ -466,6 +480,7 @@ market_qt: CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Exceptions/AppException.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o
+market_qt: CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o
 market_qt: CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o
 market_qt: CMakeFiles/market_qt.dir/build.make
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so.5.15.2
@@ -474,7 +489,7 @@ market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 market_qt: CMakeFiles/market_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable market_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable market_qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/market_qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

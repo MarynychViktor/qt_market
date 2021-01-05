@@ -290,6 +290,33 @@ Http/MarketHttpClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.s
 .PHONY : Http/MarketHttpClient.cpp.s
 
+Infrastructure/DI/ServiceLocator.o: Infrastructure/DI/ServiceLocator.cpp.o
+
+.PHONY : Infrastructure/DI/ServiceLocator.o
+
+# target to build an object file
+Infrastructure/DI/ServiceLocator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o
+.PHONY : Infrastructure/DI/ServiceLocator.cpp.o
+
+Infrastructure/DI/ServiceLocator.i: Infrastructure/DI/ServiceLocator.cpp.i
+
+.PHONY : Infrastructure/DI/ServiceLocator.i
+
+# target to preprocess a source file
+Infrastructure/DI/ServiceLocator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.i
+.PHONY : Infrastructure/DI/ServiceLocator.cpp.i
+
+Infrastructure/DI/ServiceLocator.s: Infrastructure/DI/ServiceLocator.cpp.s
+
+.PHONY : Infrastructure/DI/ServiceLocator.s
+
+# target to generate assembly for a file
+Infrastructure/DI/ServiceLocator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.s
+.PHONY : Infrastructure/DI/ServiceLocator.cpp.s
+
 Infrastructure/MarketSettings.o: Infrastructure/MarketSettings.cpp.o
 
 .PHONY : Infrastructure/MarketSettings.o
@@ -855,6 +882,9 @@ help:
 	@echo "... Http/MarketHttpClient.o"
 	@echo "... Http/MarketHttpClient.i"
 	@echo "... Http/MarketHttpClient.s"
+	@echo "... Infrastructure/DI/ServiceLocator.o"
+	@echo "... Infrastructure/DI/ServiceLocator.i"
+	@echo "... Infrastructure/DI/ServiceLocator.s"
 	@echo "... Infrastructure/MarketSettings.o"
 	@echo "... Infrastructure/MarketSettings.i"
 	@echo "... Infrastructure/MarketSettings.s"

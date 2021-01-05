@@ -5,11 +5,8 @@
 #include "ProductManager.h"
 #include "../Exceptions/NotFoundException.h"
 
-ProductManager::ProductManager(
-        shared_ptr<ProductRepository>& repository,
-        shared_ptr<MarketHttpClient>& marketClient
-)
-    : mRepository(repository), mMarketClient(marketClient)
+ProductManager::ProductManager(shared_ptr<ProductRepository> repository)
+    : mRepository(repository)
 {
     mProducts = repository->getProducts();
     isInitialized = true;

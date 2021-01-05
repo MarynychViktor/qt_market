@@ -16,12 +16,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
 
 private:
-    shared_ptr<ProductRepository> productRepository;
-    shared_ptr<MarketHttpClient> marketClient;
-    WorkerManager* workerManager;
-    shared_ptr<ProductManager> productManager;
+    shared_ptr<WorkerManager> workerManager;
 
     void closeEvent(QCloseEvent *event) override;
+    void setUpWorker();
 };
 
 

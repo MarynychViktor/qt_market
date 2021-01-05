@@ -383,6 +383,76 @@ CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
+CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmutex.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpoint.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringview.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
 CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h
@@ -1268,6 +1338,7 @@ CMakeFiles/market_qt.dir/Services/ProductManager.cpp.o
  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
 CMakeFiles/market_qt.dir/main.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QIODevice
@@ -1275,6 +1346,7 @@ CMakeFiles/market_qt.dir/main.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
@@ -1453,12 +1525,14 @@ CMakeFiles/market_qt.dir/main.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp
@@ -1630,6 +1704,7 @@ CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.o
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
@@ -1781,6 +1856,7 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.o
  market_qt_autogen/include/ui_menu.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QEventLoop
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
@@ -1788,6 +1864,7 @@ CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
@@ -1949,12 +2026,14 @@ CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
@@ -1968,12 +2047,14 @@ CMakeFiles/market_qt.dir/ui/MainWindow.cpp.o
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractTableModel
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
@@ -2135,6 +2216,7 @@ CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
@@ -2345,6 +2427,7 @@ CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+ /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
@@ -2452,13 +2535,17 @@ CMakeFiles/market_qt.dir/workers/TradeWorker.cpp.o
  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
@@ -2707,7 +2794,9 @@ CMakeFiles/market_qt.dir/workers/WorkerManager.cpp.o
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+ /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
  /home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp

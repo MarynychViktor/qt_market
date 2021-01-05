@@ -8,24 +8,21 @@
 #include "QMenuBar"
 #include "QAction"
 #include "MarketManagementContent.h"
+#include "../Infrastructure/DI/ServiceLocator.h"
 #include <QEventLoop>
 #include <memory>
-#include "../workers/WorkerManager.h"
 
 using namespace std;
-
+// TODO: refactor trash
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent, Qt::Window)
 {
-    productRepository = make_shared<ProductRepository>(ProductRepository());
-    marketClient = make_shared<MarketHttpClient>(MarketHttpClient());
-    productManager = make_shared<ProductManager>(productRepository, marketClient);
+//    productRepository = make_shared<ProductRepository>(ProductRepository());
+//    marketClient = make_shared<MarketHttpClient>(MarketHttpClient());
+//    productManager = make_shared<ProductManager>(productRepository, marketClient);
 
     setCentralWidget(new MarketManagementContent(this));
-
-    workerManager = new WorkerManager();
-    auto tradeWorker = new TradeWorker();
-    workerManager->runWorkerInLoop<TradeWorker>();
+    setUpWorker();
 }
 
 void MainWindow::closeEvent(QCloseEvent *event) {
@@ -33,11 +30,19 @@ void MainWindow::closeEvent(QCloseEvent *event) {
     workerManager->stop();
 
     qDebug() << "Close event fired";
-    connect(workerManager, &WorkerManager::stopped, [event, &loop]() {
+    connect(workerManager.get(), &WorkerManager::stopped, [event, &loop]() {
         qDebug() << "Close accepted";
        event->accept();
        loop.exit();
     });
 
     loop.exec();
+}
+
+void MainWindow::setUpWorker() {
+    auto instance = ServiceLocator::Instance();
+
+    workerManager = instance->GetService<WorkerManager>();
+    auto tradeWorker = new TradeWorker();
+    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
 }

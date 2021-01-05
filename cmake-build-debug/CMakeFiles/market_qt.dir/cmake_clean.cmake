@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o"
   "CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o"
   "CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o"
+  "CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o"
   "CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.o"
   "CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o"
   "CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o"

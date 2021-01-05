@@ -125,6 +125,11 @@
 			"2IH3D476MI/moc_MarketHttpClient.cpp"
 		],
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h",
+			"MU",
+			"IQLQIWSPI2/moc_ServiceLocator.cpp"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h",
 			"MU",
 			"BIA7FUK3XI/moc_MarketSettings.cpp"
@@ -294,6 +299,10 @@
 		],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp",
 			"MU"
 		],
 		[

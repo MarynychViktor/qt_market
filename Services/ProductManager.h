@@ -15,7 +15,7 @@ class ProductManager : public  QObject
 {
     Q_OBJECT
 public:
-    explicit ProductManager(shared_ptr<ProductRepository>& repository, shared_ptr<MarketHttpClient>& marketClient);
+    explicit ProductManager(shared_ptr<ProductRepository> repository);
 
     QList<shared_ptr<Product>> getProducts();
     shared_ptr<Product> findByClassAndInstanceIds(QString classId, QString instanceId);
@@ -29,7 +29,6 @@ signals:
 
 private:
     shared_ptr<ProductRepository> mRepository;
-    shared_ptr<MarketHttpClient> mMarketClient;
     QList<shared_ptr<Product>> mProducts;
     bool isInitialized = false;
 };

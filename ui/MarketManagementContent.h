@@ -16,6 +16,8 @@ public:
     explicit MarketManagementContent(QWidget *parent = nullptr);
     ~MarketManagementContent();
 
+    void setUp();
+    void setUpTradesTable();
 private:
     Ui::MarketManagementContent *ui;
     ProductsTableWidget *trades;

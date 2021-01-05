@@ -94,7 +94,6 @@ QList<shared_ptr<ItemMassInfoResult>> MarketHttpClient::getMassInfo(const QList<
             tradeOffersHash
         );
 
-        qDebug() << "massInfoItemObject" << massInfoItemObject;
         massInfoResultList.append(make_shared<ItemMassInfoResult>(ItemMassInfoResult(
                 massInfoItemObject["classid"].toString(),
                 massInfoItemObject["instanceid"].toString(),
@@ -163,7 +162,6 @@ void MarketHttpClient::massSetPriceById(QHash<QString, int> newPrices)
     QUrlQuery query;
 
     std::for_each(newPrices.keyBegin(), newPrices.keyEnd(), [&query, &newPrices](const QString& key) {
-        qDebug() << "Value " << newPrices << newPrices.value(key) << QString::number(newPrices[key]);
         query.addQueryItem(QString("list[%1]").arg(key), QString::number(newPrices[key]));
     });
 
