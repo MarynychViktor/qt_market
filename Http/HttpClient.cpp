@@ -24,7 +24,7 @@ QByteArray SyncHttpClient::get(const QString& path)
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(QString::number(timeout), path));
+        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(path, QString::number(timeout)));
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);
@@ -59,7 +59,7 @@ QByteArray SyncHttpClient::post(const QString& path, const QByteArray& data)
     if (timer.isActive()) {
         timer.stop();
     } else {
-        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(QString::number(timeout), path));
+        throw TimeoutException(QString("TimeoutException: Response for %1 not returned in %2").arg(path, QString::number(timeout)));
     }
 
     auto statusCode = reply->attribute(QNetworkRequest::Attribute::HttpStatusCodeAttribute);

@@ -27,6 +27,10 @@ public:
     QTabWidget *marketManagement;
     QWidget *ordersTab;
     QHBoxLayout *ordersLayout;
+    QVBoxLayout *ordersWrapper;
+    QHBoxLayout *ordersHeader;
+    QPushButton *ordersRefresh;
+    QSpacerItem *horizontalSpacer_2;
     QVBoxLayout *ordersContent;
     QWidget *tradesTab;
     QHBoxLayout *tradesTab_2;
@@ -49,10 +53,31 @@ public:
         ordersTab->setObjectName(QString::fromUtf8("ordersTab"));
         ordersLayout = new QHBoxLayout(ordersTab);
         ordersLayout->setObjectName(QString::fromUtf8("ordersLayout"));
+        ordersWrapper = new QVBoxLayout();
+        ordersWrapper->setObjectName(QString::fromUtf8("ordersWrapper"));
+        ordersHeader = new QHBoxLayout();
+        ordersHeader->setObjectName(QString::fromUtf8("ordersHeader"));
+        ordersRefresh = new QPushButton(ordersTab);
+        ordersRefresh->setObjectName(QString::fromUtf8("ordersRefresh"));
+
+        ordersHeader->addWidget(ordersRefresh);
+
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        ordersHeader->addItem(horizontalSpacer_2);
+
+
+        ordersWrapper->addLayout(ordersHeader);
+
         ordersContent = new QVBoxLayout();
         ordersContent->setObjectName(QString::fromUtf8("ordersContent"));
 
-        ordersLayout->addLayout(ordersContent);
+        ordersWrapper->addLayout(ordersContent);
+
+        ordersWrapper->setStretch(0, 1);
+        ordersWrapper->setStretch(1, 25);
+
+        ordersLayout->addLayout(ordersWrapper);
 
         marketManagement->addTab(ordersTab, QString());
         tradesTab = new QWidget();
@@ -98,7 +123,7 @@ public:
 
         retranslateUi(MarketManagementContent);
 
-        marketManagement->setCurrentIndex(1);
+        marketManagement->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MarketManagementContent);
@@ -107,6 +132,7 @@ public:
     void retranslateUi(QWidget *MarketManagementContent)
     {
         MarketManagementContent->setWindowTitle(QCoreApplication::translate("MarketManagementContent", "Form", nullptr));
+        ordersRefresh->setText(QCoreApplication::translate("MarketManagementContent", "Refresh", nullptr));
         marketManagement->setTabText(marketManagement->indexOf(ordersTab), QCoreApplication::translate("MarketManagementContent", "Orders", nullptr));
         tradesRefresh->setText(QCoreApplication::translate("MarketManagementContent", "Refresh", nullptr));
         marketManagement->setTabText(marketManagement->indexOf(tradesTab), QCoreApplication::translate("MarketManagementContent", "Trades", nullptr));

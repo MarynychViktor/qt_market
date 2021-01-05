@@ -437,9 +437,35 @@ CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.cpp -o CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.s
 
+CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o: ../Infrastructure/Models/OrderResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp
+
+CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp > CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.i
+
+CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp -o CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.s
+
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../workers/OrderWorker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp
+
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp > CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.i
+
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp -o CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.s
+
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: CMakeFiles/market_qt.dir/flags.make
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o: market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o -c /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
 
 CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.i: cmake_force
@@ -479,6 +505,8 @@ market_qt_OBJECTS = \
 "CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o" \
 "CMakeFiles/market_qt.dir/Services/Logger.cpp.o" \
 "CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o" \
+"CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o" \
+"CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o" \
 "CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o"
 
 # External object files for target market_qt
@@ -511,6 +539,8 @@ market_qt: CMakeFiles/market_qt.dir/Exceptions/NotFoundException.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Services/Logger.cpp.o
 market_qt: CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.o
+market_qt: CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o
+market_qt: CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o
 market_qt: CMakeFiles/market_qt.dir/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp.o
 market_qt: CMakeFiles/market_qt.dir/build.make
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Widgets.so.5.15.2
@@ -519,7 +549,7 @@ market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Network.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Gui.so.5.15.2
 market_qt: /home/marinich_v/Qt/5.15.2/gcc_64/lib/libQt5Core.so.5.15.2
 market_qt: CMakeFiles/market_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable market_qt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable market_qt"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/market_qt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

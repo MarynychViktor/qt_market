@@ -18,7 +18,16 @@ ItemMassInfoResult::OrderOffers::OrderOffers(int best, int my, QHash<int, int> o
 
 int ItemMassInfoResult::OrderOffers::getMaxOffer()
 {
+    int maxOffer = PRICE_NOT_SET;
+    for_each(offers.begin(), offers.end(), [this, &maxOffer](const int& price) {
+        if (myOffer != price || myOffer == price && offers[price] > 1) {
+            if (maxOffer < price) {
+                maxOffer = price;
+            }
+        }
+    });
 
+    return maxOffer;
 }
 
 ItemMassInfoResult::TradeOffers::TradeOffers(int best, QList<int> my, QHash<int, int> offers)

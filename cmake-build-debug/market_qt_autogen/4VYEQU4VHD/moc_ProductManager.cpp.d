@@ -105,6 +105,7 @@
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h \
+  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h \
   /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h \

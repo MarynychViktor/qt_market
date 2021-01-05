@@ -17,7 +17,7 @@
    <item>
     <widget class="QTabWidget" name="marketManagement">
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="ordersTab">
       <attribute name="title">
@@ -25,7 +25,35 @@
       </attribute>
       <layout class="QHBoxLayout" name="ordersLayout">
        <item>
-        <layout class="QVBoxLayout" name="ordersContent"/>
+        <layout class="QVBoxLayout" name="ordersWrapper" stretch="1,25">
+         <item>
+          <layout class="QHBoxLayout" name="ordersHeader">
+           <item>
+            <widget class="QPushButton" name="ordersRefresh">
+             <property name="text">
+              <string>Refresh</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="ordersContent"/>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>
@@ -73,7 +101,7 @@
           </layout>
          </item>
          <item>
-          <layout class="QVBoxLayout" name="tradesContent" stretch="">
+          <layout class="QVBoxLayout" name="tradesContent">
            <property name="spacing">
             <number>10</number>
            </property>

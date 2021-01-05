@@ -452,6 +452,33 @@ Infrastructure/Models/OfferInfo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OfferInfo.cpp.s
 .PHONY : Infrastructure/Models/OfferInfo.cpp.s
 
+Infrastructure/Models/OrderResponse.o: Infrastructure/Models/OrderResponse.cpp.o
+
+.PHONY : Infrastructure/Models/OrderResponse.o
+
+# target to build an object file
+Infrastructure/Models/OrderResponse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.o
+.PHONY : Infrastructure/Models/OrderResponse.cpp.o
+
+Infrastructure/Models/OrderResponse.i: Infrastructure/Models/OrderResponse.cpp.i
+
+.PHONY : Infrastructure/Models/OrderResponse.i
+
+# target to preprocess a source file
+Infrastructure/Models/OrderResponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.i
+.PHONY : Infrastructure/Models/OrderResponse.cpp.i
+
+Infrastructure/Models/OrderResponse.s: Infrastructure/Models/OrderResponse.cpp.s
+
+.PHONY : Infrastructure/Models/OrderResponse.s
+
+# target to generate assembly for a file
+Infrastructure/Models/OrderResponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.s
+.PHONY : Infrastructure/Models/OrderResponse.cpp.s
+
 Infrastructure/Models/TradeResponse.o: Infrastructure/Models/TradeResponse.cpp.o
 
 .PHONY : Infrastructure/Models/TradeResponse.o
@@ -830,6 +857,33 @@ ui/ProductsTableWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.s
 .PHONY : ui/ProductsTableWidget.cpp.s
 
+workers/OrderWorker.o: workers/OrderWorker.cpp.o
+
+.PHONY : workers/OrderWorker.o
+
+# target to build an object file
+workers/OrderWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o
+.PHONY : workers/OrderWorker.cpp.o
+
+workers/OrderWorker.i: workers/OrderWorker.cpp.i
+
+.PHONY : workers/OrderWorker.i
+
+# target to preprocess a source file
+workers/OrderWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.i
+.PHONY : workers/OrderWorker.cpp.i
+
+workers/OrderWorker.s: workers/OrderWorker.cpp.s
+
+.PHONY : workers/OrderWorker.s
+
+# target to generate assembly for a file
+workers/OrderWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/market_qt.dir/build.make CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.s
+.PHONY : workers/OrderWorker.cpp.s
+
 workers/TradeWorker.o: workers/TradeWorker.cpp.o
 
 .PHONY : workers/TradeWorker.o
@@ -954,6 +1008,9 @@ help:
 	@echo "... Infrastructure/Models/OfferInfo.o"
 	@echo "... Infrastructure/Models/OfferInfo.i"
 	@echo "... Infrastructure/Models/OfferInfo.s"
+	@echo "... Infrastructure/Models/OrderResponse.o"
+	@echo "... Infrastructure/Models/OrderResponse.i"
+	@echo "... Infrastructure/Models/OrderResponse.s"
 	@echo "... Infrastructure/Models/TradeResponse.o"
 	@echo "... Infrastructure/Models/TradeResponse.i"
 	@echo "... Infrastructure/Models/TradeResponse.s"
@@ -996,6 +1053,9 @@ help:
 	@echo "... ui/ProductsTableWidget.o"
 	@echo "... ui/ProductsTableWidget.i"
 	@echo "... ui/ProductsTableWidget.s"
+	@echo "... workers/OrderWorker.o"
+	@echo "... workers/OrderWorker.i"
+	@echo "... workers/OrderWorker.s"
 	@echo "... workers/TradeWorker.o"
 	@echo "... workers/TradeWorker.i"
 	@echo "... workers/TradeWorker.s"

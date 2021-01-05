@@ -155,6 +155,11 @@
 			"6JSKM7TLYW/moc_OfferInfo.cpp"
 		],
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.h",
+			"MU",
+			"6JSKM7TLYW/moc_OrderResponse.cpp"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h",
 			"MU",
 			"6JSKM7TLYW/moc_TradeResponse.cpp"
@@ -213,6 +218,11 @@
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h",
 			"MU",
 			"UYX5XTB5RZ/moc_ProductsTableWidget.cpp"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.h",
+			"MU",
+			"WLPROMMMF6/moc_OrderWorker.cpp"
 		],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h",
@@ -336,6 +346,10 @@
 			"MU"
 		],
 		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp",
+			"MU"
+		],
+		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.cpp",
 			"MU"
 		],
@@ -369,6 +383,10 @@
 		],
 		[
 			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp",
+			"MU"
+		],
+		[
+			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp",
 			"MU"
 		],
 		[

@@ -21,6 +21,12 @@ void TradeWorker::start() {
     try {
         timer.start();
         initializeTrades();
+
+        if (trades.isEmpty()) {
+            emit finished();
+            return;
+        }
+
         QHash<QString, int> newPrices;
 
         for(const auto& tradeInfo : trades) {

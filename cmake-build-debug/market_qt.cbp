@@ -188,6 +188,12 @@
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h">
 			<Option target="market_qt"/>
 		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.h">
+			<Option target="market_qt"/>
+		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.cpp">
 			<Option target="market_qt"/>
 		</Unit>
@@ -270,6 +276,12 @@
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.h">
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp">

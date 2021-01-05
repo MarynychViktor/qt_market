@@ -109,6 +109,7 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
                 }
             default:
                 qInfo("NOT MATCHED");
+                return true;
             }
           });
 

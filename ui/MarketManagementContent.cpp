@@ -23,6 +23,7 @@ MarketManagementContent::~MarketManagementContent()
 
 void MarketManagementContent::setUp()
 {
+    setUpOrdersTable();
     setUpTradesTable();
 }
 
@@ -42,5 +43,22 @@ void MarketManagementContent::setUpTradesTable() {
         trades->setModel(model);
     });
 
+}
+
+void MarketManagementContent::setUpOrdersTable() {
+    auto serviceLocator = ServiceLocator::Instance();
+    auto repository = serviceLocator->GetService<ProductRepository>();
+
+    orders = new ProductsTableWidget(this);
+
+    auto productModel = new ProductTableModel(repository->getProducts());
+    orders->setModel(productModel);
+    ui->ordersContent->addWidget(orders);
+
+    connect(ui->ordersRefresh, &QPushButton::clicked, [this, serviceLocator]() {
+        auto repository = serviceLocator->GetService<ProductRepository>();
+        auto model = new ProductTableModel(repository->getProducts());
+        orders->setModel(model);
+    });
 }
 

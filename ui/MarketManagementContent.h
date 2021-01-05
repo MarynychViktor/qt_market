@@ -17,6 +17,7 @@ public:
 
     void setUp();
     void setUpTradesTable();
+    void setUpOrdersTable();
 private:
     Ui::MarketManagementContent *ui;
     ProductsTableWidget *trades;

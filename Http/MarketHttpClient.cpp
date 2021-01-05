@@ -14,7 +14,7 @@ const QString MarketHttpClient::API_ENDPOINT  = "api url";
 
 QList<shared_ptr<TradeResponse>> MarketHttpClient::getTrades()
 {
-    auto path = QString("%1/Trades/?key=%5").arg(API_ENDPOINT, settings->apiKey);
+    auto path = QString("%1/Trades/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     auto content = httpClient->get(path);
     auto tradesResponse = QJsonDocument::fromJson(content);
 
@@ -166,4 +166,25 @@ void MarketHttpClient::massSetPriceById(QHash<QString, int> newPrices)
     });
 
     httpClient->post(path, query.toString().toUtf8());
+}
+
+QList<shared_ptr<OrderResponse>> MarketHttpClient::getOrders()
+{
+    auto path = QString("%1/GetOrders/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
+    auto content = httpClient->get(path);
+    auto ordersResponse = QJsonDocument::fromJson(content);
+
+    QList<shared_ptr<OrderResponse>> orders;
+
+    for(auto el : ordersResponse.array()) {
+        orders.append(OrderResponse::fromJson(el));
+    }
+
+    return orders;
+}
+
+void MarketHttpClient::updateOrder(QString classId, QString instanceId, int price)
+{
+    auto path = QString("%1/UpdateOrder/%2/%3/%4/?key=%5").arg(API_ENDPOINT, classId, instanceId, QString::number(price), settings->apiKey);
+    auto content = httpClient->post(path, QByteArray());
 }
