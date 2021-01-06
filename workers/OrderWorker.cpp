@@ -7,6 +7,7 @@
 #include "../consts.h"
 #include "../Exceptions/AppException.h"
 #include "../Services/Logger.h"
+#include "../Exceptions/NotFoundException.h"
 
 OrderWorker::OrderWorker(QObject *parent) : Worker(parent) {}
 
@@ -21,7 +22,7 @@ void OrderWorker::start() {
         auto orders = marketClient->getOrders();
 
         if (orders.isEmpty()) {
-            Logger::debug("No active orders. Exit...");
+            Logger::debug("No orders. Exit...");
             emit finished();
             return;
         }
@@ -35,12 +36,22 @@ void OrderWorker::start() {
             }
         }
 
+        if (combinedOrderIds.isEmpty()) {
+            Logger::debug("No active orders. Exit...");
+            emit finished();
+            return;
+        }
+
         orderedProducts = marketClient->getMassInfo(combinedOrderIds);
 
         for (const auto& order : orderedProducts) {
             auto product = productForOrder(order);
             auto orderOffers = order->orderOffers;
 
+            Logger::debug(QString("Max order offer %1, max allowed %2").arg(
+                    QString::number(orderOffers->getMaxOffer()),
+                    QString::number(product->maxAllowedOrderPrice))
+                );
             if (orderOffers->getMaxOffer() < product->maxAllowedOrderPrice) {
                 if (
                     orderOffers->myOffer < product->maxAllowedOrderPrice ||
@@ -72,9 +83,11 @@ void OrderWorker::initializeServices()
 
 shared_ptr<Product> OrderWorker::productForOrder(shared_ptr<ItemMassInfoResult> order)
 {
-    auto product = productManager->findByClassAndInstanceIds(order->classId, order->instanceId);
+    shared_ptr<Product> product;
 
-    if (product == nullptr) {
+    try {
+        product = productManager->findByClassAndInstanceIds(order->classId, order->instanceId);
+    } catch (NotFoundException& e) {
         product = Product::fromItemMassInfo(order);
         productManager->addProduct(product);
     }

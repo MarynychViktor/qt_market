@@ -50,8 +50,8 @@ void MainWindow::setUpWorker()
     workerManager = instance->GetService<WorkerManager>();
 
     // Trade worker setup
-    auto tradeWorker = new TradeWorker();
-    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
+//    auto tradeWorker = new TradeWorker();
+//    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
 
     // Order worker setup
     auto orderWorker = new OrderWorker();

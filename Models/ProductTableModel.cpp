@@ -1,5 +1,7 @@
 #include "ProductTableModel.h"
 #include "../Jobs/UpdateTradePricesJob.h"
+#include "../Infrastructure/DI/ServiceLocator.h"
+#include "../Services/ProductManager.h"
 
 #include <QAbstractTableModel>
 #include <QString>
@@ -62,7 +64,8 @@ QVariant ProductTableModel::headerData(int section, Qt::Orientation orientation,
 bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value, int role)
 {
     if (index.isValid() && role == Qt::EditRole) {
-        ProductRepository repository;
+        auto serviceLocator = ServiceLocator::Instance();
+        auto productManager = serviceLocator->GetService<ProductManager>();
         auto product = products.at(index.row());
         switch (index.column()) {
             case 0:
@@ -70,11 +73,11 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
                 break;
             case 1:
                 product->maxAllowedOrderPrice = value.toDouble();
-                repository.updateMaxAllowedOrderPrice(product, value.toInt());
+                productManager->updateMaxAllowedOrderPrice(product, value.toInt());
                 break;
             case 2:
                 product->minAllowedTradePrice = value.toDouble();
-                repository.updateMinAllowedTradePrice(product, value.toInt());
+                productManager->updateMinAllowedTradePrice(product, value.toInt());
                 break;
         }
 

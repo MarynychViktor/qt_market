@@ -1,5 +1,6 @@
 #include "MarketHttpClient.h"
 #include "../Exceptions/MarketException.h"
+#include "../Services/Logger.h"
 
 #include <QStringBuilder>
 #include <QNetworkReply>
@@ -33,7 +34,7 @@ QList<shared_ptr<ItemMassInfoResult>> MarketHttpClient::getMassInfo(const QList<
         throw std::runtime_error("Please provide list of product combined ids");
     }
 
-    auto endpointPath = QString("%1/MassInfo/1/2/0/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
+    auto endpointPath = QString("%1/MassInfo/1/1/0/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     QString listIds;
 
     for(const QString& combinedId : combinedIds) {
@@ -130,7 +131,7 @@ shared_ptr<ItemInfo> MarketHttpClient::getItemInfo(const QString& classId, const
         QList<OfferInfo> buyOffers;
         for(auto offerRef : itemResponse["buy_offers"].toArray()) {
             auto offer = offerRef.toObject();
-            sellOffers.push_back(
+            buyOffers.push_back(
                 OfferInfo(
                      (int)round(offer["o_price"].toString().toDouble() * 100),
                      offer["c"].toString().toInt(),
@@ -170,13 +171,17 @@ void MarketHttpClient::massSetPriceById(QHash<QString, int> newPrices)
 
 QList<shared_ptr<OrderResponse>> MarketHttpClient::getOrders()
 {
-    auto path = QString("%1/GetOrders/2/?key=%2").arg(API_ENDPOINT, settings->apiKey);
+    auto path = QString("%1/GetOrders/1/?key=%2").arg(API_ENDPOINT, settings->apiKey);
     auto content = httpClient->get(path);
     auto ordersResponse = QJsonDocument::fromJson(content);
 
+    if (!ordersResponse["success"].toBool()) {
+        throw MarketException("Get orders failed");
+    }
+
     QList<shared_ptr<OrderResponse>> orders;
 
-    for(auto el : ordersResponse.array()) {
+    for (auto el : ordersResponse["Orders"].toArray()) {
         orders.append(OrderResponse::fromJson(el));
     }
 
@@ -186,5 +191,6 @@ QList<shared_ptr<OrderResponse>> MarketHttpClient::getOrders()
 void MarketHttpClient::updateOrder(QString classId, QString instanceId, int price)
 {
     auto path = QString("%1/UpdateOrder/%2/%3/%4/?key=%5").arg(API_ENDPOINT, classId, instanceId, QString::number(price), settings->apiKey);
+    Logger::debug("Update order path " + QString(path) + QString::number(price));
     auto content = httpClient->post(path, QByteArray());
 }

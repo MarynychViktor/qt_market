@@ -316,6 +316,8 @@ CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Exceptions/TimeoutException.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Http/HttpClient.cpp
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.o: ../Http/HttpClient.h
 
+CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
+CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
@@ -440,6 +442,7 @@ CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: ../Infrastructure/Models/I
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: ../Infrastructure/Models/OfferInfo.h
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: ../Infrastructure/Models/OrderResponse.h
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: ../Infrastructure/Models/TradeResponse.h
+CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.o: ../Services/Logger.h
 
 CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
@@ -625,6 +628,7 @@ CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o: ../Infrastructure
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o: ../Infrastructure/Models/ItemInfo.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.o: ../Infrastructure/Models/OfferInfo.h
 
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h
@@ -640,24 +644,41 @@ CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/m
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmutex.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpoint.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
@@ -668,7 +689,10 @@ CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/m
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h
+CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h
 CMakeFiles/market_qt.dir/Infrastructure/Models/ItemMassInfoResult.cpp.o: ../Infrastructure/Models/ItemMassInfoResult.cpp
@@ -1233,12 +1257,14 @@ CMakeFiles/market_qt.dir/Models/Product.cpp.o: ../Models/Product.h
 CMakeFiles/market_qt.dir/Models/Product.cpp.o: ../consts.h
 
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractTableModel
+CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
@@ -1343,6 +1369,7 @@ CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.1
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Http/HttpClient.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Http/MarketHttpClient.h
+CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Infrastructure/DI/ServiceLocator.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Infrastructure/MarketSettings.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Infrastructure/Models/ItemInfo.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Infrastructure/Models/ItemMassInfoResult.h
@@ -1354,6 +1381,7 @@ CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Jobs/UpdateTradePric
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/Product.h
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/ProductTableModel.cpp
 CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Models/ProductTableModel.h
+CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.o: ../Services/ProductManager.h
 
 CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/Services/Logger.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
@@ -2648,6 +2676,7 @@ CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: ../ui/ProductsTableWidget
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: ../ui/ProductsTableWidget.h
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.o: market_qt_autogen/include/ui_ProductsTableWidget.h
 
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
@@ -2764,6 +2793,7 @@ CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/g
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Exceptions/AppException.h
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Exceptions/NotFoundException.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Http/HttpClient.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Http/MarketHttpClient.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Infrastructure/DI/ServiceLocator.h
@@ -2775,6 +2805,7 @@ CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Infrastructure/Models/Ord
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Infrastructure/Models/TradeResponse.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Infrastructure/Repositories/ProductRepository.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Models/Product.h
+CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Services/Logger.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../consts.h
 CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.o: ../workers/OrderWorker.cpp

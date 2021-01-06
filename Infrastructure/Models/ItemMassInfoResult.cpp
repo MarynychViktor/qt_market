@@ -1,6 +1,9 @@
 #include "ItemMassInfoResult.h"
 #include "../../consts.h"
 
+#include <QDebug>
+
+
 ItemMassInfoResult::ItemMassInfoResult(QString classId, QString instanceId, QString name, QString photo, QString quality,
                                        shared_ptr<ItemMassInfoResult::OrderOffers> orderOffers, shared_ptr<ItemMassInfoResult::TradeOffers> tradeOffers)
     : classId(classId), instanceId(instanceId), name(name), photo(photo), quality(quality), orderOffers(orderOffers), tradeOffers(tradeOffers)
@@ -19,7 +22,8 @@ ItemMassInfoResult::OrderOffers::OrderOffers(int best, int my, QHash<int, int> o
 int ItemMassInfoResult::OrderOffers::getMaxOffer()
 {
     int maxOffer = PRICE_NOT_SET;
-    for_each(offers.begin(), offers.end(), [this, &maxOffer](const int& price) {
+    for_each(offers.keyBegin(), offers.keyEnd(), [this, &maxOffer](const int& price) {
+
         if (myOffer != price || myOffer == price && offers[price] > 1) {
             if (maxOffer < price) {
                 maxOffer = price;
