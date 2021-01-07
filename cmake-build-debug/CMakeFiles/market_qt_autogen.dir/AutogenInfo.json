@@ -1,248 +1,240 @@
 {
-	"BUILD_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen",
-	"CMAKE_BINARY_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "home/marinich_v/Qt/5.15.2/gcc_64",
-	"CMAKE_EXECUTABLE" : "/home/marinich_v/Qt/Tools/CMake/bin/cmake",
+	"BUILD_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/CMakeLists.txt",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/3.19.0/CMakeSystem.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/3.19.0/CMakeCXXCompiler.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/UnixPaths.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeFindCodeBlocks.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/ProcessorCount.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/GNU.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Internal/CMakeCheckCompilerFlag.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images.qrc"
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/CMakeLists.txt",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindCodeBlocks.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-windres.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseArguments.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
+		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake",
+	"CMAKE_SOURCE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.h",
 			"MU",
 			"3ZPKKT53DT/moc_AppException.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.h",
 			"MU",
 			"3ZPKKT53DT/moc_MarketException.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.h",
 			"MU",
 			"3ZPKKT53DT/moc_NotFoundException.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.h",
 			"MU",
 			"3ZPKKT53DT/moc_TimeoutException.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h",
 			"MU",
 			"2IH3D476MI/moc_HttpClient.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h",
 			"MU",
 			"2IH3D476MI/moc_MarketHttpClient.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.h",
 			"MU",
 			"IQLQIWSPI2/moc_ServiceLocator.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h",
 			"MU",
 			"BIA7FUK3XI/moc_MarketSettings.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h",
 			"MU",
 			"6JSKM7TLYW/moc_ItemInfo.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h",
 			"MU",
 			"6JSKM7TLYW/moc_ItemMassInfoResult.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h",
 			"MU",
 			"6JSKM7TLYW/moc_OfferInfo.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h",
 			"MU",
 			"6JSKM7TLYW/moc_OrderResponse.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h",
 			"MU",
 			"6JSKM7TLYW/moc_TradeResponse.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h",
 			"MU",
 			"W5UIAL3KR5/moc_ProductRepository.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h",
 			"MU",
 			"DMJPQCIT5E/moc_UpdateTradePricesJob.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h",
 			"MU",
 			"25IR5XJDBU/moc_Product.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h",
 			"MU",
 			"25IR5XJDBU/moc_ProductTableModel.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h",
 			"MU",
 			"4VYEQU4VHD/moc_Logger.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h",
 			"MU",
 			"4VYEQU4VHD/moc_ProductManager.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/consts.h",
 			"MU",
 			"EWIEGA46WW/moc_consts.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h",
 			"MU",
 			"P2WXERC3RM/moc_menu.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.h",
 			"MU",
 			"UYX5XTB5RZ/moc_MainWindow.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h",
 			"MU",
 			"UYX5XTB5RZ/moc_MarketManagementContent.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h",
 			"MU",
 			"UYX5XTB5RZ/moc_ProductsTableWidget.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h",
 			"MU",
 			"WLPROMMMF6/moc_OrderWorker.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h",
 			"MU",
 			"WLPROMMMF6/moc_TradeWorker.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h",
 			"MU",
 			"WLPROMMMF6/moc_Worker.cpp"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h",
 			"MU",
 			"WLPROMMMF6/moc_WorkerManager.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -260,142 +252,157 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/home/marinich_v/Qt/5.15.2/gcc_64",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/home/marinich_v/Qt/5.15.2/gcc_64/include",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/mkspecs/linux-g++",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql",
-		"/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork",
-		"/usr/include",
-		"/usr/include/c++/9",
-		"/usr/include/x86_64-linux-gnu/c++/9",
-		"/usr/include/c++/9/backward",
-		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
-		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu"
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/include",
+		"C:/Qt/5.15.2/mingw81_64/include",
+		"C:/Qt/5.15.2/mingw81_64/include/QtCore",
+		"C:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++",
+		"C:/Qt/5.15.2/mingw81_64/include/QtGui",
+		"C:/Qt/5.15.2/mingw81_64/include/QtANGLE",
+		"C:/Qt/5.15.2/mingw81_64/include/QtWidgets",
+		"C:/Qt/5.15.2/mingw81_64/include/QtSql",
+		"C:/Qt/5.15.2/mingw81_64/include/QtNetwork",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe",
 		"-dM",
 		"-E",
 		"-c",
-		"/home/marinich_v/Qt/Tools/CMake/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/ParseCache.txt",
-	"QT_MOC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/moc",
-	"QT_UIC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/uic",
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OrderResponse.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.cpp",
-			"MU"
-		],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.cpp", "MU" ],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.cpp",
-			"MU"
-		],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp", "MU" ],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp", "MU" ],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp", "MU" ],
-		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/OrderWorker.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.cpp",
 			"MU"
 		],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/main.cpp",
 			"MU"
 		],
-		[ "/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.cpp", "MU" ],
 		[
-			"/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp",
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.cpp",
+			"MU"
+		],
+		[
+			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.cpp",
 			"MU"
 		]
 	],

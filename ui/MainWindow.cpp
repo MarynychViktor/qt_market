@@ -30,7 +30,7 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
     Logger::debug("Main window close requested");
     QMessageBox messageBox;
-    messageBox.setStandardButtons(nullptr);
+//    messageBox.setStandardButtons(nullptr);
     messageBox.setWindowTitle("Info");
     messageBox.setText("Stopping running workers");
     messageBox.show();

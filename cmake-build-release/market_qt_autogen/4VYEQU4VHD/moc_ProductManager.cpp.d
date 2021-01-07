@@ -1,337 +1,284 @@
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp: /home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/moc_predefs.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QUrl \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVariant \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVector \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringview.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/quuid.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h \
-  /home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h \
-  /home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h \
-  /usr/include/alloca.h \
-  /usr/include/assert.h \
-  /usr/include/c++/9/algorithm \
-  /usr/include/c++/9/array \
-  /usr/include/c++/9/atomic \
-  /usr/include/c++/9/backward/auto_ptr.h \
-  /usr/include/c++/9/backward/binders.h \
-  /usr/include/c++/9/bit \
-  /usr/include/c++/9/bits/algorithmfwd.h \
-  /usr/include/c++/9/bits/alloc_traits.h \
-  /usr/include/c++/9/bits/allocated_ptr.h \
-  /usr/include/c++/9/bits/allocator.h \
-  /usr/include/c++/9/bits/atomic_base.h \
-  /usr/include/c++/9/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/9/bits/basic_ios.h \
-  /usr/include/c++/9/bits/basic_ios.tcc \
-  /usr/include/c++/9/bits/basic_string.h \
-  /usr/include/c++/9/bits/basic_string.tcc \
-  /usr/include/c++/9/bits/c++0x_warning.h \
-  /usr/include/c++/9/bits/char_traits.h \
-  /usr/include/c++/9/bits/concept_check.h \
-  /usr/include/c++/9/bits/cpp_type_traits.h \
-  /usr/include/c++/9/bits/cxxabi_forced.h \
-  /usr/include/c++/9/bits/cxxabi_init_exception.h \
-  /usr/include/c++/9/bits/enable_special_members.h \
-  /usr/include/c++/9/bits/erase_if.h \
-  /usr/include/c++/9/bits/exception.h \
-  /usr/include/c++/9/bits/exception_defines.h \
-  /usr/include/c++/9/bits/exception_ptr.h \
-  /usr/include/c++/9/bits/functexcept.h \
-  /usr/include/c++/9/bits/functional_hash.h \
-  /usr/include/c++/9/bits/hash_bytes.h \
-  /usr/include/c++/9/bits/invoke.h \
-  /usr/include/c++/9/bits/ios_base.h \
-  /usr/include/c++/9/bits/istream.tcc \
-  /usr/include/c++/9/bits/list.tcc \
-  /usr/include/c++/9/bits/locale_classes.h \
-  /usr/include/c++/9/bits/locale_classes.tcc \
-  /usr/include/c++/9/bits/locale_facets.h \
-  /usr/include/c++/9/bits/locale_facets.tcc \
-  /usr/include/c++/9/bits/localefwd.h \
-  /usr/include/c++/9/bits/memoryfwd.h \
-  /usr/include/c++/9/bits/move.h \
-  /usr/include/c++/9/bits/nested_exception.h \
-  /usr/include/c++/9/bits/node_handle.h \
-  /usr/include/c++/9/bits/ostream.tcc \
-  /usr/include/c++/9/bits/ostream_insert.h \
-  /usr/include/c++/9/bits/postypes.h \
-  /usr/include/c++/9/bits/predefined_ops.h \
-  /usr/include/c++/9/bits/ptr_traits.h \
-  /usr/include/c++/9/bits/range_access.h \
-  /usr/include/c++/9/bits/refwrap.h \
-  /usr/include/c++/9/bits/shared_ptr.h \
-  /usr/include/c++/9/bits/shared_ptr_atomic.h \
-  /usr/include/c++/9/bits/shared_ptr_base.h \
-  /usr/include/c++/9/bits/std_abs.h \
-  /usr/include/c++/9/bits/std_function.h \
-  /usr/include/c++/9/bits/stl_algo.h \
-  /usr/include/c++/9/bits/stl_algobase.h \
-  /usr/include/c++/9/bits/stl_bvector.h \
-  /usr/include/c++/9/bits/stl_construct.h \
-  /usr/include/c++/9/bits/stl_function.h \
-  /usr/include/c++/9/bits/stl_heap.h \
-  /usr/include/c++/9/bits/stl_iterator.h \
-  /usr/include/c++/9/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/9/bits/stl_iterator_base_types.h \
-  /usr/include/c++/9/bits/stl_list.h \
-  /usr/include/c++/9/bits/stl_map.h \
-  /usr/include/c++/9/bits/stl_multimap.h \
-  /usr/include/c++/9/bits/stl_numeric.h \
-  /usr/include/c++/9/bits/stl_pair.h \
-  /usr/include/c++/9/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/9/bits/stl_relops.h \
-  /usr/include/c++/9/bits/stl_tempbuf.h \
-  /usr/include/c++/9/bits/stl_tree.h \
-  /usr/include/c++/9/bits/stl_uninitialized.h \
-  /usr/include/c++/9/bits/stl_vector.h \
-  /usr/include/c++/9/bits/stream_iterator.h \
-  /usr/include/c++/9/bits/streambuf.tcc \
-  /usr/include/c++/9/bits/streambuf_iterator.h \
-  /usr/include/c++/9/bits/string_view.tcc \
-  /usr/include/c++/9/bits/stringfwd.h \
-  /usr/include/c++/9/bits/uniform_int_dist.h \
-  /usr/include/c++/9/bits/unique_ptr.h \
-  /usr/include/c++/9/bits/uses_allocator.h \
-  /usr/include/c++/9/bits/vector.tcc \
-  /usr/include/c++/9/cctype \
-  /usr/include/c++/9/clocale \
-  /usr/include/c++/9/cstddef \
-  /usr/include/c++/9/cstdint \
-  /usr/include/c++/9/cstdlib \
-  /usr/include/c++/9/cwchar \
-  /usr/include/c++/9/cwctype \
-  /usr/include/c++/9/debug/assertions.h \
-  /usr/include/c++/9/debug/debug.h \
-  /usr/include/c++/9/exception \
-  /usr/include/c++/9/ext/aligned_buffer.h \
-  /usr/include/c++/9/ext/alloc_traits.h \
-  /usr/include/c++/9/ext/atomicity.h \
-  /usr/include/c++/9/ext/concurrence.h \
-  /usr/include/c++/9/ext/new_allocator.h \
-  /usr/include/c++/9/ext/numeric_traits.h \
-  /usr/include/c++/9/ext/string_conversions.h \
-  /usr/include/c++/9/ext/type_traits.h \
-  /usr/include/c++/9/functional \
-  /usr/include/c++/9/initializer_list \
-  /usr/include/c++/9/ios \
-  /usr/include/c++/9/iosfwd \
-  /usr/include/c++/9/istream \
-  /usr/include/c++/9/iterator \
-  /usr/include/c++/9/limits \
-  /usr/include/c++/9/list \
-  /usr/include/c++/9/map \
-  /usr/include/c++/9/memory \
-  /usr/include/c++/9/new \
-  /usr/include/c++/9/numeric \
-  /usr/include/c++/9/optional \
-  /usr/include/c++/9/ostream \
-  /usr/include/c++/9/pstl/execution_defs.h \
-  /usr/include/c++/9/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/9/pstl/glue_memory_defs.h \
-  /usr/include/c++/9/pstl/glue_numeric_defs.h \
-  /usr/include/c++/9/stdexcept \
-  /usr/include/c++/9/streambuf \
-  /usr/include/c++/9/string \
-  /usr/include/c++/9/string_view \
-  /usr/include/c++/9/tuple \
-  /usr/include/c++/9/type_traits \
-  /usr/include/c++/9/typeinfo \
-  /usr/include/c++/9/unordered_map \
-  /usr/include/c++/9/utility \
-  /usr/include/c++/9/vector \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/features.h \
-  /usr/include/limits.h \
-  /usr/include/linux/limits.h \
-  /usr/include/locale.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
-  /usr/include/stdio.h \
-  /usr/include/stdlib.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/time.h \
-  /usr/include/wchar.h \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/moc_predefs.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/c++0x_warning.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/char_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/concept_check.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_ptr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functexcept.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/functional_hash.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ios_base.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/list.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_classes.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/localefwd.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/move.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/nested_exception.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/node_handle.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream_insert.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_list.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_uninitialized.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stream_iterator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/streambuf_iterator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/type_traits.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/functional \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iterator \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/string_view \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/vector \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/assert.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/ctype.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/errno.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/locale.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/process.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/signal.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/stdio.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/string.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h \
+  C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonValue \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QList \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qobject.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qobject_impl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringliteral.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringview.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlDatabase \
+  C:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h \
+  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h

@@ -3,6 +3,7 @@
 #include "P2WXERC3RM/moc_menu.cpp"
 #include "UYX5XTB5RZ/moc_MarketManagementContent.cpp"
 #include "UYX5XTB5RZ/moc_ProductsTableWidget.cpp"
+#include "WLPROMMMF6/moc_OrderWorker.cpp"
 #include "WLPROMMMF6/moc_TradeWorker.cpp"
 #include "WLPROMMMF6/moc_Worker.cpp"
 #include "WLPROMMMF6/moc_WorkerManager.cpp"

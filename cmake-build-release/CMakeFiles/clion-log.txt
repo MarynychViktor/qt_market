@@ -1,4 +1,4 @@
-/home/marinich_v/Qt/Tools/CMake/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/marinich_v/sandbox/qt/marketqt-cmake
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release
+-- Build files have been written to: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release

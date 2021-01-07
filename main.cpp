@@ -11,11 +11,11 @@
 void registerServices();
 int main(int argc, char **argv)
 {
-    registerServices();
 
     // TODO: review shared pointers instead of raw
     // !!!!
     QApplication app(argc, argv);
+    registerServices();
 
     MainWindow mainWindow;
     mainWindow.show();

@@ -6,119 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractItemModel
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
 qabstractitemmodel.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qabstractitemmodel.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QAbstractTableModel
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
 qabstractitemmodel.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qabstractitemmodel.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDateTime
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 qdatetime.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QDebug
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
 qdebug.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QElapsedTimer
-qelapsedtimer.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QEventLoop
-qeventloop.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qeventloop.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QException
-qexception.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qexception.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QFlags
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
 qflags.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QHash
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
 qhash.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QIODevice
-qiodevice.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonArray
-qjsonarray.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonarray.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonDocument
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
 qjsondocument.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonObject
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject
 qjsonobject.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValue
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonValue
 qjsonvalue.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QJsonValueRef
-qjsonvalue.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QList
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
 qlist.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMap
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap
 qmap.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QMetaType
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType
 qmetatype.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QObject
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
 qobject.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qobject.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QSharedDataPointer
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer
 qshareddata.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QString
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
 qstring.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QStringBuilder
-qstringbuilder.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QThread
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QThread
 qthread.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qthread.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qthread.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QTimer
-qtimer.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtimer.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QUrl
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl
 qurl.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QUrlQuery
-qurlquery.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVariant
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
 qvariant.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/QVector
+C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector
 qvector.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qabstractitemmodel.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
 -
 QtCore/qobject.h
@@ -128,39 +92,39 @@ QtCore/qhash.h
 QtCore/qvector.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
 QtCore/qglobal.h
 -
 intrin.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
 QtCore/qrefcount.h
 -
 string.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h
 QtCore/qglobal.h
 -
 QtCore/qbasicatomic.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_bootstrap.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_bootstrap.h
 QtCore/qgenericatomic.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_cxx11.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h
 QtCore/qgenericatomic.h
 -
 atomic
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qatomic_msvc.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_msvc.h
 QtCore/qgenericatomic.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasicatomic.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic_bootstrap.h
@@ -170,13 +134,7 @@ QtCore/qatomic_cxx11.h
 QtCore/qatomic_msvc.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbasictimer.h
-QtCore/qglobal.h
--
-QtCore/qnamespace.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearray.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h
 QtCore/qrefcount.h
 -
 QtCore/qnamespace.h
@@ -194,13 +152,13 @@ string
 iterator
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qbytearraylist.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h
 QtCore/qlist.h
 -
 QtCore/qbytearray.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborcommon.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h
 QtCore/qobjectdefs.h
 -
 QtCore/qmetatype.h
@@ -208,7 +166,7 @@ QtCore/qmetatype.h
 QtCore/qdebug.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcborvalue.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h
 QtCore/qbytearray.h
 -
 QtCore/qdatetime.h
@@ -232,31 +190,31 @@ QtCore/qvector.h
 compare
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qchar.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcompilerdetection.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h
 QtCore/qglobal.h
 -
 utility
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig-bootstrapped.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qconfig.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainerfwd.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h
 QtCore/qglobal.h
 -
 iterator
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcontiguouscache.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h
 QtCore/qatomic.h
 -
 limits.h
@@ -264,7 +222,7 @@ limits.h
 new
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcoreapplication.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
@@ -278,7 +236,7 @@ QtCore/qeventloop.h
 QtCore/qscopedpointer.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcoreevent.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
 QtCore/qbytearray.h
@@ -286,13 +244,13 @@ QtCore/qbytearray.h
 QtCore/qobjectdefs.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qcryptographichash.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
 QtCore/qbytearray.h
 -
 QtCore/qobjectdefs.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatastream.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h
 QtCore/qscopedpointer.h
 -
 QtCore/qiodevice.h
@@ -300,7 +258,7 @@ QtCore/qiodevice.h
 QtCore/qpair.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdatetime.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 QtCore/qstring.h
 -
 QtCore/qnamespace.h
@@ -310,7 +268,7 @@ QtCore/qshareddata.h
 limits
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdeadlinetimer.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h
 QtCore/qelapsedtimer.h
 -
 QtCore/qmetatype.h
@@ -324,7 +282,7 @@ limits
 chrono
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qdebug.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
 QtCore/qalgorithms.h
 -
 QtCore/qhash.h
@@ -356,23 +314,15 @@ map
 utility
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qelapsedtimer.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qeventloop.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h
 QtCore/qobject.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qexception.h
-QtCore/qatomic.h
--
-QtCore/qshareddata.h
--
-exception
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qfile.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h
 QtCore/qfiledevice.h
 -
 QtCore/qstring.h
@@ -380,25 +330,25 @@ QtCore/qstring.h
 stdio.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qfiledevice.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qflags.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
 QtCore/qglobal.h
 -
 initializer_list
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qgenericatomic.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h
 QtCore/qglobal.h
 -
 QtCore/qtypeinfo.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobal.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h
 type_traits
 -
 cstddef
@@ -440,7 +390,7 @@ QtCore/qnumeric.h
 QtCore/qversiontagging.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qglobalstatic.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -450,7 +400,7 @@ QtCore/qmutex.h
 mutex
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhash.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h
 QtCore/qchar.h
 -
 QtCore/qiterator.h
@@ -468,7 +418,7 @@ algorithm
 initializer_list
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qhashfunctions.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h
 QtCore/qstring.h
 -
 QtCore/qpair.h
@@ -478,7 +428,7 @@ numeric
 functional
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiodevice.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h
 QtCore/qglobal.h
 -
 QtCore/qobject.h
@@ -490,7 +440,7 @@ QtCore/qscopedpointer.h
 QtCore/qstring.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qitemselectionmodel.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qitemselectionmodel.h
 QtCore/qglobal.h
 -
 QtCore/qset.h
@@ -502,21 +452,11 @@ QtCore/qlist.h
 QtCore/qabstractitemmodel.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qiterator.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonarray.h
-QtCore/qjsonvalue.h
--
-QtCore/qiterator.h
--
-QtCore/qshareddata.h
--
-initializer_list
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsondocument.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h
 QtCore/qjsonvalue.h
 -
 QtCore/qscopedpointer.h
@@ -524,7 +464,7 @@ QtCore/qscopedpointer.h
 memory
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonobject.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h
 QtCore/qjsonvalue.h
 -
 QtCore/qiterator.h
@@ -536,7 +476,7 @@ QtCore/qshareddata.h
 initializer_list
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qjsonvalue.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
@@ -546,11 +486,11 @@ QtCore/qshareddata.h
 QtCore/qcborvalue.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qline.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h
 QtCore/qpoint.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlist.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -586,7 +526,7 @@ QtCore/qbytearraylist.h
 QtCore/qstringlist.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlocale.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h
 QtCore/qvariant.h
 -
 QtCore/qstring.h
@@ -596,11 +536,11 @@ QtCore/qobjectdefs.h
 QtCore/qshareddata.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qlogging.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmap.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h
 QtCore/qiterator.h
 -
 QtCore/qlist.h
@@ -620,11 +560,11 @@ map
 new
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmargins.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h
 QtCore/qnamespace.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmetatype.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -644,7 +584,7 @@ list
 map
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qmutex.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qmutex.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -656,15 +596,15 @@ chrono
 limits
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnamespace.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qnumeric.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qobject.h
 QtCore/qobjectdefs.h
 -
 QtCore/qstring.h
@@ -684,31 +624,31 @@ QtCore/qobject_impl.h
 chrono
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobject_impl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qobject_impl.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h
 QtCore/qnamespace.h
 -
 QtCore/qobjectdefs_impl.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qobjectdefs_impl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h
 QtCore/qnamespace.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpair.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qpoint.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h
 QtCore/qnamespace.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qprocessordetection.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrect.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h
 QtCore/qmargins.h
 -
 QtCore/qsize.h
@@ -716,17 +656,17 @@ QtCore/qsize.h
 QtCore/qpoint.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qrefcount.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h
 QtCore/qatomic.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregexp.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h
 QtCore/qglobal.h
 -
 QtCore/qstring.h
@@ -738,13 +678,13 @@ QtCore/qshareddata.h
 QtCore/qvariant.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qscopedpointer.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
 stdlib.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qset.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h
 QtCore/qhash.h
 -
 QtCore/qcontainertools_impl.h
@@ -754,7 +694,7 @@ initializer_list
 iterator
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -764,7 +704,7 @@ QtCore/qhash.h
 QtCore/qhashfunctions.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h
 QtCore/qglobal.h
 -
 QtCore/qatomic.h
@@ -776,7 +716,7 @@ QtCore/qsharedpointer_impl.h
 memory
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsharedpointer_impl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h
 new
 -
 QtCore/qatomic.h
@@ -790,13 +730,13 @@ QtCore/qhashfunctions.h
 memory
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsize.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h
 QtCore/qnamespace.h
 -
 QtCore/qmargins.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstring.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -820,11 +760,11 @@ stdarg.h
 QtCore/qstringbuilder.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringalgorithms.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h
 QtCore/qnamespace.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringbuilder.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringbuilder.h
 QtCore/qstring.h
 -
 QtCore/qbytearray.h
@@ -832,7 +772,7 @@ QtCore/qbytearray.h
 string.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringlist.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h
 QtCore/qlist.h
 -
 QtCore/qalgorithms.h
@@ -846,17 +786,17 @@ QtCore/qstring.h
 QtCore/qstringmatcher.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringliteral.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringliteral.h
 QtCore/qarraydata.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringmatcher.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringmatcher.h
 QtCore/qstring.h
 -
 QtCore/qstringview.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qstringview.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringview.h
 QtCore/qchar.h
 -
 QtCore/qbytearray.h
@@ -868,11 +808,11 @@ QtCore/qstringalgorithms.h
 string
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsysinfo.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qsystemdetection.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h
 QtCore/qglobal.h
 -
 TargetConditionals.h
@@ -882,9 +822,9 @@ Availability.h
 AvailabilityMacros.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtcore-config.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtextstream.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
@@ -898,7 +838,7 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qthread.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qthread.h
 QtCore/qobject.h
 -
 QtCore/qdeadlinetimer.h
@@ -908,21 +848,11 @@ future
 functional
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtimer.h
-QtCore/qglobal.h
--
-QtCore/qbasictimer.h
--
-QtCore/qobject.h
--
-chrono
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qtypeinfo.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurl.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h
 QtCore/qbytearray.h
 -
 QtCore/qobjectdefs.h
@@ -938,7 +868,7 @@ QtCore/qglobal.h
 QtCore/qurlquery.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qurlquery.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qurlquery.h
 QtCore/qpair.h
 -
 QtCore/qshareddata.h
@@ -950,11 +880,11 @@ QtCore/qstringlist.h
 initializer_list
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/quuid.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h
 QtCore/qstring.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvariant.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
 QtCore/qatomic.h
 -
 QtCore/qbytearray.h
@@ -978,7 +908,7 @@ QtCore/qbytearraylist.h
 variant
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvarlengtharray.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
 QtCore/qcontainerfwd.h
 -
 QtCore/qglobal.h
@@ -1002,7 +932,7 @@ string.h
 stdlib.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qvector.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
 QtCore/qalgorithms.h
 -
 QtCore/qiterator.h
@@ -1030,19 +960,19 @@ algorithm
 QtCore/qpoint.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtCore/qversiontagging.h
+C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/QCloseEvent
+C:/Qt/5.15.2/mingw81_64/include/QtGui/QCloseEvent
 qevent.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qevent.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qevent.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/QIcon
+C:/Qt/5.15.2/mingw81_64/include/QtGui/QIcon
 qicon.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qicon.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qbrush.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpair.h
@@ -1064,7 +994,7 @@ QtGui/qimage.h
 QtGui/qpixmap.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qcolor.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h
 QtGui/qtguiglobal.h
 -
 QtGui/qrgb.h
@@ -1076,7 +1006,7 @@ QtCore/qstringlist.h
 QtGui/qrgba64.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qcursor.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -1084,7 +1014,7 @@ QtCore/qpoint.h
 QtGui/qwindowdefs.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qevent.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qevent.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1116,7 +1046,7 @@ QtGui/qvector2d.h
 QtGui/qtouchdevice.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qfont.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1126,7 +1056,7 @@ QtCore/qstring.h
 QtCore/qsharedpointer.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qfontinfo.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -1134,7 +1064,7 @@ QtGui/qfont.h
 QtCore/qsharedpointer.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qfontmetrics.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h
 QtGui/qtguiglobal.h
 -
 QtGui/qfont.h
@@ -1144,7 +1074,7 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qguiapplication.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qguiapplication.h
 QtGui/qtguiglobal.h
 -
 QtCore/qcoreapplication.h
@@ -1160,7 +1090,7 @@ QtCore/qpoint.h
 QtCore/qsize.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qicon.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qsize.h
@@ -1170,7 +1100,7 @@ QtCore/qlist.h
 QtGui/qpixmap.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qimage.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h
 QtGui/qtguiglobal.h
 -
 QtGui/qcolor.h
@@ -1192,13 +1122,13 @@ QtCore/qstring.h
 QtCore/qstringlist.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qinputmethod.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qinputmethod.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qkeysequence.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h
 QtGui/qtguiglobal.h
 -
 QtCore/qstring.h
@@ -1206,7 +1136,7 @@ QtCore/qstring.h
 QtCore/qobjectdefs.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qmatrix.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpolygon.h
@@ -1222,7 +1152,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qpaintdevice.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1230,7 +1160,7 @@ QtGui/qwindowdefs.h
 QtCore/qrect.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qpalette.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h
 QtGui/qtguiglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1240,11 +1170,11 @@ QtGui/qcolor.h
 QtGui/qbrush.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qpixelformat.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h
 QtGui/qtguiglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qpixmap.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h
 QtGui/qtguiglobal.h
 -
 QtGui/qpaintdevice.h
@@ -1262,7 +1192,7 @@ QtGui/qimage.h
 QtGui/qtransform.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qpolygon.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h
 QtGui/qtguiglobal.h
 -
 QtCore/qvector.h
@@ -1272,7 +1202,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qregion.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h
 QtGui/qtguiglobal.h
 -
 QtCore/qatomic.h
@@ -1284,33 +1214,33 @@ QtGui/qwindowdefs.h
 QtCore/qdatastream.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qrgb.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qrgba64.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h
 QtGui/qtguiglobal.h
 -
 QtCore/qprocessordetection.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qtgui-config.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qtguiglobal.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h
 QtCore/qglobal.h
 -
 QtGui/qtgui-config.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qtransform.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h
 QtGui/qtguiglobal.h
 -
 QtGui/qmatrix.h
@@ -1328,7 +1258,7 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qvalidator.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qvalidator.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobject.h
@@ -1342,7 +1272,7 @@ QtCore/qregularexpression.h
 QtCore/qlocale.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qvector2d.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h
 QtGui/qtguiglobal.h
 -
 QtCore/qpoint.h
@@ -1350,7 +1280,7 @@ QtCore/qpoint.h
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h
 QtGui/qtguiglobal.h
 -
 QtCore/qobjectdefs.h
@@ -1360,31 +1290,23 @@ QtCore/qnamespace.h
 QtGui/qwindowdefs_win.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtGui/qwindowdefs_win.h
+C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkAccessManager
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager
 qnetworkaccessmanager.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkReply
-qnetworkreply.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QNetworkRequest
-qnetworkrequest.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslConfiguration
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration
 qsslconfiguration.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
 qsslpresharedkeyauthenticator.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qabstractsocket.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/qiodevice.h
@@ -1394,7 +1316,7 @@ QtCore/qobject.h
 QtCore/qdebug.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkaccessmanager.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h
 QtNetwork/qtnetworkglobal.h
 -
 QtNetwork/qnetworkrequest.h
@@ -1410,21 +1332,7 @@ QtNetwork/QSslConfiguration
 QtNetwork/QSslPreSharedKeyAuthenticator
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkreply.h
-QtNetwork/qtnetworkglobal.h
--
-QtCore/QIODevice
--
-QtCore/QString
--
-QtCore/QVariant
--
-QtNetwork/QNetworkRequest
--
-QtNetwork/QNetworkAccessManager
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qnetworkrequest.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/QSharedDataPointer
@@ -1436,13 +1344,13 @@ QtCore/QUrl
 QtCore/QVariant
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qssl.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/QFlags
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslcertificate.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/qnamespace.h
@@ -1462,7 +1370,7 @@ QtCore/qmap.h
 QtNetwork/qssl.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslconfiguration.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/qmap.h
@@ -1474,7 +1382,7 @@ QtNetwork/qsslsocket.h
 QtNetwork/qssl.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslerror.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/qvariant.h
@@ -1482,7 +1390,7 @@ QtCore/qvariant.h
 QtNetwork/qsslcertificate.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/QString
@@ -1492,7 +1400,7 @@ QtCore/QSharedDataPointer
 QtCore/QMetaType
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qsslsocket.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h
 QtNetwork/qtnetworkglobal.h
 -
 QtCore/qlist.h
@@ -1506,7 +1414,7 @@ QtNetwork/qtcpsocket.h
 QtNetwork/qsslerror.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtcpsocket.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h
 QtNetwork/qtnetworkglobal.h
 -
 QtNetwork/qabstractsocket.h
@@ -1514,123 +1422,77 @@ QtNetwork/qabstractsocket.h
 QtCore/qvariant.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetwork-config.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtNetwork/qtnetworkglobal.h
+C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h
 QtCore/qglobal.h
 -
 QtNetwork/qtnetwork-config.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSql
-qtsqlglobal.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlDatabase
+C:/Qt/5.15.2/mingw81_64/include/QtSql/QSqlDatabase
 qsqldatabase.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h
+C:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlError
-qsqlerror.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqlerror.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/QSqlQuery
-qsqlquery.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqlquery.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqldatabase.h
+C:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h
 QtSql/qtsqlglobal.h
 -
 QtCore/qstring.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqlerror.h
-QtSql/qtsqlglobal.h
--
-QtCore/qstring.h
--
+C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsql-config.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qsqlquery.h
-QtSql/qtsqlglobal.h
--
-QtSql/qsqldatabase.h
--
-QtCore/qstring.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsql-config.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtSql/qtsqlglobal.h
+C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h
 QtCore/qglobal.h
 -
 QtSql/qtsql-config.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QAction
-qaction.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qaction.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication
 qapplication.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QDialog
-qdialog.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QHBoxLayout
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHBoxLayout
 qboxlayout.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qboxlayout.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QHeaderView
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QHeaderView
 qheaderview.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qheaderview.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QLabel
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel
 qlabel.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlabel.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow
-qmainwindow.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmainwindow.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QMenuBar
-qmenubar.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmenubar.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QMessageBox
-qmessagebox.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmessagebox.h
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QPushButton
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton
 qpushbutton.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QSizePolicy
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QSizePolicy
 qsizepolicy.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QSpacerItem
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QSpacerItem
 qlayoutitem.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlayoutitem.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QTabWidget
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QTabWidget
 qtabwidget.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtabwidget.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QTableView
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QTableView
 qtableview.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtableview.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtableview.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QVBoxLayout
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout
 qboxlayout.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qboxlayout.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/QWidget
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget
 qwidget.h
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractbutton.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qicon.h
@@ -1640,7 +1502,7 @@ QtGui/qkeysequence.h
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1648,7 +1510,7 @@ QtCore/qobject.h
 QtWidgets/qstyleoption.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractitemview.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractitemview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractscrollarea.h
@@ -1660,19 +1522,19 @@ QtCore/qitemselectionmodel.h
 QtWidgets/qabstractitemdelegate.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractscrollarea.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractslider.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractspinbox.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qabstractspinbox.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1680,29 +1542,7 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qaction.h
-QtWidgets/qtwidgetsglobal.h
--
-QtGui/qkeysequence.h
--
-QtCore/qstring.h
--
-QtWidgets/qwidget.h
--
-QtCore/qvariant.h
--
-QtGui/qicon.h
--
-QtWidgets/qactiongroup.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qactiongroup.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qaction.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qapplication.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qcoreapplication.h
@@ -1720,7 +1560,7 @@ QtWidgets/qdesktopwidget.h
 QtGui/qguiapplication.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qboxlayout.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -1730,25 +1570,19 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qdesktopwidget.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qdesktopwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qdialog.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qframe.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qgridlayout.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qgridlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qlayout.h
@@ -1758,19 +1592,19 @@ QtWidgets/qwidget.h
 limits.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qheaderview.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qheaderview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlabel.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qframe.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlayout.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1790,7 +1624,7 @@ QtWidgets/qboxlayout.h
 QtWidgets/qgridlayout.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qlayoutitem.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlayoutitem.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qsizepolicy.h
@@ -1800,51 +1634,19 @@ QtCore/qrect.h
 limits.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmainwindow.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtWidgets/qtabwidget.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmenu.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-QtCore/qstring.h
--
-QtGui/qicon.h
--
-QtWidgets/qaction.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmenubar.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qmenu.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qmessagebox.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qdialog.h
--
-
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qrubberband.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qrubberband.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qsizepolicy.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1852,13 +1654,13 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qslider.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qslider.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractslider.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qstyle.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyle.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
@@ -1876,7 +1678,7 @@ QtGui/qpalette.h
 QtWidgets/qsizepolicy.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qstyleoption.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qstyleoption.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qlocale.h
@@ -1904,19 +1706,19 @@ QtWidgets/qframe.h
 QtCore/qabstractitemmodel.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtabbar.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabbar.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtableview.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtableview.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtabwidget.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -1924,15 +1726,15 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgets-config.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
 QtGui/qtguiglobal.h
 -
 QtWidgets/qtwidgets-config.h
 -
 
-/home/marinich_v/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h
+C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtGui/qwindowdefs.h
@@ -1964,113 +1766,27 @@ QtGui/qkeysequence.h
 QtGui/qevent.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.cpp
-AppException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h
-utility
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h
-QException
--
-QString
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.cpp
-MarketException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h
-utility
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h
-exception
--
-QString
--
-QException
--
-AppException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.cpp
-NotFoundException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h
-utility
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h
-AppException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.cpp
-TimeoutException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h
-utility
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h
-AppException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/AppException.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.cpp
-HttpClient.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
-../Exceptions/TimeoutException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h
-../Exceptions/MarketException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h
-QEventLoop
--
-QNetworkAccessManager
--
-QNetworkReply
--
-QTimer
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h
 QNetworkAccessManager
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.cpp
-MarketHttpClient.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
-../Exceptions/MarketException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h
-QStringBuilder
--
-QNetworkReply
--
-QJsonDocument
--
-QJsonArray
--
-QJsonObject
--
-QUrlQuery
--
-cmath
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h
 HttpClient.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/HttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h
 ../Infrastructure/MarketSettings.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h
 ../Infrastructure/Models/TradeResponse.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h
 ../Infrastructure/Models/ItemMassInfoResult.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h
 ../Infrastructure/Models/ItemInfo.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h
+../Infrastructure/Models/OrderResponse.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h
 QString
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.cpp
-ServiceLocator.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.h
 QString
 -
 QMap
@@ -2080,25 +1796,13 @@ memory
 QDebug
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.cpp
-MarketSettings.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/MarketSettings.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h
 QString
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.cpp
-ItemInfo.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
-QString
--
-utility
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemInfo.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h
 OfferInfo.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h
 QJsonValue
 -
 QString
@@ -2106,13 +1810,7 @@ QString
 QList
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.cpp
-ItemMassInfoResult.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
-../../consts.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h
 QString
 -
 QHash
@@ -2120,109 +1818,55 @@ QHash
 memory
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.cpp
-OfferInfo.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/OfferInfo.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h
 QString
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.cpp
-TradeResponse.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
-QJsonValueRef
--
-QJsonValue
--
-QJsonObject
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h
 QJsonDocument
 -
 QString
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.cpp
-ProductRepository.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
-QSql
--
-QSqlDatabase
--
-QSqlError
--
-QSqlQuery
--
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h
 QJsonDocument
 -
-memory
+QString
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h
 QSqlDatabase
 -
 functional
 -
 ../../Models/Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.cpp
-UpdateTradePricesJob.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
-../consts.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
-../Models/Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
-../Infrastructure/Models/TradeResponse.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/TradeResponse.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h
 ../Infrastructure/Repositories/ProductRepository.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h
 ../Http/MarketHttpClient.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.cpp
-Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
-../consts.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h
 QJsonObject
 -
 QString
 -
 ../Http/MarketHttpClient.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Http/MarketHttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h
 Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h
 ../Infrastructure/Models/ItemMassInfoResult.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Models/ItemMassInfoResult.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.cpp
-ProductTableModel.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h
-../Jobs/UpdateTradePricesJob.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
-QAbstractTableModel
--
-QString
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h
 QAbstractTableModel
 -
 Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.cpp
-Logger.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h
 QString
 -
 QDebug
@@ -2230,265 +1874,195 @@ QDebug
 QDateTime
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.cpp
-ProductManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
-../Exceptions/NotFoundException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/NotFoundException.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h
 ../Models/Product.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/Product.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h
 QObject
 -
 ../Infrastructure/Repositories/ProductRepository.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/3YJK5W5UP7/qrc_images.cpp
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
 memory
 -
 ../../../Services/ProductManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/P2WXERC3RM/moc_menu.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/P2WXERC3RM/moc_menu.cpp
 memory
 -
 ../../../pages/menu.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp
 memory
 -
 ../../../ui/MarketManagementContent.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_ProductsTableWidget.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_ProductsTableWidget.cpp
 memory
 -
 ../../../ui/ProductsTableWidget.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_TradeWorker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_OrderWorker.cpp
+memory
+-
+../../../workers/OrderWorker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_TradeWorker.cpp
 memory
 -
 ../../../workers/TradeWorker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp
 memory
 -
 ../../../workers/Worker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp
 memory
 -
 ../../../workers/WorkerManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/mocs_compilation.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/mocs_compilation.cpp
 4VYEQU4VHD/moc_ProductManager.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/4VYEQU4VHD/moc_ProductManager.cpp
 P2WXERC3RM/moc_menu.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/P2WXERC3RM/moc_menu.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/P2WXERC3RM/moc_menu.cpp
 UYX5XTB5RZ/moc_MarketManagementContent.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp
 UYX5XTB5RZ/moc_ProductsTableWidget.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_ProductsTableWidget.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_ProductsTableWidget.cpp
+WLPROMMMF6/moc_OrderWorker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_OrderWorker.cpp
 WLPROMMMF6/moc_TradeWorker.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_TradeWorker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_TradeWorker.cpp
 WLPROMMMF6/moc_Worker.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp
 WLPROMMMF6/moc_WorkerManager.cpp
-/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/main.cpp
-QApplication
--
-QPushButton
--
-QTableView
--
-QNetworkReply
--
-pages/menu.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
-ui/MainWindow.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.h
-Infrastructure/DI/ServiceLocator.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.cpp
 menu.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h
 ui_menu.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/ui_menu.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/ui_menu.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h
 ../ui/ProductsTableWidget.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
 QWidget
 -
 QCloseEvent
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.cpp
-QDialog
--
-QMessageBox
--
-QMenuBar
--
-QAction
--
-QEventLoop
--
-memory
--
-MainWindow.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.cpp
 MarketManagementContent.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h
-../Infrastructure/DI/ServiceLocator.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MainWindow.h
-QMainWindow
--
-../pages/menu.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/pages/menu.h
-../workers/WorkerManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h
-../Services/ProductManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.cpp
-MarketManagementContent.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h
 ui_MarketManagementContent.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ui_MarketManagementContent.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ui_MarketManagementContent.h
 ../Models/ProductTableModel.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h
 ../Jobs/UpdateTradePricesJob.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h
 ../Infrastructure/DI/ServiceLocator.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/MarketManagementContent.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h
 QWidget
 -
 ProductsTableWidget.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.cpp
 ProductsTableWidget.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
 ui_ProductsTableWidget.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ui_ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ui_ProductsTableWidget.h
 ../Models/ProductTableModel.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Models/ProductTableModel.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h
 QSizePolicy
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/ui/ProductsTableWidget.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
 QAbstractItemModel
 -
 QWidget
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.cpp
-TradeWorker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
-../consts.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/consts.h
-../Infrastructure/DI/ServiceLocator.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/DI/ServiceLocator.h
-../Services/Logger.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h
-../Exceptions/TimeoutException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/TimeoutException.h
-../Exceptions/MarketException.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Exceptions/MarketException.h
-QDebug
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h
+QObject
 -
-memory
--
-QElapsedTimer
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
 Worker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
-../Infrastructure/Repositories/ProductRepository.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Infrastructure/Repositories/ProductRepository.h
-../Jobs/UpdateTradePricesJob.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
+../Http/MarketHttpClient.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h
 ../Services/ProductManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/ProductManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.cpp
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h
 Worker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
+../Infrastructure/Repositories/ProductRepository.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h
 ../Jobs/UpdateTradePricesJob.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Jobs/UpdateTradePricesJob.h
-QThread
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/QThread
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h
+../Services/ProductManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
 QObject
 -
 QThread
 -
 
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.cpp
-WorkerManager.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h
-../Services/Logger.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h
-QDebug
--
-
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/WorkerManager.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h
 QObject
 -
 Worker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/Worker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
 TradeWorker.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/workers/TradeWorker.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h
 ../Services/Logger.h
-/home/marinich_v/sandbox/qt/marketqt-cmake/Services/Logger.h
+C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h
 
 market_qt_autogen/include/ui_MarketManagementContent.h
 QtCore/QVariant

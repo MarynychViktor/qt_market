@@ -1,25 +1,25 @@
 {
-	"BUILD_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen",
-	"CMAKE_BINARY_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "home/marinich_v/Qt/5.15.2/gcc_64",
-	"CMAKE_SOURCE_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake",
-	"INCLUDE_DIR" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/market_qt_autogen/include",
+	"BUILD_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:\\Qt\\5.15.2\\mingw81_64",
+	"CMAKE_SOURCE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
+	"INCLUDE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images/shopping-bag.svg",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images/logout.svg",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images/csgo-wallpaper.jpg",
-		"/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images/trading.svg"
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/resources/images/shopping-bag.svg",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/resources/images/logout.svg",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/resources/images/csgo-wallpaper.jpg",
+		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/resources/images/trading.svg"
 	],
-	"LOCK_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Lock.lock",
+	"LOCK_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "images" ],
 	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
 	"OUTPUT_NAME" : "qrc_images.cpp",
-	"RCC_EXECUTABLE" : "/home/marinich_v/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/rcc.exe",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Used.txt",
-	"SOURCE" : "/home/marinich_v/sandbox/qt/marketqt-cmake/resources/images.qrc",
+	"SETTINGS_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/CMakeFiles/market_qt_autogen.dir/AutoRcc_images_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/resources/images.qrc",
 	"VERBOSITY" : 0
 }

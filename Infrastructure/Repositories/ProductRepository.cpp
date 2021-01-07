@@ -156,7 +156,7 @@ void ProductRepository::runQuery(const std::function<void(QSqlQuery query)>& han
 
         while (QSqlDatabase::contains(name)) {
             if (retry > 10) {
-                throw std::runtime_error("Failed to resolve connection name");
+                throw std::runtime_error("Failed to resolve connection name during retry");
             }
 
             name = getConnectionName();
@@ -167,7 +167,8 @@ void ProductRepository::runQuery(const std::function<void(QSqlQuery query)>& han
         db.setDatabaseName("products.db");
 
         if (!db.open()) {
-            throw std::runtime_error("Failed to resolve connection name");
+            qDebug() << db.lastError().text();
+            throw db.lastError();
         };
         handler(QSqlQuery(db));
     }
