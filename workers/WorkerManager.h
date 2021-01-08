@@ -10,6 +10,7 @@
 #include "Worker.h"
 #include "TradeWorker.h"
 #include "../Services/Logger.h"
+#include "OrderWorker.h"
 
 using namespace std;
 

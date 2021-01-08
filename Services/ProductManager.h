@@ -18,6 +18,8 @@ public:
     explicit ProductManager(shared_ptr<ProductRepository> repository);
 
     QList<shared_ptr<Product>> getProducts();
+    QList<shared_ptr<Product>> getProductsByIds(QList<QList<QString>> ids);
+    QList<shared_ptr<Product>> getProductsByIds(QList<QString> ids);
     shared_ptr<Product> findByClassAndInstanceIds(QString classId, QString instanceId);
     void addProduct(shared_ptr<Product> product);
     void updateMaxAllowedOrderPrice(shared_ptr<Product> product, int newPrice);

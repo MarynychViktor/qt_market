@@ -6,6 +6,7 @@
 #define MARKET_QT_TRADEWORKER_H
 
 
+#include <Trades/TradesContext.h>
 #include "Worker.h"
 #include "../Infrastructure/Repositories/ProductRepository.h"
 #include "../Jobs/UpdateTradePricesJob.h"
@@ -19,6 +20,8 @@ public:
     ~TradeWorker() {};
 public slots:
     void start() override;
+signals:
+    void tradesChanged(QList<QString> tradeIds);
 
 private:
     void prepareServices();

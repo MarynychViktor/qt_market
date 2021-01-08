@@ -19,6 +19,9 @@ public:
 public slots:
     void start() override;
 
+signals:
+    void ordersChanged(QList<QString> ids);
+
 private:
     QMap<QString, shared_ptr<OrderResponse>> ordersMappedWithId;
     void initializeServices();

@@ -90,7 +90,7 @@ public:
     {
         Menu->setWindowTitle(QCoreApplication::translate("Menu", "Form", nullptr));
         label->setText(QString());
-        ordersButton->setText(QCoreApplication::translate("Menu", "Orders", nullptr));
+        ordersButton->setText(QCoreApplication::translate("Menu", "Trades", nullptr));
         pushButton->setText(QCoreApplication::translate("Menu", "Trades", nullptr));
         exitButton->setText(QCoreApplication::translate("Menu", "Exit     ", nullptr));
     } // retranslateUi

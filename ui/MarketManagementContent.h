@@ -2,6 +2,8 @@
 #define MARKETMANAGEMENTCONTENT_H
 
 #include <QWidget>
+#include <Trades/TradesContext.h>
+#include <Services/ProductManager.h>
 #include "ProductsTableWidget.h"
 
 namespace Ui {
@@ -22,6 +24,7 @@ private:
     Ui::MarketManagementContent *ui;
     ProductsTableWidget *trades;
     ProductsTableWidget *orders;
+    shared_ptr<ProductManager> productManager;
 };
 
 #endif // MARKETMANAGEMENTCONTENT_H

@@ -36,6 +36,8 @@ public:
           maxAllowedOrderPrice(orderLimit),
           minAllowedTradePrice(sellLimit)
     {}
+
+    Product(const Product& product);
 };
 
 #endif // PRODUCT_H

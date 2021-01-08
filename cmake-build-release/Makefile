@@ -641,6 +641,33 @@ Models/ProductTableModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Models/ProductTableModel.cpp.s
 .PHONY : Models/ProductTableModel.cpp.s
 
+Orders/OrdersContext.obj: Orders/OrdersContext.cpp.obj
+
+.PHONY : Orders/OrdersContext.obj
+
+# target to build an object file
+Orders/OrdersContext.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj
+.PHONY : Orders/OrdersContext.cpp.obj
+
+Orders/OrdersContext.i: Orders/OrdersContext.cpp.i
+
+.PHONY : Orders/OrdersContext.i
+
+# target to preprocess a source file
+Orders/OrdersContext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.i
+.PHONY : Orders/OrdersContext.cpp.i
+
+Orders/OrdersContext.s: Orders/OrdersContext.cpp.s
+
+.PHONY : Orders/OrdersContext.s
+
+# target to generate assembly for a file
+Orders/OrdersContext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.s
+.PHONY : Orders/OrdersContext.cpp.s
+
 Services/Logger.obj: Services/Logger.cpp.obj
 
 .PHONY : Services/Logger.obj
@@ -694,6 +721,33 @@ Services/ProductManager.s: Services/ProductManager.cpp.s
 Services/ProductManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Services/ProductManager.cpp.s
 .PHONY : Services/ProductManager.cpp.s
+
+Trades/TradesContext.obj: Trades/TradesContext.cpp.obj
+
+.PHONY : Trades/TradesContext.obj
+
+# target to build an object file
+Trades/TradesContext.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj
+.PHONY : Trades/TradesContext.cpp.obj
+
+Trades/TradesContext.i: Trades/TradesContext.cpp.i
+
+.PHONY : Trades/TradesContext.i
+
+# target to preprocess a source file
+Trades/TradesContext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.i
+.PHONY : Trades/TradesContext.cpp.i
+
+Trades/TradesContext.s: Trades/TradesContext.cpp.s
+
+.PHONY : Trades/TradesContext.s
+
+# target to generate assembly for a file
+Trades/TradesContext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.s
+.PHONY : Trades/TradesContext.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -1029,12 +1083,18 @@ help:
 	@echo ... Models/ProductTableModel.obj
 	@echo ... Models/ProductTableModel.i
 	@echo ... Models/ProductTableModel.s
+	@echo ... Orders/OrdersContext.obj
+	@echo ... Orders/OrdersContext.i
+	@echo ... Orders/OrdersContext.s
 	@echo ... Services/Logger.obj
 	@echo ... Services/Logger.i
 	@echo ... Services/Logger.s
 	@echo ... Services/ProductManager.obj
 	@echo ... Services/ProductManager.i
 	@echo ... Services/ProductManager.s
+	@echo ... Trades/TradesContext.obj
+	@echo ... Trades/TradesContext.i
+	@echo ... Trades/TradesContext.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

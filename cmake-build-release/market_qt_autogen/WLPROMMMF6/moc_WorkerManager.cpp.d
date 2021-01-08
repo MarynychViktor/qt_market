@@ -292,5 +292,7 @@ C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/WLPROMMM
   C:/Users/julia/Downloads/marketqt/Models/Product.h \
   C:/Users/julia/Downloads/marketqt/Services/Logger.h \
   C:/Users/julia/Downloads/marketqt/Services/ProductManager.h \
+  C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h \
+  C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h \
   C:/Users/julia/Downloads/marketqt/workers/TradeWorker.h \
   C:/Users/julia/Downloads/marketqt/workers/Worker.h

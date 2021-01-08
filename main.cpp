@@ -2,11 +2,15 @@
 #include <QPushButton>
 #include <QTableView>
 #include <QNetworkReply>
+#include <Trades/TradesContext.h>
+#include <Orders/OrdersContext.h>
 
 
 #include "pages/menu.h"
 #include "ui/MainWindow.h"
 #include "Infrastructure/DI/ServiceLocator.h"
+#include "Models/Product.h"
+using namespace std;
 
 void registerServices();
 int main(int argc, char **argv)
@@ -15,6 +19,7 @@ int main(int argc, char **argv)
     // TODO: review shared pointers instead of raw
     // !!!!
     QApplication app(argc, argv);
+    qRegisterMetaType<QList<QString>>();
     registerServices();
 
     MainWindow mainWindow;
@@ -29,6 +34,8 @@ void registerServices()
 {
     auto serviceLocator = ServiceLocator::Instance();
 
+    serviceLocator->Register<TradesContext>(make_shared<TradesContext>());
+    serviceLocator->Register<OrdersContext>(make_shared<OrdersContext>());
     serviceLocator->Register<ProductRepository>(make_shared<ProductRepository>());
     serviceLocator->Register<ProductManager>(make_shared<ProductManager>(serviceLocator->GetService<ProductRepository>()));
     serviceLocator->Register<WorkerManager>(make_shared<WorkerManager>());

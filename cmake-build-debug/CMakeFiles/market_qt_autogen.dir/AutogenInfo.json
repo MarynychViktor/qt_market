@@ -182,6 +182,11 @@
 			"25IR5XJDBU/moc_ProductTableModel.cpp"
 		],
 		[
+			"C:/Users/julia/Downloads/marketqt/Orders/OrdersContext.h",
+			"MU",
+			"CXLN6CUT5G/moc_OrdersContext.cpp"
+		],
+		[
 			"C:/Users/julia/Downloads/marketqt/Services/Logger.h",
 			"MU",
 			"4VYEQU4VHD/moc_Logger.cpp"
@@ -190,6 +195,11 @@
 			"C:/Users/julia/Downloads/marketqt/Services/ProductManager.h",
 			"MU",
 			"4VYEQU4VHD/moc_ProductManager.cpp"
+		],
+		[
+			"C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h",
+			"MU",
+			"MBMI2YNH7Q/moc_TradesContext.cpp"
 		],
 		[
 			"C:/Users/julia/Downloads/marketqt/consts.h",
@@ -358,8 +368,10 @@
 			"C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.cpp",
 			"MU"
 		],
+		[ "C:/Users/julia/Downloads/marketqt/Orders/OrdersContext.cpp", "MU" ],
 		[ "C:/Users/julia/Downloads/marketqt/Services/Logger.cpp", "MU" ],
 		[ "C:/Users/julia/Downloads/marketqt/Services/ProductManager.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/Trades/TradesContext.cpp", "MU" ],
 		[ "C:/Users/julia/Downloads/marketqt/main.cpp", "MU" ],
 		[ "C:/Users/julia/Downloads/marketqt/pages/menu.cpp", "MU" ],
 		[ "C:/Users/julia/Downloads/marketqt/ui/MainWindow.cpp", "MU" ],

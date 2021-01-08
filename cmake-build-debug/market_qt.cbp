@@ -230,6 +230,12 @@
 		<Unit filename="C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h">
 			<Option target="market_qt"/>
 		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Orders/OrdersContext.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Orders/OrdersContext.h">
+			<Option target="market_qt"/>
+		</Unit>
 		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/Logger.cpp">
 			<Option target="market_qt"/>
 		</Unit>
@@ -240,6 +246,12 @@
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/ProductManager.h">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Trades/TradesContext.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h">
 			<Option target="market_qt"/>
 		</Unit>
 		<Unit filename="C:/Users/julia/Downloads/marketqt/cmake-build-debug/market_qt_autogen/mocs_compilation.cpp">

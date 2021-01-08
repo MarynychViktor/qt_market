@@ -8,6 +8,7 @@
 #include <QAction>
 #include <QEventLoop>
 #include <memory>
+#include <Orders/OrdersContext.h>
 
 #include "MainWindow.h"
 #include "MarketManagementContent.h"
@@ -48,12 +49,18 @@ void MainWindow::setUpWorker()
 {
     auto instance = ServiceLocator::Instance();
     workerManager = instance->GetService<WorkerManager>();
+    productManager = instance->GetService<ProductManager>();
+    auto tradesContext = instance->GetService<TradesContext>();
+    auto ordersContext = instance->GetService<OrdersContext>();
 
 //     Trade worker setup
     auto tradeWorker = new TradeWorker();
+    connect(tradeWorker, &TradeWorker::tradesChanged, tradesContext.get(), &TradesContext::updateTradeIds);
+
     workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
 
     // Order worker setup
     auto orderWorker = new OrderWorker();
+    connect(orderWorker, &OrderWorker::ordersChanged, ordersContext.get(), &OrdersContext::updateOrderIds);
     workerManager->runWorkerInLoop<OrderWorker>(orderWorker);
 }

@@ -48,10 +48,6 @@ void OrderWorker::start() {
             auto product = productForOrder(order);
             auto orderOffers = order->orderOffers;
 
-            Logger::debug(QString("Max order offer %1, max allowed %2").arg(
-                    QString::number(orderOffers->getMaxOffer()),
-                    QString::number(product->maxAllowedOrderPrice))
-                );
             if (orderOffers->getMaxOffer() < product->maxAllowedOrderPrice) {
                 if (
                     orderOffers->myOffer < product->maxAllowedOrderPrice ||
@@ -64,6 +60,8 @@ void OrderWorker::start() {
                 marketClient->updateOrder(product->classId, product->instanceId, DEFAULT_ORDER_PRICE);
             }
         }
+
+        emit ordersChanged(combinedOrderIds);
     } catch (AppException& e) {
         Logger::error(e.getMessage());
     }

@@ -54,3 +54,25 @@ void ProductManager::updateMinAllowedTradePrice(shared_ptr<Product> product, int
     mProduct->minAllowedTradePrice = newPrice;
 }
 
+QList<shared_ptr<Product>> ProductManager::getProductsByIds(QList<QList<QString>> ids) {
+    QList<shared_ptr<Product>> products;
+
+    for (const auto& keys : ids) {
+        products.append(findByClassAndInstanceIds(keys.at(0), keys.at(1)));
+    }
+
+    return products;
+}
+
+
+QList<shared_ptr<Product>> ProductManager::getProductsByIds(QList<QString> combinedIds) {
+    QList<shared_ptr<Product>> products;
+    QList<QList<QString>> ids;
+
+    for (const auto& combinedId : combinedIds) {
+        QStringList keys = combinedId.split("_");
+        ids.append({keys.at(0), keys.at(1)});
+    }
+
+    return getProductsByIds(ids);
+}

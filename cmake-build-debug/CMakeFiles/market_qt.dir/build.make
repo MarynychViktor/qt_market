@@ -496,6 +496,34 @@ CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\Downloads\marketqt\Http\MarketRequestInterceptor.cpp -o CMakeFiles\market_qt.dir\Http\MarketRequestInterceptor.cpp.s
 
+CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj: CMakeFiles/market_qt.dir/includes_CXX.rsp
+CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj: ../Trades/TradesContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Downloads\marketqt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\market_qt.dir\Trades\TradesContext.cpp.obj -c C:\Users\julia\Downloads\marketqt\Trades\TradesContext.cpp
+
+CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\julia\Downloads\marketqt\Trades\TradesContext.cpp > CMakeFiles\market_qt.dir\Trades\TradesContext.cpp.i
+
+CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\Downloads\marketqt\Trades\TradesContext.cpp -o CMakeFiles\market_qt.dir\Trades\TradesContext.cpp.s
+
+CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj: CMakeFiles/market_qt.dir/flags.make
+CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj: CMakeFiles/market_qt.dir/includes_CXX.rsp
+CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj: ../Orders/OrdersContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\julia\Downloads\marketqt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\market_qt.dir\Orders\OrdersContext.cpp.obj -c C:\Users\julia\Downloads\marketqt\Orders\OrdersContext.cpp
+
+CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\julia\Downloads\marketqt\Orders\OrdersContext.cpp > CMakeFiles\market_qt.dir\Orders\OrdersContext.cpp.i
+
+CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\julia\Downloads\marketqt\Orders\OrdersContext.cpp -o CMakeFiles\market_qt.dir\Orders\OrdersContext.cpp.s
+
 # Object files for target market_qt
 market_qt_OBJECTS = \
 "CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj" \
@@ -527,7 +555,9 @@ market_qt_OBJECTS = \
 "CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.obj" \
 "CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.obj" \
 "CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.obj" \
-"CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj"
+"CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj" \
+"CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj" \
+"CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj"
 
 # External object files for target market_qt
 market_qt_EXTERNAL_OBJECTS =
@@ -562,6 +592,8 @@ market_qt.exe: CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.obj
 market_qt.exe: CMakeFiles/market_qt.dir/Infrastructure/Models/OrderResponse.cpp.obj
 market_qt.exe: CMakeFiles/market_qt.dir/workers/OrderWorker.cpp.obj
 market_qt.exe: CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj
+market_qt.exe: CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj
+market_qt.exe: CMakeFiles/market_qt.dir/Orders/OrdersContext.cpp.obj
 market_qt.exe: CMakeFiles/market_qt.dir/build.make
 market_qt.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
 market_qt.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Sql.a
@@ -571,7 +603,7 @@ market_qt.exe: C:/Qt/5.15.2/mingw81_64/lib/libQt5Core.a
 market_qt.exe: CMakeFiles/market_qt.dir/linklibs.rsp
 market_qt.exe: CMakeFiles/market_qt.dir/objects1.rsp
 market_qt.exe: CMakeFiles/market_qt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\julia\Downloads\marketqt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable market_qt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\julia\Downloads\marketqt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX executable market_qt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\market_qt.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E copy C:/Qt/5.15.2/mingw81_64/lib/cmake/../../bin/Qt5Cored.dll C:/Users/julia/Downloads/marketqt/cmake-build-debug
 	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E copy C:/Qt/5.15.2/mingw81_64/lib/cmake/../../bin/Qt5Guid.dll C:/Users/julia/Downloads/marketqt/cmake-build-debug

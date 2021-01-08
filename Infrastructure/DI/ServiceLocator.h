@@ -30,7 +30,7 @@ public:
             return static_pointer_cast<T>(value);
         }
 
-        throw runtime_error("Service with given type not found");
+        throw runtime_error(QString("Service with type '%1' not found").arg(typeName).toStdString());
     }
 
     template<class T>

@@ -108,7 +108,6 @@ QByteArray SyncHttpClient::request(const function<QByteArray()>& handler) {
                 retryCount++;
                 Logger::debug(QString("Retrying %1 of 5").arg(QString::number(retryCount)));
             } else {
-                Logger::debug(QString("Throwing eeeeeee"));
                 throw e;
             }
         }

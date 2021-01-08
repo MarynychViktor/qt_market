@@ -1,5 +1,5 @@
-C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/WLPROMMMF6/moc_WorkerManager.cpp: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug/market_qt_autogen/moc_predefs.h \
+C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MainWindow.cpp: C:/Users/julia/Downloads/marketqt/ui/MainWindow.h \
+  C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/moc_predefs.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -174,6 +174,7 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags \
@@ -190,6 +191,7 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
@@ -205,11 +207,15 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -221,10 +227,12 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
@@ -233,7 +241,9 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h \
@@ -242,6 +252,7 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -260,6 +271,33 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/QCloseEvent \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qevent.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager \
   C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration \
   C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator \
@@ -279,18 +317,31 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
+  C:/Users/julia/Downloads/marketqt/Http/HttpClient.h \
+  C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h \
+  C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.h \
+  C:/Users/julia/Downloads/marketqt/Models/Product.h \
+  C:/Users/julia/Downloads/marketqt/Services/Logger.h \
+  C:/Users/julia/Downloads/marketqt/Services/ProductManager.h \
+  C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h \
+  C:/Users/julia/Downloads/marketqt/pages/menu.h \
+  C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h \
+  C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h \
+  C:/Users/julia/Downloads/marketqt/workers/TradeWorker.h \
+  C:/Users/julia/Downloads/marketqt/workers/Worker.h \
+  C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h

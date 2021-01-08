@@ -12,11 +12,13 @@
 #include "../Services/ProductManager.h"
 
 class MainWindow : public QMainWindow {
+    Q_OBJECT
 public:
     MainWindow(QWidget *parent = nullptr);
 
 private:
     shared_ptr<WorkerManager> workerManager;
+    shared_ptr<ProductManager> productManager;
 
     void closeEvent(QCloseEvent *event) override;
     void setUpWorker();

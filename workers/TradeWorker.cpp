@@ -7,11 +7,10 @@
 #include "../Infrastructure/DI/ServiceLocator.h"
 #include "../Services/Logger.h"
 #include "../Exceptions/TimeoutException.h"
-#include "../Exceptions/MarketException.h"
-#include <QDebug>
 #include <memory>
-#include <QElapsedTimer>
 #include <Exceptions/NotFoundException.h>
+#include <Trades/TradesContext.h>
+
 
 void TradeWorker::start() {
     emit started();
@@ -29,9 +28,12 @@ void TradeWorker::start() {
         }
 
         QHash<QString, int> newPrices;
+        QList<QString> ids;
 
         for(const auto& tradeInfo : trades) {
             auto product = productForTrade(tradeInfo);
+            ids.append(product->getCombinedId());
+
             auto tradeOffers = tradeInfo->tradeOffers;
             auto trade = tradesMappedWithId[QString("%1_%2").arg(tradeInfo->classId, tradeInfo->instanceId)];
 
@@ -49,8 +51,9 @@ void TradeWorker::start() {
             } else {
                 newPrices.insert(trade->uiid, product->minAllowedTradePrice * 2);
             }
-
         }
+
+        emit tradesChanged(ids);
 
         if (!newPrices.isEmpty()) {
             marketClient->massSetPriceById(newPrices);
@@ -66,6 +69,7 @@ void TradeWorker::start() {
 TradeWorker::TradeWorker(QObject *parent)
     : Worker(parent)
 {
+    auto serviceLocator = ServiceLocator::Instance();
 }
 
 void TradeWorker::initializeTrades()

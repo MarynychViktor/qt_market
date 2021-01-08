@@ -36,3 +36,13 @@ QJsonObject Product::toJson()
 QString Product::getCombinedId() {
     return classId + "_" + instanceId;
 }
+
+Product::Product(const Product& product): name(QString::fromStdString(product.name.toStdString())),
+                                          photo(QString::fromStdString(product.photo.toStdString())),
+                                          classId(QString::fromStdString(product.classId.toStdString())),
+                                          instanceId(QString::fromStdString(product.instanceId.toStdString())),
+                                          quality(QString::fromStdString(product.quality.toStdString())),
+                                          maxAllowedOrderPrice(product.maxAllowedOrderPrice),
+                                          minAllowedTradePrice(product.minAllowedTradePrice)
+{
+}
