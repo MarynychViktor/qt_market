@@ -11,8 +11,7 @@
 
 QByteArray SyncHttpClient::get(const QString& path)
 {
-    return request([path, this](){
-        MarketRequestInterceptor::ensureQuota();
+    return MarketRequestInterceptor::requestWithQuota([path, this](){
         QTimer timer;
         timer.setSingleShot(true);
 
@@ -50,9 +49,7 @@ QByteArray SyncHttpClient::get(const QString& path)
 
 QByteArray SyncHttpClient::post(const QString& path, const QByteArray& data)
 {
-    return request([path, data, this](){
-        MarketRequestInterceptor::ensureQuota();
-
+    return MarketRequestInterceptor::requestWithQuota([path, data, this](){
         QTimer timer;
         timer.setSingleShot(true);
 

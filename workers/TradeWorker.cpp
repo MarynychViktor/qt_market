@@ -55,9 +55,7 @@ void TradeWorker::start() {
         if (!newPrices.isEmpty()) {
             marketClient->massSetPriceById(newPrices);
         }
-    }  catch (TimeoutException& e) {
-        Logger::error(e.getMessage());
-    } catch (MarketException& e) {
+    } catch (AppException& e) {
         Logger::error(e.getMessage());
     }
 

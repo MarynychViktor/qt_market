@@ -6,6 +6,7 @@
 #include <QSqlQuery>
 #include <QJsonDocument>
 #include <memory>
+#include <Exceptions/AppException.h>
 
 ProductRepository::ProductRepository()
 {
@@ -36,7 +37,7 @@ QList<shared_ptr<Product>> ProductRepository::getProducts()
         }
 
         if (query.lastError().isValid()) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+            throw AppException(query.lastError().text());
         }
     });
 
@@ -67,7 +68,7 @@ shared_ptr<Product> ProductRepository::findByClassAndInstanceIds(QString classId
         }
 
         if (query.lastError().isValid()) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+            throw AppException(query.lastError().text());
         }
     });
 
@@ -90,7 +91,7 @@ void ProductRepository::addProduct(shared_ptr<Product> product)
         query.exec();
 
         if (!query.lastInsertId().isValid()) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+            throw AppException(query.lastError().text());
         }
     });
 }
@@ -106,7 +107,7 @@ void ProductRepository::updateMaxAllowedOrderPrice(shared_ptr<Product> product, 
         query.exec();
 
         if (query.lastError().isValid()) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+            throw AppException(query.lastError().text());
         }
     });
 }
@@ -121,7 +122,7 @@ void ProductRepository::updateMinAllowedTradePrice(shared_ptr<Product> product, 
         query.exec();
 
         if (query.lastError().isValid()) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+            throw AppException(query.lastError().text());
         }
     });
 }
@@ -141,8 +142,8 @@ void ProductRepository::initialize()
                    " orderLimit UNSIGNED BIG INT NOT NULL,"
                    " sellLimit UNSIGNED BIG INT NOT NULL)");
 
-        if (query.lastError().type() != QSqlError::NoError) {
-            throw std::runtime_error(query.lastError().text().toStdString());
+        if (query.lastError().isValid()) {
+            throw AppException(query.lastError().text());
         }
     });
 }
@@ -167,10 +168,10 @@ void ProductRepository::runQuery(const std::function<void(QSqlQuery query)>& han
         db.setDatabaseName("products.db");
 
         if (!db.open()) {
-            qDebug() << db.lastError().text();
-            throw db.lastError();
+            throw AppException(db.lastError().text());
         };
         handler(QSqlQuery(db));
+        db.close();
     }
 
     QSqlDatabase::removeDatabase(name);

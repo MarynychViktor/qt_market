@@ -450,10 +450,12 @@ CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.obj: ../Infrastructure/Models
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.obj: ../Infrastructure/Models/TradeResponse.h
 CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.obj: ../Services/Logger.h
 
+CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: ../Exceptions/AppException.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: ../Services/Logger.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QEventLoop
+CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QMutex
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
@@ -479,6 +481,7 @@ CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/min
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h
+CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h
@@ -981,6 +984,8 @@ CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.obj: C:/Qt/5.15
 CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.obj: ../Infrastructure/Models/TradeResponse.cpp
 CMakeFiles/market_qt.dir/Infrastructure/Models/TradeResponse.cpp.obj: ../Infrastructure/Models/TradeResponse.h
 
+CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: ../Exceptions/AppException.h
+CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
@@ -1016,6 +1021,7 @@ CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: 
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
+CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h
 CMakeFiles/market_qt.dir/Infrastructure/Repositories/ProductRepository.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h

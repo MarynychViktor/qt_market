@@ -11,15 +11,17 @@
 
 using namespace std;
 
-const int LIMIT_REQUESTS_PER_UNIT = 2;
+const int LIMIT_REQUESTS_PER_UNIT = 5;
 
 class MarketRequestInterceptor {
 public:
     static void ensureQuota();
     static void waitQuotaDelay(int delay);
+    static QByteArray requestWithQuota(function<QByteArray()> handler);
 
 private:
     static QMutex mtx;
+    static QMutex requestMtx;
     static QMap<int, int> requestsPerTimeUnit;
 };
 

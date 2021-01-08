@@ -6,10 +6,27 @@
 #include <QEventLoop>
 #include <QTimer>
 #include <Services/Logger.h>
+#include <Exceptions/AppException.h>
 #include "MarketRequestInterceptor.h"
 
 QMap<int, int> MarketRequestInterceptor::requestsPerTimeUnit;
 QMutex MarketRequestInterceptor::mtx;
+QMutex MarketRequestInterceptor::requestMtx;
+
+QByteArray MarketRequestInterceptor::requestWithQuota(function<QByteArray()> handler) {
+    requestMtx.lock();
+
+    try {
+        ensureQuota();
+        auto result = handler();
+        requestMtx.unlock();
+        return result;
+    } catch (AppException& e) {
+        requestMtx.unlock();
+        throw e;
+    }
+}
+
 
 void MarketRequestInterceptor::ensureQuota() {
     mtx.lock();

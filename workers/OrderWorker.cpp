@@ -64,9 +64,8 @@ void OrderWorker::start() {
                 marketClient->updateOrder(product->classId, product->instanceId, DEFAULT_ORDER_PRICE);
             }
         }
-    } catch (AppException& exception) {
-        Logger::error(exception.getMessage());
-        emit error(exception.getMessage());
+    } catch (AppException& e) {
+        Logger::error(e.getMessage());
     }
 
     Logger::info(QString("Order worker finished in %1s").arg(QString::number(timer.elapsed() / 1000.0)));

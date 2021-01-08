@@ -34,7 +34,7 @@ shared_ptr<Product> ProductManager::findByClassAndInstanceIds(QString classId, Q
 void ProductManager::addProduct(shared_ptr<Product> product) {
     try {
         findByClassAndInstanceIds(product->classId, product->instanceId);
-        throw AppException(QString("Product with class id: %1 and instance id %2 already exists").arg(product->classId, product->instanceId));
+        return;
     } catch (NotFoundException& e) {
     }
 
