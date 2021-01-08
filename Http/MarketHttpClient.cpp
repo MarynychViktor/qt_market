@@ -191,6 +191,5 @@ QList<shared_ptr<OrderResponse>> MarketHttpClient::getOrders()
 void MarketHttpClient::updateOrder(QString classId, QString instanceId, int price)
 {
     auto path = QString("%1/UpdateOrder/%2/%3/%4/?key=%5").arg(API_ENDPOINT, classId, instanceId, QString::number(price), settings->apiKey);
-    Logger::debug("Update order path " + QString(path) + QString::number(price));
     auto content = httpClient->post(path, QByteArray());
 }

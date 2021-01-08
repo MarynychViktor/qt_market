@@ -1,5 +1,5 @@
-C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/moc_predefs.h \
+C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_Worker.cpp: C:/Users/julia/Downloads/marketqt/workers/Worker.h \
+  C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/moc_predefs.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \

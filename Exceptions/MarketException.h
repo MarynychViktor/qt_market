@@ -15,6 +15,7 @@ class MarketException : public AppException
 {
 public:
     explicit MarketException(QString msg);
-
+    explicit MarketException(QString msg, int statusCode);
+    int statusCode;
 };
 #endif //MARKET_QT_MARKETEXCEPTION_H

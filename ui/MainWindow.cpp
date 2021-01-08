@@ -49,9 +49,9 @@ void MainWindow::setUpWorker()
     auto instance = ServiceLocator::Instance();
     workerManager = instance->GetService<WorkerManager>();
 
-    // Trade worker setup
-//    auto tradeWorker = new TradeWorker();
-//    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
+//     Trade worker setup
+    auto tradeWorker = new TradeWorker();
+    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
 
     // Order worker setup
     auto orderWorker = new OrderWorker();

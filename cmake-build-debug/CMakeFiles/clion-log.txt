@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\julia\Downloads\marketqt
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-debug
+-- Build files have been written to: C:/Users/julia/Downloads/marketqt/cmake-build-debug

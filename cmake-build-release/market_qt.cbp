@@ -5,21 +5,21 @@
 		<Option title="market_qt"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Qt\;CMake Files\..\..\..\..\..\Qt\5.15.2\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\;CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\5.15.2\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\;CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="market_qt">
-				<Option output="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option output="C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,9 +30,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/include"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/include"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/include"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt/include"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/include"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/include/QtCore"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
@@ -49,15 +49,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="market_qt/fast">
-				<Option output="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option output="C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -68,9 +68,9 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_SQL_LIB"/>
 					<Add option="-DQT_NETWORK_LIB"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/include"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a"/>
-					<Add directory="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/include"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/include"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt"/>
+					<Add directory="C:/Users/julia/Downloads/marketqt/include"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/include"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/include/QtCore"/>
 					<Add directory="C:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
@@ -87,342 +87,348 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="market_qt_autogen">
-				<Option working_dir="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release"/>
+				<Option working_dir="C:/Users/julia/Downloads/marketqt/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt_autogen"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 market_qt_autogen"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/julia/Downloads/marketqt/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/AppException.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/AppException.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/MarketException.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/MarketException.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/NotFoundException.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/NotFoundException.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/TimeoutException.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Exceptions/TimeoutException.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/HttpClient.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/HttpClient.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/DI/ServiceLocator.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/DI/ServiceLocator.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Models/Product.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Models/Product.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/Logger.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/Logger.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/mocs_compilation.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/ProductManager.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/consts.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/Services/ProductManager.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/main.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/mocs_compilation.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/consts.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/main.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/pages/menu.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/pages/menu.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/MainWindow.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/MainWindow.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/OrderWorker.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/TradeWorker.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/TradeWorker.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.cpp">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/Worker.cpp">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/Worker.h">
 			<Option target="market_qt"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/CMakeLists.txt">
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/WorkerManager.cpp">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h">
+			<Option target="market_qt"/>
+		</Unit>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Sql\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
 		</Unit>
-		<Unit filename="C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/../../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
+		<Unit filename="C:/Users/julia/Downloads/marketqt/../../../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Network\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

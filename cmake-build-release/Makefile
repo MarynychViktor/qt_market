@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a
+CMAKE_SOURCE_DIR = C:\Users\julia\Downloads\marketqt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\julia\Downloads\marketqt\cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release\CMakeFiles C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Downloads\marketqt\cmake-build-release\CMakeFiles C:\Users\julia\Downloads\marketqt\cmake-build-release\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\julia\Downloads\marketqt\cmake-build-release\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -316,6 +316,33 @@ Http/MarketHttpClient.s: Http/MarketHttpClient.cpp.s
 Http/MarketHttpClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.s
 .PHONY : Http/MarketHttpClient.cpp.s
+
+Http/MarketRequestInterceptor.obj: Http/MarketRequestInterceptor.cpp.obj
+
+.PHONY : Http/MarketRequestInterceptor.obj
+
+# target to build an object file
+Http/MarketRequestInterceptor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj
+.PHONY : Http/MarketRequestInterceptor.cpp.obj
+
+Http/MarketRequestInterceptor.i: Http/MarketRequestInterceptor.cpp.i
+
+.PHONY : Http/MarketRequestInterceptor.i
+
+# target to preprocess a source file
+Http/MarketRequestInterceptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.i
+.PHONY : Http/MarketRequestInterceptor.cpp.i
+
+Http/MarketRequestInterceptor.s: Http/MarketRequestInterceptor.cpp.s
+
+.PHONY : Http/MarketRequestInterceptor.s
+
+# target to generate assembly for a file
+Http/MarketRequestInterceptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\market_qt.dir\build.make CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.s
+.PHONY : Http/MarketRequestInterceptor.cpp.s
 
 Infrastructure/DI/ServiceLocator.obj: Infrastructure/DI/ServiceLocator.cpp.obj
 
@@ -966,6 +993,9 @@ help:
 	@echo ... Http/MarketHttpClient.obj
 	@echo ... Http/MarketHttpClient.i
 	@echo ... Http/MarketHttpClient.s
+	@echo ... Http/MarketRequestInterceptor.obj
+	@echo ... Http/MarketRequestInterceptor.i
+	@echo ... Http/MarketRequestInterceptor.s
 	@echo ... Infrastructure/DI/ServiceLocator.obj
 	@echo ... Infrastructure/DI/ServiceLocator.i
 	@echo ... Infrastructure/DI/ServiceLocator.s

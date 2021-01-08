@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.obj"
   "CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj"
   "CMakeFiles/market_qt.dir/Http/MarketHttpClient.cpp.obj"
+  "CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj"
   "CMakeFiles/market_qt.dir/Infrastructure/DI/ServiceLocator.cpp.obj"
   "CMakeFiles/market_qt.dir/Infrastructure/MarketSettings.cpp.obj"
   "CMakeFiles/market_qt.dir/Infrastructure/Models/ItemInfo.cpp.obj"

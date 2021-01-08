@@ -20,6 +20,8 @@ public:
     QByteArray post(const QString& path, const QByteArray& data);
 
 private:
+    QByteArray request(const function<QByteArray()>&);
+
     QNetworkAccessManager* manager;
     int timeout = 5000;
 };

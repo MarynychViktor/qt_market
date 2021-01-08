@@ -1,16 +1,104 @@
 {
-	"BUILD_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
+	"BUILD_DIR" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/julia/Downloads/marketqt/cmake-build-release",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/julia/Downloads/marketqt/cmake-build-release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/julia/Downloads/marketqt",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/CMakeLists.txt",
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/3.17.5/CMakeSystem.cmake",
+		"C:/Users/julia/Downloads/marketqt/CMakeLists.txt",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeMinGWFindMake.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystem.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeSystem.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake",
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-Determine-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeGenericSystem.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeInitializeConfigs.cmake",
@@ -28,19 +116,44 @@
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/3.17.5/CMakeRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCCompiler.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeRCCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-windres.cmake",
-		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestRCCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompilerABI.c",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-C-ABI.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeLanguageInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Compiler/GNU.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU.cmake",
-		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
 		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -86,155 +199,160 @@
 		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake",
 		"C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
+	"CMAKE_SOURCE_DIR" : "C:/Users/julia/Downloads/marketqt",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.h",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/AppException.h",
 			"MU",
 			"3ZPKKT53DT/moc_AppException.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.h",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/MarketException.h",
 			"MU",
 			"3ZPKKT53DT/moc_MarketException.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.h",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/NotFoundException.h",
 			"MU",
 			"3ZPKKT53DT/moc_NotFoundException.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.h",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/TimeoutException.h",
 			"MU",
 			"3ZPKKT53DT/moc_TimeoutException.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h",
+			"C:/Users/julia/Downloads/marketqt/Http/HttpClient.h",
 			"MU",
 			"2IH3D476MI/moc_HttpClient.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h",
+			"C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h",
 			"MU",
 			"2IH3D476MI/moc_MarketHttpClient.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.h",
+			"C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.h",
+			"MU",
+			"2IH3D476MI/moc_MarketRequestInterceptor.cpp"
+		],
+		[
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/DI/ServiceLocator.h",
 			"MU",
 			"IQLQIWSPI2/moc_ServiceLocator.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h",
 			"MU",
 			"BIA7FUK3XI/moc_MarketSettings.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h",
 			"MU",
 			"6JSKM7TLYW/moc_ItemInfo.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h",
 			"MU",
 			"6JSKM7TLYW/moc_ItemMassInfoResult.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h",
 			"MU",
 			"6JSKM7TLYW/moc_OfferInfo.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h",
 			"MU",
 			"6JSKM7TLYW/moc_OrderResponse.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h",
 			"MU",
 			"6JSKM7TLYW/moc_TradeResponse.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h",
 			"MU",
 			"W5UIAL3KR5/moc_ProductRepository.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.h",
+			"C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.h",
 			"MU",
 			"DMJPQCIT5E/moc_UpdateTradePricesJob.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h",
+			"C:/Users/julia/Downloads/marketqt/Models/Product.h",
 			"MU",
 			"25IR5XJDBU/moc_Product.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.h",
+			"C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h",
 			"MU",
 			"25IR5XJDBU/moc_ProductTableModel.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.h",
+			"C:/Users/julia/Downloads/marketqt/Services/Logger.h",
 			"MU",
 			"4VYEQU4VHD/moc_Logger.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h",
+			"C:/Users/julia/Downloads/marketqt/Services/ProductManager.h",
 			"MU",
 			"4VYEQU4VHD/moc_ProductManager.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/consts.h",
+			"C:/Users/julia/Downloads/marketqt/consts.h",
 			"MU",
 			"EWIEGA46WW/moc_consts.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.h",
+			"C:/Users/julia/Downloads/marketqt/pages/menu.h",
 			"MU",
 			"P2WXERC3RM/moc_menu.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.h",
+			"C:/Users/julia/Downloads/marketqt/ui/MainWindow.h",
 			"MU",
 			"UYX5XTB5RZ/moc_MainWindow.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h",
+			"C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.h",
 			"MU",
 			"UYX5XTB5RZ/moc_MarketManagementContent.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h",
+			"C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h",
 			"MU",
 			"UYX5XTB5RZ/moc_ProductsTableWidget.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h",
+			"C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h",
 			"MU",
 			"WLPROMMMF6/moc_OrderWorker.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.h",
+			"C:/Users/julia/Downloads/marketqt/workers/TradeWorker.h",
 			"MU",
 			"WLPROMMMF6/moc_TradeWorker.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h",
+			"C:/Users/julia/Downloads/marketqt/workers/Worker.h",
 			"MU",
 			"WLPROMMMF6/moc_Worker.cpp"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.h",
+			"C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h",
 			"MU",
 			"WLPROMMMF6/moc_WorkerManager.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -253,8 +371,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a",
-		"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/include",
+		"C:/Users/julia/Downloads/marketqt",
+		"C:/Users/julia/Downloads/marketqt/include",
 		"C:/Qt/5.15.2/mingw81_64/include",
 		"C:/Qt/5.15.2/mingw81_64/include/QtCore",
 		"C:/Qt/5.15.2/mingw81_64/mkspecs/win32-g++",
@@ -281,131 +399,93 @@
 		"-c",
 		"C:/Program Files/JetBrains/CLion 2020.3.1/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/market_qt_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/market_qt_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/5.15.2/mingw81_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/market_qt_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/market_qt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/julia/Downloads/marketqt/Exceptions/AppException.cpp", "MU" ],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/AppException.cpp",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/MarketException.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/MarketException.cpp",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/NotFoundException.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/NotFoundException.cpp",
+			"C:/Users/julia/Downloads/marketqt/Exceptions/TimeoutException.cpp",
+			"MU"
+		],
+		[ "C:/Users/julia/Downloads/marketqt/Http/HttpClient.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.cpp", "MU" ],
+		[
+			"C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Exceptions/TimeoutException.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/DI/ServiceLocator.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/DI/ServiceLocator.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.cpp",
+			"C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.cpp",
 			"MU"
 		],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.cpp",
+			"C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.cpp",
 			"MU"
 		],
+		[ "C:/Users/julia/Downloads/marketqt/Models/Product.cpp", "MU" ],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.cpp",
+			"C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.cpp",
 			"MU"
 		],
+		[ "C:/Users/julia/Downloads/marketqt/Services/Logger.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/Services/ProductManager.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/main.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/pages/menu.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/ui/MainWindow.cpp", "MU" ],
 		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.cpp",
+			"C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.cpp",
 			"MU"
 		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Jobs/UpdateTradePricesJob.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/ProductTableModel.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/Logger.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/main.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/pages/menu.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MainWindow.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/TradeWorker.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.cpp",
-			"MU"
-		],
-		[
-			"C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/WorkerManager.cpp",
-			"MU"
-		]
+		[ "C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/workers/OrderWorker.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/workers/TradeWorker.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/workers/Worker.cpp", "MU" ],
+		[ "C:/Users/julia/Downloads/marketqt/workers/WorkerManager.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

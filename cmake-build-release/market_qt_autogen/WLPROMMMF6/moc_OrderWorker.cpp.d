@@ -1,5 +1,5 @@
-C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_OrderWorker.cpp: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/OrderWorker.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/moc_predefs.h \
+C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/WLPROMMMF6/moc_OrderWorker.cpp: C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h \
+  C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/moc_predefs.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -277,15 +277,15 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qsqldatabase.h \
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsql-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtSql/qtsqlglobal.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/HttpClient.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Http/MarketHttpClient.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/MarketSettings.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemInfo.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/ItemMassInfoResult.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OfferInfo.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/OrderResponse.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Models/TradeResponse.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Infrastructure/Repositories/ProductRepository.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Models/Product.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/Services/ProductManager.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/workers/Worker.h
+  C:/Users/julia/Downloads/marketqt/Http/HttpClient.h \
+  C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h \
+  C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h \
+  C:/Users/julia/Downloads/marketqt/Models/Product.h \
+  C:/Users/julia/Downloads/marketqt/Services/ProductManager.h \
+  C:/Users/julia/Downloads/marketqt/workers/Worker.h

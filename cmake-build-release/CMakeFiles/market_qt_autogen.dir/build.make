@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a
+CMAKE_SOURCE_DIR = C:\Users\julia\Downloads\marketqt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\julia\Downloads\marketqt\cmake-build-release
 
 # Utility rule file for market_qt_autogen.
 
@@ -73,8 +73,8 @@ CMAKE_BINARY_DIR = C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-ma
 include CMakeFiles/market_qt_autogen.dir/progress.make
 
 CMakeFiles/market_qt_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target market_qt"
-	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/CMakeFiles/market_qt_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\julia\Downloads\marketqt\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target market_qt"
+	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen C:/Users/julia/Downloads/marketqt/cmake-build-release/CMakeFiles/market_qt_autogen.dir/AutogenInfo.json Release
 
 market_qt_autogen: CMakeFiles/market_qt_autogen
 market_qt_autogen: CMakeFiles/market_qt_autogen.dir/build.make
@@ -91,6 +91,6 @@ CMakeFiles/market_qt_autogen.dir/clean:
 .PHONY : CMakeFiles/market_qt_autogen.dir/clean
 
 CMakeFiles/market_qt_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release C:\Users\julia\Downloads\summe-marketqt-53afc187547a\summe-marketqt-53afc187547a\cmake-build-release\CMakeFiles\market_qt_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\julia\Downloads\marketqt C:\Users\julia\Downloads\marketqt C:\Users\julia\Downloads\marketqt\cmake-build-release C:\Users\julia\Downloads\marketqt\cmake-build-release C:\Users\julia\Downloads\marketqt\cmake-build-release\CMakeFiles\market_qt_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/market_qt_autogen.dir/depend
 

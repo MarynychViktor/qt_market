@@ -11,6 +11,7 @@
 #include <QDebug>
 #include <memory>
 #include <QElapsedTimer>
+#include <Exceptions/NotFoundException.h>
 
 void TradeWorker::start() {
     emit started();
@@ -58,9 +59,6 @@ void TradeWorker::start() {
         Logger::error(e.getMessage());
     } catch (MarketException& e) {
         Logger::error(e.getMessage());
-    }  catch (...) {
-        Logger::error("Something went wrong");
-        emit error(QString("Trade worker start failed"));
     }
 
     Logger::info(QString("Trade worker finished in %1s").arg(QString::number(timer.elapsed() / 1000.0)));
@@ -89,9 +87,10 @@ void TradeWorker::initializeTrades()
 
 shared_ptr<Product> TradeWorker::productForTrade(shared_ptr<ItemMassInfoResult> trade)
 {
-    auto product = productManager->findByClassAndInstanceIds(trade->classId, trade->instanceId);
-
-    if (product == nullptr) {
+    shared_ptr<Product> product = nullptr;
+    try {
+        product = productManager->findByClassAndInstanceIds(trade->classId, trade->instanceId);
+    } catch (NotFoundException& e) {
         product = Product::fromItemMassInfo(trade);
         productManager->addProduct(product);
     }

@@ -1,5 +1,5 @@
-C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp: C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/MarketManagementContent.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/cmake-build-release/market_qt_autogen/moc_predefs.h \
+C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/UYX5XTB5RZ/moc_MarketManagementContent.cpp: C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.h \
+  C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/moc_predefs.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
@@ -260,4 +260,4 @@ C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
-  C:/Users/julia/Downloads/summe-marketqt-53afc187547a/summe-marketqt-53afc187547a/ui/ProductsTableWidget.h
+  C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
