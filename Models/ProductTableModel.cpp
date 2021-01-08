@@ -18,7 +18,7 @@ int ProductTableModel::rowCount(const QModelIndex &parent) const
 
 int ProductTableModel::columnCount(const QModelIndex &parent) const
 {
-    return 3;
+    return 6;
 }
 
 QVariant ProductTableModel::data(const QModelIndex &index, int role) const
@@ -32,7 +32,13 @@ QVariant ProductTableModel::data(const QModelIndex &index, int role) const
             case 1:
                 return product->maxAllowedOrderPrice;
             case 2:
-                return product->minAllowedTradePrice;
+                return QString::number(product->minAllowedTradePrice, 'g', 10);
+            case 3:
+                return product->quality;
+            case 4:
+                return product->classId;
+            case 5:
+                return product->instanceId;
         }
     }
 
@@ -55,6 +61,12 @@ QVariant ProductTableModel::headerData(int section, Qt::Orientation orientation,
                 return "Order Price";
             case 2:
                 return "Sell Price";
+            case 3:
+                return "Quality";
+            case 4:
+                return "Class Id";
+            case 5:
+                return "Instance Id";
         }
     }
 
@@ -68,9 +80,6 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
         auto productManager = serviceLocator->GetService<ProductManager>();
         auto product = products.at(index.row());
         switch (index.column()) {
-            case 0:
-                product->name = QString(value.toString());
-                break;
             case 1:
                 product->maxAllowedOrderPrice = value.toDouble();
                 productManager->updateMaxAllowedOrderPrice(product, value.toInt());
@@ -79,6 +88,8 @@ bool ProductTableModel::setData(const QModelIndex &index, const QVariant &value,
                 product->minAllowedTradePrice = value.toDouble();
                 productManager->updateMinAllowedTradePrice(product, value.toInt());
                 break;
+            default:
+                return false;
         }
 
         emit dataChanged(index, index, {role});
@@ -105,14 +116,14 @@ void ProductTableModel::sort(int column, Qt::SortOrder order)
                        return a->maxAllowedOrderPrice < b->maxAllowedOrderPrice;
                     }
                 case 2:
-                if (order == Qt::AscendingOrder) {
-                  return a->minAllowedTradePrice > b->minAllowedTradePrice;
-                } else {
-                   return a->minAllowedTradePrice < b->minAllowedTradePrice;
-                }
-            default:
-                qInfo("NOT MATCHED");
-                return true;
+                    if (order == Qt::AscendingOrder) {
+                      return a->minAllowedTradePrice > b->minAllowedTradePrice;
+                    } else {
+                       return a->minAllowedTradePrice < b->minAllowedTradePrice;
+                    }
+                default:
+                    qInfo("NOT MATCHED");
+                    return true;
             }
           });
 

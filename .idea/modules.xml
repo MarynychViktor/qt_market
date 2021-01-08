@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MarketQt.iml" filepath="$PROJECT_DIR$/.idea/MarketQt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/marketqt.iml" filepath="$PROJECT_DIR$/.idea/marketqt.iml" />
     </modules>
   </component>
 </project>
