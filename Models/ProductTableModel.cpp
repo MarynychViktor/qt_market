@@ -30,7 +30,7 @@ QVariant ProductTableModel::data(const QModelIndex &index, int role) const
             case 0:
                 return product->name;
             case 1:
-                return product->maxAllowedOrderPrice;
+                return QString::number(product->maxAllowedOrderPrice, 'g', 10);
             case 2:
                 return QString::number(product->minAllowedTradePrice, 'g', 10);
             case 3:
