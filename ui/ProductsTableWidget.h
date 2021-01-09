@@ -3,6 +3,7 @@
 
 #include <QAbstractItemModel>
 #include <QWidget>
+#include <Models/ProductTableModel.h>
 
 namespace Ui {
 class ProductsTableWidget;
@@ -14,7 +15,8 @@ class ProductsTableWidget : public QWidget
 
 public:
     explicit ProductsTableWidget(QWidget *parent = nullptr);
-    void setModel(QAbstractItemModel *model);
+    void setModel(ProductTableModel *model);
+    ProductTableModel *model;
     ~ProductsTableWidget();
 
 private:

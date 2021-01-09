@@ -174,6 +174,7 @@ C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/UYX5XTB5
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument \
@@ -317,6 +318,7 @@ C:/Users/julia/Downloads/marketqt/cmake-build-release/market_qt_autogen/UYX5XTB5
   C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h \
   C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h \
   C:/Users/julia/Downloads/marketqt/Models/Product.h \
+  C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h \
   C:/Users/julia/Downloads/marketqt/Services/ProductManager.h \
   C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h \
   C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h

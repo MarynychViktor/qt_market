@@ -18,6 +18,7 @@ public:
     bool setData(const QModelIndex &index, const QVariant &value, int role = Qt::EditRole)override;
     void sort(int column, Qt::SortOrder order = Qt::AscendingOrder) override;
     void setProducts(QList<shared_ptr<Product>> updatedProducts);
+    void addProducts(const QList<shared_ptr<Product>>& newProducts);
 
     QList<shared_ptr<Product>> products;
 };

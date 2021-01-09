@@ -8,6 +8,7 @@
 #include <QNetworkReply>
 #include <QTimer>
 #include <Services/Logger.h>
+#include <QElapsedTimer>
 
 QByteArray SyncHttpClient::get(const QString& path)
 {

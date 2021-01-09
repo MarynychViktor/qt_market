@@ -60,6 +60,8 @@ void TradeWorker::start() {
         }
     } catch (AppException& e) {
         Logger::error(e.getMessage());
+    } catch (std::exception &e) {
+        Logger::error(QString("----------------------Std exception fired: %1").arg(e.what()));
     }
 
     Logger::info(QString("Trade worker finished in %1s").arg(QString::number(timer.elapsed() / 1000.0)));

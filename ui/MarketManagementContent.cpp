@@ -80,5 +80,9 @@ void MarketManagementContent::setUpOrdersTable() {
         orders->setModel(model);
     });
 
+//    connect(context.get(), &OrdersContext::ordersAdded, [this, context, serviceLocator](QList<QString> productIds) {
+//        auto repository = serviceLocator->GetService<ProductManager>();
+//        orders->model->addProducts(repository->getProductsByIds(productIds));
+//    });
 }
 

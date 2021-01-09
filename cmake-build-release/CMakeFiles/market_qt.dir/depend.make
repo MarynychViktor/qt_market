@@ -211,6 +211,7 @@ CMakeFiles/market_qt.dir/Exceptions/TimeoutException.cpp.obj: ../Exceptions/Time
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: ../Services/Logger.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QElapsedTimer
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QEventLoop
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
@@ -246,6 +247,7 @@ CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/includ
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
+CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/Http/HttpClient.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
@@ -454,6 +456,7 @@ CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: ../Exceptions/Ap
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: ../Services/Logger.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
+CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QElapsedTimer
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QEventLoop
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QException
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap
@@ -480,6 +483,7 @@ CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/min
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
+CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qelapsedtimer.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qexception.h
 CMakeFiles/market_qt.dir/Http/MarketRequestInterceptor.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
@@ -1918,9 +1922,11 @@ CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj: ../Trades/TradesContext.c
 CMakeFiles/market_qt.dir/Trades/TradesContext.cpp.obj: ../Trades/TradesContext.h
 
 CMakeFiles/market_qt.dir/main.cpp.obj: ../Models/Product.h
+CMakeFiles/market_qt.dir/main.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/main.cpp.obj: ../Orders/OrdersContext.h
 CMakeFiles/market_qt.dir/main.cpp.obj: ../Trades/TradesContext.h
 CMakeFiles/market_qt.dir/main.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/main.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
 CMakeFiles/market_qt.dir/main.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/main.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/main.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
@@ -2130,9 +2136,11 @@ CMakeFiles/market_qt.dir/main.cpp.obj: ../workers/TradeWorker.h
 CMakeFiles/market_qt.dir/main.cpp.obj: ../workers/Worker.h
 CMakeFiles/market_qt.dir/main.cpp.obj: ../workers/WorkerManager.h
 
+CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../Trades/TradesContext.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
@@ -2325,8 +2333,31 @@ CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../workers/
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../workers/Worker.h
 CMakeFiles/market_qt.dir/market_qt_autogen/mocs_compilation.cpp.obj: ../workers/WorkerManager.h
 
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Http/HttpClient.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Http/MarketHttpClient.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/MarketSettings.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/Models/ItemInfo.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/Models/ItemMassInfoResult.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/Models/OfferInfo.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/Models/OrderResponse.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Infrastructure/Models/TradeResponse.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Models/Product.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonValue
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
@@ -2337,6 +2368,8 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtC
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig-bootstrapped.h
@@ -2346,7 +2379,9 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtC
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreapplication.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qeventloop.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h
@@ -2359,6 +2394,9 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtC
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h
@@ -2379,6 +2417,7 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtC
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
@@ -2399,6 +2438,7 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtC
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qurlquery.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
@@ -2433,6 +2473,21 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtG
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h
+CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QApplication
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel
 CMakeFiles/market_qt.dir/pages/menu.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QPushButton
@@ -2460,10 +2515,12 @@ CMakeFiles/market_qt.dir/pages/menu.cpp.obj: market_qt_autogen/include/ui_menu.h
 
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Infrastructure/Models/ItemMassInfoResult.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Models/Product.h
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Orders/OrdersContext.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Services/ProductManager.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../Trades/TradesContext.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QEventLoop
@@ -2657,6 +2714,7 @@ CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../workers/Worker.h
 CMakeFiles/market_qt.dir/ui/MainWindow.cpp.obj: ../workers/WorkerManager.h
 
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../Models/Product.h
+CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../Orders/OrdersContext.h
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../Services/Logger.h
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../Services/ProductManager.h
@@ -2853,6 +2911,7 @@ CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../ui/MarketManagem
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: ../ui/ProductsTableWidget.h
 CMakeFiles/market_qt.dir/ui/MarketManagementContent.cpp.obj: market_qt_autogen/include/ui_MarketManagementContent.h
 
+CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.obj: ../Models/ProductTableModel.h
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
 CMakeFiles/market_qt.dir/ui/ProductsTableWidget.cpp.obj: C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags

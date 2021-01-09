@@ -21,9 +21,10 @@ ProductsTableWidget::~ProductsTableWidget()
     delete ui;
 }
 
-void ProductsTableWidget::setModel(QAbstractItemModel *model)
+void ProductsTableWidget::setModel(ProductTableModel *m)
 {
-    ui->tableView->setModel(model);
+    model = m;
+    ui->tableView->setModel(m);
     QObject::connect(ui->tableView->horizontalHeader(), &QHeaderView::sortIndicatorChanged, ui->tableView, [this](int col, Qt::SortOrder order) {
         ui->tableView->sortByColumn(col, order);
     });

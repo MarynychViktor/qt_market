@@ -53,14 +53,56 @@ void MainWindow::setUpWorker()
     auto tradesContext = instance->GetService<TradesContext>();
     auto ordersContext = instance->GetService<OrdersContext>();
 
-//     Trade worker setup
     auto tradeWorker = new TradeWorker();
+    auto orderWorker = new OrderWorker();
+
+    //     Trade worker setup
     connect(tradeWorker, &TradeWorker::tradesChanged, tradesContext.get(), &TradesContext::updateTradeIds);
 
-    workerManager->runWorkerInLoop<TradeWorker>(tradeWorker);
+    auto tradeThread = new QThread;
+    tradeWorker->moveToThread(tradeThread);
+    QObject::connect(tradeThread, &QThread::started, [this, tradeWorker]() {
+        tradeWorker->start();
+    });
+
+    QObject::connect(tradeWorker, &TradeWorker::finished, [this, orderWorker, tradeWorker]() {
+        if (workerManager->isStopRequested) {
+            Logger::debug("Worker stop requested");
+            emit tradeWorker->quit();
+        } else {
+            orderWorker->start();
+        }
+    });
+
+    QObject::connect(tradeWorker, &TradeWorker::quit, tradeThread, &QThread::quit);
+    QObject::connect(tradeThread, &QThread::finished, tradeWorker, &TradeWorker::deleteLater);
+    QObject::connect(tradeThread, &QThread::finished, tradeThread, &QThread::deleteLater);
+    //****
 
     // Order worker setup
-    auto orderWorker = new OrderWorker();
     connect(orderWorker, &OrderWorker::ordersChanged, ordersContext.get(), &OrdersContext::updateOrderIds);
-    workerManager->runWorkerInLoop<OrderWorker>(orderWorker);
+
+    auto orderThread = new QThread;
+    orderWorker->moveToThread(orderThread);
+    QObject::connect(orderThread, &QThread::started, [this, orderWorker]() {
+//        orderWorker->start();
+    });
+
+    QObject::connect(orderWorker, &OrderWorker::finished, [this, tradeWorker, orderWorker]() {
+        if (workerManager->isStopRequested) {
+            Logger::debug("Worker stop requested");
+            emit orderWorker->quit();
+        } else {
+            tradeWorker->start();
+        }
+    });
+
+    QObject::connect(orderWorker, &OrderWorker::quit, orderThread, &QThread::quit);
+    QObject::connect(orderThread, &QThread::finished, orderWorker, &OrderWorker::deleteLater);
+    QObject::connect(orderThread, &QThread::finished, orderThread, &QThread::deleteLater);
+
+    orderThread->start();
+
+    //*****
+    tradeThread->start();
 }

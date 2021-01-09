@@ -134,3 +134,9 @@ void ProductTableModel::setProducts(QList<shared_ptr<Product>> updatedProducts) 
     products = updatedProducts;
     emit dataChanged(createIndex(0, 0), createIndex(rowCount(), columnCount()));
 }
+
+void ProductTableModel::addProducts(const QList<shared_ptr<Product>>& newProducts) {
+    beginInsertRows(QModelIndex(), rowCount(), rowCount() + newProducts.length());
+    products.append(newProducts);
+    endInsertRows();
+}

@@ -7,6 +7,7 @@
 #include <QTimer>
 #include <Services/Logger.h>
 #include <Exceptions/AppException.h>
+#include <QElapsedTimer>
 #include "MarketRequestInterceptor.h"
 
 QMap<int, int> MarketRequestInterceptor::requestsPerTimeUnit;

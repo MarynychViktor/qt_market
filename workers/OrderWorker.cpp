@@ -64,6 +64,8 @@ void OrderWorker::start() {
         emit ordersChanged(combinedOrderIds);
     } catch (AppException& e) {
         Logger::error(e.getMessage());
+    } catch (std::exception &e) {
+        Logger::error(QString("----------------------Std exception fired: %1").arg(e.what()));
     }
 
     Logger::info(QString("Order worker finished in %1s").arg(QString::number(timer.elapsed() / 1000.0)));

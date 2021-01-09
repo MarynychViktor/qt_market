@@ -21,7 +21,7 @@ public:
     WorkerManager(QObject *parent = nullptr);
 
     template<class W>
-    void runWorkerInLoop(W * worker) {
+    void runWorkerInLoop(W * worker, function<void(W* worker)> onRestart, bool startWithTread = true) {
         if (!is_base_of<Worker, W>()) {
             throw runtime_error("Template class should be base of Worker");
         }
@@ -35,13 +35,14 @@ public:
             startWorker(worker);
         });
 
-        QObject::connect(worker, &W::finished, [this, worker]() {
+        QObject::connect(worker, &W::finished, [this, worker, onRestart]() {
             if (isStopRequested) {
                 Logger::debug("Worker stop requested");
                 stopWorker(worker);
                 emit worker->quit();
             } else {
-                worker->start();
+                onRestart(worker);
+//                worker->start();
             }
         });
 
@@ -51,6 +52,7 @@ public:
 
         thread->start();
     }
+    bool isStopRequested = false;
 
 signals:
     void stopped();
@@ -60,7 +62,6 @@ public slots:
 
 private:
     QList<Worker*> activeWorkers;
-    bool isStopRequested = false;
 
     void startWorker(Worker* worker);
     void stopWorker(Worker* worker);

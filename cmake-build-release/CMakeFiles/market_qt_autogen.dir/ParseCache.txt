@@ -5,7 +5,6 @@ C:/Users/julia/Downloads/marketqt/Exceptions/AppException.h
 C:/Users/julia/Downloads/marketqt/Infrastructure/DI/ServiceLocator.h
 C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.cpp
 C:/Users/julia/Downloads/marketqt/Exceptions/MarketException.h
-C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.h
 C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h
  mmc:Q_OBJECT
  mdp:C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h
@@ -307,6 +306,7 @@ C:/Users/julia/Downloads/marketqt/workers/WorkerManager.h
  mdp:C:/Users/julia/Downloads/marketqt/workers/TradeWorker.h
  mdp:C:/Users/julia/Downloads/marketqt/workers/Worker.h
 C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h
+C:/Users/julia/Downloads/marketqt/Http/MarketRequestInterceptor.h
 C:/Users/julia/Downloads/marketqt/Exceptions/NotFoundException.h
 C:/Users/julia/Downloads/marketqt/Exceptions/TimeoutException.h
 C:/Users/julia/Downloads/marketqt/Services/ProductManager.h
@@ -1072,6 +1072,20 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonValue
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
@@ -1080,13 +1094,19 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcoreevent.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
@@ -1097,8 +1117,12 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h
@@ -1115,6 +1139,7 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
@@ -1130,8 +1155,10 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
@@ -1162,11 +1189,36 @@ C:/Users/julia/Downloads/marketqt/pages/menu.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qvector2d.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
+ mdp:C:/Users/julia/Downloads/marketqt/Http/HttpClient.h
+ mdp:C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/Product.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h
  mdp:C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
 C:/Users/julia/Downloads/marketqt/Services/Logger.h
 C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h
@@ -1846,6 +1898,7 @@ C:/Users/julia/Downloads/marketqt/ui/MainWindow.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QDateTime
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QDebug
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
@@ -2007,6 +2060,7 @@ C:/Users/julia/Downloads/marketqt/ui/MainWindow.h
  mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h
  mdp:C:/Users/julia/Downloads/marketqt/Jobs/UpdateTradePricesJob.h
  mdp:C:/Users/julia/Downloads/marketqt/Models/Product.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h
  mdp:C:/Users/julia/Downloads/marketqt/Services/Logger.h
  mdp:C:/Users/julia/Downloads/marketqt/Services/ProductManager.h
  mdp:C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h
@@ -2194,6 +2248,7 @@ C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
@@ -2337,6 +2392,7 @@ C:/Users/julia/Downloads/marketqt/ui/MarketManagementContent.h
  mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h
  mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Repositories/ProductRepository.h
  mdp:C:/Users/julia/Downloads/marketqt/Models/Product.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h
  mdp:C:/Users/julia/Downloads/marketqt/Services/ProductManager.h
  mdp:C:/Users/julia/Downloads/marketqt/Trades/TradesContext.h
  mdp:C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
@@ -2519,6 +2575,20 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractItemModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QAbstractTableModel
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QFlags
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QHash
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonDocument
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonObject
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QJsonValue
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QList
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QMetaType
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QSharedDataPointer
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QString
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QUrl
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVariant
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/QVector
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h
@@ -2527,12 +2597,18 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborcommon.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcborvalue.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcompilerdetection.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontiguouscache.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qcryptographichash.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatetime.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qdebug.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h
@@ -2541,8 +2617,12 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsondocument.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonobject.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qjsonvalue.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlocale.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h
@@ -2559,7 +2639,9 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qregularexpression.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qset.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h
@@ -2573,7 +2655,10 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qurl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/quuid.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h
@@ -2600,11 +2685,36 @@ C:/Users/julia/Downloads/marketqt/ui/ProductsTableWidget.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QNetworkAccessManager
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslConfiguration
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/QSslPreSharedKeyAuthenticator
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qabstractsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkaccessmanager.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qnetworkrequest.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qssl.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslcertificate.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslconfiguration.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslerror.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslpresharedkeyauthenticator.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qsslsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtcpsocket.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetwork-config.h
+ mdp:C:/Qt/5.15.2/mingw81_64/include/QtNetwork/qtnetworkglobal.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h
+ mdp:C:/Users/julia/Downloads/marketqt/Http/HttpClient.h
+ mdp:C:/Users/julia/Downloads/marketqt/Http/MarketHttpClient.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/MarketSettings.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemInfo.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/ItemMassInfoResult.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OfferInfo.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/OrderResponse.h
+ mdp:C:/Users/julia/Downloads/marketqt/Infrastructure/Models/TradeResponse.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/Product.h
+ mdp:C:/Users/julia/Downloads/marketqt/Models/ProductTableModel.h
 C:/Users/julia/Downloads/marketqt/workers/TradeWorker.cpp
 C:/Users/julia/Downloads/marketqt/workers/OrderWorker.h
  mmc:Q_OBJECT

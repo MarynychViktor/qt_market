@@ -14,11 +14,15 @@ Q_OBJECT
 public:
     OrdersContext(QObject* parent = nullptr);
     QList<shared_ptr<Product>> snapshot;
+    QList<QString> snapshotIds;
 public slots:
     void updateOrderIds(QList<QString> orderIds);
+    void updateSnapshot(const QList<shared_ptr<Product>>& products);
 
 signals:
     void ordersChanged();
+    void ordersAdded(QList<QString> orderIds);
+    void ordersRemoved(QList<QString> orderIds);
 };
 
 
