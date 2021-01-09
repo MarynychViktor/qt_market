@@ -65,14 +65,7 @@ void MainWindow::setUpWorker()
         tradeWorker->start();
     });
 
-    QObject::connect(tradeWorker, &TradeWorker::finished, [this, orderWorker, tradeWorker]() {
-        if (workerManager->isStopRequested) {
-            Logger::debug("Worker stop requested");
-            emit tradeWorker->quit();
-        } else {
-            orderWorker->start();
-        }
-    });
+    QObject::connect(tradeWorker, &TradeWorker::finished, orderWorker, &OrderWorker::start);
 
     QObject::connect(tradeWorker, &TradeWorker::quit, tradeThread, &QThread::quit);
     QObject::connect(tradeThread, &QThread::finished, tradeWorker, &TradeWorker::deleteLater);
@@ -88,18 +81,13 @@ void MainWindow::setUpWorker()
 //        orderWorker->start();
     });
 
-    QObject::connect(orderWorker, &OrderWorker::finished, [this, tradeWorker, orderWorker]() {
-        if (workerManager->isStopRequested) {
-            Logger::debug("Worker stop requested");
-            emit orderWorker->quit();
-        } else {
-            tradeWorker->start();
-        }
-    });
-
+    QObject::connect(orderWorker, &OrderWorker::finished, tradeWorker, &TradeWorker::start);
     QObject::connect(orderWorker, &OrderWorker::quit, orderThread, &QThread::quit);
     QObject::connect(orderThread, &QThread::finished, orderWorker, &OrderWorker::deleteLater);
     QObject::connect(orderThread, &QThread::finished, orderThread, &QThread::deleteLater);
+
+    QObject::connect(workerManager.get(), &WorkerManager::stopRequested, orderWorker, &OrderWorker::requestStop);
+    QObject::connect(workerManager.get(), &WorkerManager::stopRequested, tradeWorker, &TradeWorker::requestStop);
 
     orderThread->start();
 

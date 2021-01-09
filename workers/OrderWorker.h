@@ -18,6 +18,7 @@ public:
     ~OrderWorker() = default;
 public slots:
     void start() override;
+    void requestStop();
 
 signals:
     void ordersChanged(QList<QString> ids);
@@ -29,6 +30,7 @@ private:
     shared_ptr<ProductManager> productManager;
     QList<shared_ptr<ItemMassInfoResult>> orderedProducts;
     shared_ptr<Product> productForOrder(shared_ptr<ItemMassInfoResult> order);
+    bool isStopRequested;
 
 signals:
     void started();

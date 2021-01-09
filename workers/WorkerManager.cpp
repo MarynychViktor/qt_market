@@ -16,6 +16,7 @@ WorkerManager::WorkerManager(QObject *parent)
 void WorkerManager::stop()
 {
     isStopRequested = true;
+    emit stopRequested();
 }
 
 void WorkerManager::startWorker(Worker *worker)

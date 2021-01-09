@@ -13,6 +13,11 @@
 
 
 void TradeWorker::start() {
+    if (isStopRequested) {
+        emit quit();
+        return;
+    }
+
     emit started();
     Logger::info("Trade worker started");
     prepareServices();
@@ -72,6 +77,7 @@ TradeWorker::TradeWorker(QObject *parent)
     : Worker(parent)
 {
     auto serviceLocator = ServiceLocator::Instance();
+    isStopRequested = false;
 }
 
 void TradeWorker::initializeTrades()
@@ -108,6 +114,10 @@ void TradeWorker::prepareServices()
     marketClient = serviceLocator->GetService<MarketHttpClient>();
     productManager = serviceLocator->GetService<ProductManager>();
     tradesMappedWithId.clear();
+}
+
+void TradeWorker::requestStop() {
+    isStopRequested = true;
 }
 
 

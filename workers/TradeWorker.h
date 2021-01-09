@@ -20,6 +20,7 @@ public:
     ~TradeWorker() {};
 public slots:
     void start() override;
+    void requestStop();
 signals:
     void tradesChanged(QList<QString> tradeIds);
 
@@ -31,6 +32,7 @@ private:
     QList<shared_ptr<ItemMassInfoResult>> trades;
     shared_ptr<MarketHttpClient> marketClient;
     shared_ptr<ProductManager> productManager;
+    bool isStopRequested;
 
 signals:
     void started();

@@ -56,6 +56,7 @@ public:
 
 signals:
     void stopped();
+    void stopRequested();
 
 public slots:
     void stop();

@@ -18,7 +18,7 @@ int ProductTableModel::rowCount(const QModelIndex &parent) const
 
 int ProductTableModel::columnCount(const QModelIndex &parent) const
 {
-    return 6;
+    return 7;
 }
 
 QVariant ProductTableModel::data(const QModelIndex &index, int role) const
@@ -39,6 +39,8 @@ QVariant ProductTableModel::data(const QModelIndex &index, int role) const
                 return product->classId;
             case 5:
                 return product->instanceId;
+            case 6:
+                return product->photo;
         }
     }
 
@@ -67,6 +69,8 @@ QVariant ProductTableModel::headerData(int section, Qt::Orientation orientation,
                 return "Class Id";
             case 5:
                 return "Instance Id";
+            case 6:
+                return "Photo";
         }
     }
 

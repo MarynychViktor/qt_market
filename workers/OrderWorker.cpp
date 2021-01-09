@@ -9,9 +9,16 @@
 #include "../Services/Logger.h"
 #include "../Exceptions/NotFoundException.h"
 
-OrderWorker::OrderWorker(QObject *parent) : Worker(parent) {}
+OrderWorker::OrderWorker(QObject *parent) : Worker(parent) {
+    isStopRequested = false;
+}
 
 void OrderWorker::start() {
+    if (isStopRequested) {
+        emit quit();
+        return;
+    }
+
     emit started();
     Logger::info("Order worker started");
     initializeServices();
@@ -94,3 +101,7 @@ shared_ptr<Product> OrderWorker::productForOrder(shared_ptr<ItemMassInfoResult> 
     return product;
 }
 
+
+void OrderWorker::requestStop() {
+    isStopRequested = true;
+}
