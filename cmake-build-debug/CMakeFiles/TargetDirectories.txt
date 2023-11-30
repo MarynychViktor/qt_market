@@ -1,4 +1,0 @@
-C:/Users/julia/Downloads/marketqt/cmake-build-debug/CMakeFiles/market_qt.dir
-C:/Users/julia/Downloads/marketqt/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/julia/Downloads/marketqt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/julia/Downloads/marketqt/cmake-build-debug/CMakeFiles/market_qt_autogen.dir
